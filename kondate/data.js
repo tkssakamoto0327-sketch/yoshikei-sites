@@ -8,7 +8,7 @@
    ・過去の週は自動で非表示になるので、消さなくても大丈夫です
    ========================================================= */
 window.KONDATE = {
-  recipeUrl: 'https://claude.ai/code/artifact/c649812d-3c76-4a01-b2c8-4484e52faea3',
+  recipeUrl: 'https://yoshikei-recipe.pages.dev/',
   courses: [
     { key: 'tezukuri',      name: '手づくりおかず',         color: '#CCFFCC' },
     { key: 'kantan',        name: '簡単おかず',             color: '#FFC000' },

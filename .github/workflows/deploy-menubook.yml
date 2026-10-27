@@ -57,3 +57,14 @@ jobs:
             grep -oE 'https://[^ ]+pages\.dev' out.log | tail -1 | sed 's/^/::notice::公開しました /'
           fi
           exit $rc
+
+      - name: 本番URLで確認
+        run: |
+          # 公開した index.html が本番URL（https://yoshikei-menubook.pages.dev/）で配信されているか確かめる
+          want=$(md5sum menubook/index.html | cut -d' ' -f1)
+          for i in 1 2 3 4 5 6; do
+            got=$(curl -fsS -H 'Cache-Control: no-cache' "https://yoshikei-menubook.pages.dev/index.html?v=$GITHUB_RUN_ID" | md5sum | cut -d' ' -f1)
+            [ "$got" = "$want" ] && { echo "::notice::本番URLに反映されました https://yoshikei-menubook.pages.dev/"; exit 0; }
+            sleep 10
+          done
+          echo "::error::本番URLの内容が今回の公開と一致しません（本番ブランチの設定を確認）"; exit 1

@@ -37,6 +37,15 @@ jobs:
         run: |
           [ -n "$CLOUDFLARE_API_TOKEN" ] || { echo "::error::CLOUDFLARE_API_TOKEN が登録されていません"; exit 1; }
           [ -n "$CLOUDFLARE_ACCOUNT_ID" ] || { echo "::error::CLOUDFLARE_ACCOUNT_ID が登録されていません"; exit 1; }
+          # 貼り付け時の空白・改行を取り除き、形式をざっと確認（値そのものは表示しない）
+          CLOUDFLARE_API_TOKEN=$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')
+          CLOUDFLARE_ACCOUNT_ID=$(printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')
+          export CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID
+          case "$CLOUDFLARE_API_TOKEN" in
+            *curl*|*Bearer*|*Authorization*|*http*) echo "::error::トークン欄にトークン以外の文字（curl の例文など）が入っています。トークンの文字列だけを登録してください"; exit 1;;
+          esac
+          echo "トークンの長さ: ${#CLOUDFLARE_API_TOKEN} 文字 / アカウントIDの長さ: ${#CLOUDFLARE_ACCOUNT_ID} 文字"
+          printf '%s' "$CLOUDFLARE_API_TOKEN" | grep -qE '^[A-Za-z0-9_-]+$' || { echo "::error::トークンに使えない文字が含まれています（長さ ${#CLOUDFLARE_API_TOKEN} 文字）。トークンの文字列だけを登録してください"; exit 1; }
           set +e
           npx --yes wrangler@4 pages deploy menubook --project-name=yoshikei-menubook --branch=main --commit-dirty=true > out.log 2>&1
           rc=$?

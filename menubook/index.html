@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#e2231a">
+<meta name="format-detection" content="telephone=no">
+<title>ヨシケイ メニューブック</title>
+<link rel="icon" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+.appbar{padding-top:calc(5px + env(safe-area-inset-top,0px))!important}</style>
+
+<style>
+/* layout: スマホ/タブレット用アプリ型。上＝号の切替と締切、目次チップ／中央＝本／下＝ページ操作＋メニュータブ（親指で届く位置）
+   明るい単一テーマ（紙のカタログに合わせる） */
+:root{
+  color-scheme:light;
+  --red:#e2231a; --red-deep:#b5170f; --red-soft:#fde9e6;
+  --bg:#f6efe9; --paper:#ffffff; --ink:#3b2b25; --muted:#8c7b71; --line:#eadbd1;
+  --c-smile:#e2231a; --c-more:#2f9a4a; --c-lovyu:#d9577f; --c-toku:#ee7f00; --c-anniv:#b8860b; --c-season:#2f5d8c;
+  --font:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;
+  --tabH:64px;
+}
+html,body{height:100%}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);display:flex;flex-direction:column;overflow:hidden;touch-action:manipulation;-webkit-user-select:none;user-select:none;overscroll-behavior:none}
+button{font:inherit;color:inherit}
+button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+
+/* 上部バー */
+.appbar{flex:none;position:relative;z-index:10;background:var(--paper);border-top:3px solid var(--red);box-shadow:0 1px 0 var(--line);padding:5px 10px}
+.bar1{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0}
+.acts{display:flex;align-items:center;gap:6px;flex:none}
+.brand{display:flex;align-items:center;gap:8px;min-width:0}
+.logo{width:34px;height:34px;flex:none;display:block}
+.brand h1{margin:0;font-size:16px;font-weight:700;color:var(--red);letter-spacing:.04em;white-space:nowrap;line-height:1.1}
+.weeks{display:flex;background:var(--red-soft);border-radius:12px;padding:3px;gap:2px;flex:none}
+.weeks button{border:0;background:none;color:var(--red-deep);padding:4px 6px 3px;border-radius:9px;cursor:pointer;white-space:nowrap;font-variant-numeric:tabular-nums;display:flex;flex-direction:column;align-items:center;line-height:1.15}
+.weeks b{font-size:13px;letter-spacing:-.02em}
+.weeks small{font-size:9.5px;font-weight:700;color:var(--muted)}
+.weeks button.open small{color:var(--red)}
+.weeks button[aria-pressed="true"]{background:var(--red);color:#fff;box-shadow:0 1px 3px rgba(181,23,15,.35)}
+.weeks button[aria-pressed="true"] small{color:#fff}
+
+/* 本 */
+#stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:4px;position:relative;overflow:hidden}
+#count{position:absolute;right:10px;bottom:8px;z-index:5;background:rgba(59,43,37,.72);color:#fff;font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;pointer-events:none;font-variant-numeric:tabular-nums}
+#count:empty{display:none}
+.book{margin:0 auto}
+.page{background:#fff;overflow:hidden}
+.page img{width:100%;height:100%;object-fit:contain;display:block;max-width:none;pointer-events:none;-webkit-user-drag:none;background:#fff}
+.stf__item{box-shadow:0 2px 8px rgba(80,40,20,.18)}
+.sub{flex:none;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:7px 10px 0}
+.sub button{border:1.5px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
+.sub button[aria-pressed="true"]{background:var(--mc);border-color:var(--mc);color:#fff}
+.empty{text-align:center;color:var(--muted);font-size:14px;line-height:1.8;padding:24px;background:var(--paper);border-radius:16px;border:1.5px dashed var(--line);max-width:22em}
+.empty b{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
+
+#zoomBtn{width:38px;height:38px;border-radius:50%;border:2px solid var(--red);background:var(--paper);color:var(--red);display:grid;place-items:center;cursor:pointer;flex:none}
+#zoomBtn:disabled{opacity:.4}
+.order{height:38px;padding:0 12px;border-radius:999px;background:var(--red);color:#fff;font-weight:700;font-size:13px;text-decoration:none;display:flex;align-items:center;white-space:nowrap;box-shadow:0 1px 4px rgba(181,23,15,.35)}
+.order:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+@media (max-width:360px){.order{padding:0 9px;font-size:12px}.weeks button{padding:4px 4px 3px}}
+
+/* メニュータブ（下） */
+.tabs{flex:none;position:relative;z-index:10;display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1fr 1.2fr;gap:2px;background:var(--paper);border-top:1px solid var(--line);padding:5px 6px calc(5px + env(safe-area-inset-bottom,0px))}
+.tabs button{border:0;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px 2px;min-height:42px;border-radius:10px;cursor:pointer;color:var(--muted);min-width:0}
+.tabs span{font-size:12px;font-weight:700;white-space:nowrap;letter-spacing:-.02em;line-height:1.15;text-align:center}
+.tabs small{font-size:9px;font-weight:500;margin-top:-2px}
+.tabs button[aria-pressed="true"]{background:var(--mc);color:#fff}
+.tabs button:disabled{opacity:.4;cursor:default}
+
+/* 初回ヒント */
+.toast{position:fixed;left:50%;bottom:calc(80px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;font-size:13px;padding:10px 16px;border-radius:999px;white-space:nowrap;z-index:40;transition:opacity .4s;pointer-events:none}
+.toast.hide{opacity:0}
+
+/* 拡大ビュー */
+#zoom{position:fixed;inset:0;background:#2a1f1b;z-index:50;display:flex;flex-direction:column;touch-action:none}
+#zoom[hidden]{display:none!important}
+.ztop{flex:none;display:flex;align-items:center;justify-content:space-between;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px 16px;background:var(--red);color:#fff}
+.ztop b{font-size:15px}
+.ztop span{font-size:12px;opacity:.85;margin-left:8px;font-variant-numeric:tabular-nums}
+#zclose{border:0;background:rgba(255,255,255,.2);color:#fff;border-radius:999px;height:36px;padding:0 14px;font-weight:700;font-size:14px;cursor:pointer}
+#zview{flex:1;overflow:hidden;position:relative}
+#zimg{position:absolute;left:0;top:0;transform-origin:0 0;max-width:none;-webkit-user-drag:none;will-change:transform;background:#fff}
+.zbar{flex:none;display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:#2a1f1b}
+.zb{width:48px;height:48px;border-radius:50%;border:0;background:#4a3a33;color:#fff;font-size:22px;cursor:pointer}
+.zb:disabled{opacity:.3}
+.zb.red{background:var(--red)}
+.ztip{position:absolute;left:50%;top:14px;transform:translateX(-50%);background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:6px 12px;border-radius:999px;pointer-events:none;transition:opacity .5s;white-space:nowrap}
+@media (prefers-reduced-motion:reduce){.toast,.ztip{transition:none}}
+@media (min-width:700px){ .tabs span{font-size:14px} }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&display=swap">
+</head>
+<body>
+
+<header class="appbar">
+  <div class="bar1">
+    <div class="brand">
+      <img class="logo" src="logo.png" alt="ヨシケイ徳島">
+    </div>
+    <div class="weeks" id="weeks" role="group" aria-label="号の切り替え"></div>
+    <div class="acts"><button id="zoomBtn" aria-label="このページを拡大"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg></button>
+      <a class="order" href="https://www2.yoshikei-dvlp.co.jp/webodr/apl/10/100201_D.aspx" target="_blank" rel="noopener">注文する</a></div>
+  </div>
+</header>
+
+<nav class="sub" id="sub" aria-label="チラシの切り替え" hidden></nav>
+<main id="stage"></main>
+
+<nav class="tabs" id="tabs" role="group" aria-label="メニューの切り替え"></nav>
+<div class="toast hide" id="toast">左右にスワイプでめくる／ダブルタップで拡大</div>
+
+<div id="zoom" hidden>
+  <div class="ztop"><div><b id="ztitle"></b><span id="zcount"></span></div><button id="zclose">閉じる</button></div>
+  <div id="zview"><img id="zimg" alt=""><div class="ztip" id="ztip">2本指で広げて拡大・ドラッグで移動</div></div>
+  <div class="zbar">
+    <button class="zb" id="zprev" aria-label="前のページ">‹</button>
+    <button class="zb red" id="zout" aria-label="縮小">−</button>
+    <button class="zb red" id="zin" aria-label="拡大">＋</button>
+    <button class="zb" id="znext" aria-label="次のページ">›</button>
+  </div>
+</div>
+
+<script src="page-flip.browser.js"></script>
+<script>
+/* ===== データ：号を追加するときはここに足す ===== */
+const range=(p,a,b)=>Array.from({length:b-a+1},(_,i)=>`${p}${String(a+i).padStart(2,'0')}`);
+const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standard',10],['Balance',14],['CUT',18],['FUN',22],['Timely',26],['オリジナル',28],['特集',29],['コレdo!',30]];
+const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
+const annivToc=[['50周年記念ミールキット',1],['レシピ',2]];
+const ALL_WEEKS=[
+  {id:'w26',mon:'2026-10-26',label:'10/26号',deadline:'10/21(水) 17:00',menus:{
+    smile:{pages:range('st',1,32),toc:stToc},
+    more:{pages:range('mo',1,16),toc:[]},
+    lovyu:{pages:range('lv',1,8),toc:lvToc(['26日 月','27日 火','28日 水','29日 木','30日 金','31日 土'])},
+    anniv:{pages:range('sp/anniv50/an',1,4),toc:annivToc},
+    toku:{flyers:[{name:'東北フェア',pages:range('tk',1,4)},{name:'健康とやすらぎ通信',pages:range('tk',5,6)}]}}},
+  {id:'w1102',mon:'2026-11-02',label:'11/2号',deadline:'10/28(水) 17:00',menus:{
+    smile:{pages:range('st',1,32),toc:stToc},
+    more:{pages:range('mo',1,16),toc:[]},
+    lovyu:{pages:range('lv',1,8),toc:lvToc(['2日 月','3日 火','4日 水','5日 木','6日 金','7日 土'])},
+    toku:{flyers:[{name:'食彩健美',pages:range('tk',1,4)},{name:'けんこう応援団',pages:range('tk',5,9)}]}}},
+  {id:'w1109',mon:'2026-11-09',label:'11/9号',deadline:'11/4(水) 17:00',menus:{
+    smile:{pages:range('st',1,32),toc:stToc},
+    more:{pages:range('mo',1,16),toc:[]},
+    lovyu:{pages:range('lv',1,8),toc:lvToc(['9日 月','10日 火','11日 水','12日 木','13日 金','14日 土'])},
+    toku:{flyers:[{name:'かふぇめし',pages:range('tk',1,4)},{name:'暮らしの雑貨通信',pages:range('tk',5,8)},{name:'特別販売パン',pages:range('tk',9,9)}]}}}
+];
+/* 自動削除：その号の翌週の月曜 5:00（日本時間）を過ぎたら表示しない
+   例）10/12号 → 2026-10-19(月) 05:00 に消える */
+const expireAt=w=>new Date(w.mon+'T05:00:00+09:00').getTime()+7*24*3600*1000;
+const WEEKS=ALL_WEEKS.filter(w=>Date.now()<expireAt(w));
+/* 期間限定カタログ：締切日（until）の翌日0:00（日本時間）まで、表示中のすべての号の「期間限定」タブに並べる
+   追加するときはここに {name, from:'YYYY-MM-DD'(受付開始・省略可), until:'YYYY-MM-DD'(締切), pages} を足す（並びは締切が近い順）
+   from の日の0:00から until の翌日0:00まで表示 */
+const PREVIEW=false;   // 確認用プレビューでは受付開始前（from前）のカタログも表示。Cloudflare用に書き出すときは false にする
+// プレビューはファイル数の上限（512）があるため、受付終了した号は載せない（Cloudflare版には影響なし）
+if(PREVIEW){for(let i=WEEKS.length-1;i>=0;i--){if(WEEKS.length>1&&Date.now()>=new Date(WEEKS[i].mon+'T17:00:00+09:00').getTime()-5*864e5)WEEKS.splice(i,1)}}
+const PERIOD_TOKU=[
+  {name:'2026冬ギフト',until:'2026-11-18',pages:range('sp/gift2026/wg',1,28)},
+  {name:'クリスマス2026',until:'2026-12-02',pages:range('sp/xmas2026/xm',1,8)},
+  {name:'お正月料理2027',until:'2026-12-08',pages:range('sp/osechi2027/os',1,24)},
+  {name:'2027年お餅',until:'2026-12-08',pages:range('sp/mochi2027/mc',1,3)},
+  {name:'北と南の美味しんぼ便り',from:'2026-11-09',until:'2026-12-15',pages:range('sp/oishinbo2026/ob',1,8)},
+  {name:'濱伊のおせち',until:'2026-12-23',pages:range('sp/hamai2027/hm',1,2)}
+];
+(()=>{
+  const act=PERIOD_TOKU.filter(f=>(PREVIEW||!f.from||Date.now()>=new Date(f.from+'T00:00:00+09:00').getTime())&&Date.now()<new Date(f.until+'T00:00:00+09:00').getTime()+24*3600*1000);
+  if(!act.length)return;
+  WEEKS.forEach(w=>{
+    w.menus.season={flyers:act.map(f=>({name:f.name,pages:f.pages}))};
+  });
+})();
+// 開いたまま期限をまたいだ場合は、画面に戻ったときに読み直す
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&WEEKS.some(w=>Date.now()>=expireAt(w)))location.reload()});
+const ICON={
+  smile:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 1.6 2.4 2.4 4 2.4s3-.8 4-2.4"/><path d="M9 9.5h.01M15 9.5h.01" stroke-width="3"/></svg>',
+  more:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
+  lovyu:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>',
+  toku:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8L3 12Z"/><circle cx="7.5" cy="8.5" r="1.4" fill="currentColor"/></svg>'
+};
+const MENUS=[['smile','スマイル&amp;<br>テーブル','スマイル&テーブル'],['more','&more','&more'],['lovyu','ラビュ','ラビュ'],['anniv','50周年','50周年記念 スペシャルメニュー'],['toku','特販','特販'],['season','期間限定','期間限定']];
+const MCOL={smile:'var(--c-smile)',more:'var(--c-more)',lovyu:'var(--c-lovyu)',toku:'var(--c-toku)',anniv:'var(--c-anniv)',season:'var(--c-season)'};
+
+/* ===== 状態 ===== */
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+/* 開いた日に表示する号：木曜日で切り替え。
+   木曜〜翌水曜に開くと、その木曜から11日後の月曜の号（例：10/1〜10/7→10/12号、10/8〜10/14→10/19号） */
+function targetMonday(now){
+  const d=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  const back=(d.getDay()-4+7)%7;            // 直前（当日含む）の木曜まで戻る
+  d.setDate(d.getDate()-back+11);
+  return d;
+}
+const ymd=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const NOW_ID=(()=>{
+  if(!WEEKS.length)return null;
+  const t=ymd(targetMonday(new Date()));
+  const hit=WEEKS.find(w=>w.mon===t);if(hit)return hit.id;
+  const past=WEEKS.filter(w=>w.mon<t);      // 該当号がまだ無ければ、登録済みの一番新しい号
+  return (past.length?past[past.length-1]:WEEKS[0]).id;
+})();
+let weekIdx=WEEKS.findIndex(w=>w.id===NOW_ID);
+let menuKey=store.get('menu')||'smile';
+let flip=null,spread=false,pages=[];
+const RATIO=1600/2264;
+const $=id=>document.getElementById(id);
+const IMGV='20261019'; /* 画像を差し替えたら値を変える（端末の古いキャッシュを無効化） */
+const src=(name,big)=>`${name.includes('/')?name:WEEKS[weekIdx].id+'/'+name}${big?'':'_s'}.webp?v=${IMGV}`;
+let flyerIdx=0;   // 特販など、1つのメニューに複数チラシがあるときの選択
+const curMenu=()=>WEEKS[weekIdx].menus[menuKey];
+const menuName=()=>{const m=curMenu(),n=MENUS.find(x=>x[0]===menuKey)[2];return m&&m.flyers?`${n}｜${m.flyers[flyerIdx].name}`:n};
+function renderSub(){
+  const m=curMenu(),el=$('sub');el.innerHTML='';
+  if(!m||!m.flyers||m.flyers.length<2){el.hidden=true;return}
+  el.hidden=false;
+  m.flyers.forEach((f,i)=>{const b=document.createElement('button');b.textContent=f.name;b.setAttribute('aria-pressed',i===flyerIdx);
+    b.onclick=()=>{if(i===flyerIdx)return;flyerIdx=i;renderSub();build(0)};el.appendChild(b)});
+}
+
+function renderTop(){
+  const wk=WEEKS[weekIdx];
+  const nowMon=WEEKS.find(w=>w.id===NOW_ID).mon;
+  $('weeks').innerHTML='';
+  WEEKS.forEach((w,i)=>{const b=document.createElement('button');
+    // 注文締切（その号の月曜の5日前＝水曜 17:00）前なら受付中
+    const open=Date.now()<new Date(w.mon+'T17:00:00+09:00').getTime()-5*24*3600*1000;
+    b.innerHTML=`<b>${w.label}</b><small>${open?'受付中':'受付終了'}</small>`;
+    b.setAttribute('aria-label',`${w.label} ${open?'受付中':'受付終了'}`);b.setAttribute('aria-pressed',i===weekIdx);
+    if(open)b.className='open';
+    b.onclick=()=>{if(i===weekIdx)return;weekIdx=i;renderAll(true)};$('weeks').appendChild(b)});
+}
+function renderTabs(){
+  const wk=WEEKS[weekIdx];$('tabs').innerHTML='';
+  MENUS.forEach(([k,label])=>{const has=!!wk.menus[k];const b=document.createElement('button');
+    b.style.setProperty('--mc',MCOL[k]);b.disabled=!has;b.setAttribute('aria-pressed',k===menuKey);
+    b.innerHTML=`<span>${label}</span>${has?'':'<small>今週なし</small>'}`;
+    b.onclick=()=>{if(k===menuKey)return;menuKey=k;store.set('menu',k);renderAll(true)};$('tabs').appendChild(b)});
+  document.documentElement.style.setProperty('--mc',MCOL[menuKey]);
+}
+function renderAll(reset){
+  if(!WEEKS[weekIdx].menus[menuKey])menuKey='smile';
+  if(reset)flyerIdx=0;
+  renderTop();renderTabs();renderSub();build(reset?0:null);
+}
+
+/* ===== 本 ===== */
+function loadNear(i){
+  const els=document.querySelectorAll('#stage .page img');
+  for(let k=i-2;k<=i+4;k++){const im=els[k];if(!im)continue;
+    if(!im.getAttribute('src')){hookRetry(im);im.src=im.dataset.src}
+    else if(im.complete&&!im.naturalWidth&&!im._rt)retryImg(im)}   // 読み込み失敗のまま残っている画像を再取得
+}
+/* 画像の読み込み失敗 → 少し待って自動やり直し（最大5回、毎回URLを変えてキャッシュも回避） */
+function hookRetry(im){if(im._h)return;im._h=1;im.addEventListener('error',()=>retryImg(im))}
+function retryImg(im){
+  const n=(im._n||0)+1;if(n>5||im._rt)return;im._n=n;
+  im._rt=setTimeout(()=>{im._rt=0;im.src=im.dataset.src+'&r='+n+'_'+Date.now()},n*600)}
+addEventListener('online',()=>{try{loadNear(flip.getCurrentPageIndex())}catch(e){}});
+function build(startAt){
+  const stage=$('stage');
+  const keep=startAt==null&&flip?flip.getCurrentPageIndex():(startAt||0);
+  if(flip){try{flip.destroy()}catch(e){}flip=null}
+  stage.innerHTML='<div id="count"></div>';
+  const m=WEEKS[weekIdx].menus[menuKey];
+  if(!m){stage.innerHTML='<div id="count"></div><p class="empty"><b>この号の冊子はまだありません</b>PDFが届いたら追加します。</p>';pages=[];update();return}
+  const fl=m.flyers?m.flyers[Math.min(flyerIdx,m.flyers.length-1)]:null;
+  pages=fl?fl.pages:m.pages;
+  const book=document.createElement('div');book.className='book';
+  book.innerHTML=pages.map((p,i)=>`<div class="page"${i===0?' data-density="hard"':''}><img data-src="${src(p)}" alt="${i+1}ページ"></div>`).join('');
+  stage.appendChild(book);
+  const cs=getComputedStyle(stage);
+  const sw=stage.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+  const sh=stage.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  // 横向きのタブレットだけ見開き。スマホと縦向きタブレットは1ページずつ
+  spread=sw>sh && sw>=700 && pages.length>2;
+  let h=sh,w=h*RATIO;const maxW=spread?sw/2:sw;if(w>maxW){w=maxW;h=w/RATIO}
+  w=Math.floor(w);h=Math.floor(h);
+  book.style.width=(spread?w*2:w)+'px';book.style.height=h+'px';
+  flip=new St.PageFlip(book,{width:Math.floor(w),height:Math.floor(h),size:'fixed',showCover:true,usePortrait:!spread,
+    maxShadowOpacity:.35,mobileScrollSupport:false,flippingTime:600,swipeDistance:20,startPage:Math.min(keep,pages.length-1)});
+  flip.loadFromHTML(book.querySelectorAll('.page'));
+  loadNear(flip.getCurrentPageIndex());
+  flip.on('flip',e=>{loadNear(e.data);update()});
+  flip.on('changeState',()=>loadNear(flip.getCurrentPageIndex()+1));
+  update();
+}
+function update(){
+  const n=pages.length;
+  if(!flip||!n){$('count').textContent='';$('zoomBtn').disabled=true;return}
+  const i=flip.getCurrentPageIndex();
+  $('count').textContent=((spread&&i>0&&i+1<n)?`${i+1}-${i+2}`:`${i+1}`)+' / '+n;
+  $('zoomBtn').disabled=false;
+  prefetchCurrent();
+}
+document.addEventListener('keydown',e=>{
+  if(!$('zoom').hidden){if(e.key==='Escape')closeZoom();if(e.key==='ArrowRight')zgo(1);if(e.key==='ArrowLeft')zgo(-1);return}
+  if(!flip)return;if(e.key==='ArrowRight')flip.flipNext();if(e.key==='ArrowLeft')flip.flipPrev();
+});
+let rt,lastW=innerWidth,lastH=innerHeight;
+addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{
+  if(Math.abs(innerWidth-lastW)>40||Math.abs(innerHeight-lastH)>120){lastW=innerWidth;lastH=innerHeight;build(null)}
+  if(!$('zoom').hidden){measure();fitZ()}},250)});
+
+/* 本の上でダブルタップ → 拡大 */
+function pageAtX(x){
+  const i=flip.getCurrentPageIndex();if(!spread||i===0)return i;
+  const r=$('stage').getBoundingClientRect();return Math.min(pages.length-1,x>r.left+r.width/2?i+1:i);
+}
+let lastTap=0,lastX=0;
+$('stage').addEventListener('touchend',e=>{
+  if(!flip||e.changedTouches.length!==1)return;
+  const t=Date.now(),x=e.changedTouches[0].clientX;
+  if(t-lastTap<320&&Math.abs(x-lastX)<40){e.preventDefault();openZoom(pageAtX(x));lastTap=0;return}
+  lastTap=t;lastX=x;
+},{capture:true,passive:false});
+$('stage').addEventListener('dblclick',e=>{if(flip)openZoom(pageAtX(e.clientX))});
+$('zoomBtn').onclick=()=>{if(flip)openZoom(flip.getCurrentPageIndex())};
+
+/* ===== 拡大ビュー =====
+   軽くするための工夫：
+   ・開いた瞬間は表示済みの小さい画像を出し、高画質版は読み込み・デコード完了後に差し替え
+   ・指の動きは1フレームに1回だけ反映（requestAnimationFrame）
+   ・画面サイズは開いたときに1回だけ測る（毎回レイアウト計算させない） */
+const zv=$('zview'),zi=$('zimg');
+let zIdx=0,sc=1,tx=0,ty=0,baseScale=1,VW=1,VH=1,VL=0,VT=0,raf=0,zToken=0;const natW=1600,natH=2264;
+zi.style.width=natW+'px';zi.style.height=natH+'px';
+const bigCache=new Map();
+function getBig(url){let p=bigCache.get(url);if(!p){const im=new Image();im.decoding='async';im.src=url;p=(im.decode?im.decode():new Promise((r,j)=>{im.onload=r;im.onerror=j})).then(()=>url);bigCache.set(url,p);p.catch(()=>bigCache.delete(url))}return p}
+const pts=new Map();let pinch=null,drag=null,zTap=0;
+function measure(){const r=zv.getBoundingClientRect();VW=r.width;VH=r.height;VL=r.left;VT=r.top}
+function openZoom(i){zIdx=i;$('zoom').hidden=false;$('ztitle').textContent=menuName();
+  const tip=$('ztip');tip.style.opacity=1;setTimeout(()=>tip.style.opacity=0,2400);measure();showZ()}
+function closeZoom(){$('zoom').hidden=true;if(flip){flip.turnToPage(zIdx);loadNear(zIdx)}update()}
+function showZ(){
+  const name=pages[zIdx],small=src(name,false),big=src(name,true),tok=++zToken;
+  zi.src=small;                                   // すぐ表示（本で読み込み済み）
+  getBig(big).then(u=>{if(tok===zToken)zi.src=u}).catch(()=>{});
+  if(pages[zIdx+1])setTimeout(()=>{if(tok===zToken)getBig(src(pages[zIdx+1],true)).catch(()=>{})},700);  // 次ページを先読み
+  $('zcount').textContent=`${zIdx+1} / ${pages.length}`;
+  $('zprev').disabled=zIdx===0;$('znext').disabled=zIdx>=pages.length-1;fitZ();
+}
+function fitZ(){baseScale=Math.min(VW/natW,VH/natH);sc=baseScale;tx=(VW-natW*sc)/2;ty=(VH-natH*sc)/2;draw()}
+function clampZ(){const iw=natW*sc,ih=natH*sc;
+  tx=iw<=VW?(VW-iw)/2:Math.min(0,Math.max(VW-iw,tx));ty=ih<=VH?(VH-ih)/2:Math.min(0,Math.max(VH-ih,ty))}
+function draw(){clampZ();zi.style.transform=`translate3d(${tx}px,${ty}px,0) scale(${sc})`}
+function applyZ(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;draw()})}
+function zoomAt(f,cx,cy){const ns=Math.max(baseScale,Math.min(baseScale*6,sc*f));cx-=VL;cy-=VT;
+  tx=cx-(cx-tx)*(ns/sc);ty=cy-(cy-ty)*(ns/sc);sc=ns;applyZ()}
+function zgo(d){const n=zIdx+d;if(n<0||n>=pages.length)return;zIdx=n;showZ()}
+zv.addEventListener('pointerdown',e=>{zv.setPointerCapture(e.pointerId);pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pts.size===2){const [a,b]=[...pts.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y),s:sc};drag=null}
+  else if(pts.size===1)drag={x:e.clientX,y:e.clientY,tx,ty,t:Date.now(),moved:false}});
+zv.addEventListener('pointermove',e=>{if(!pts.has(e.pointerId))return;pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pinch&&pts.size===2){const [a,b]=[...pts.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);zoomAt((pinch.s*d/pinch.d)/sc,(a.x+b.x)/2,(a.y+b.y)/2)}
+  else if(drag){const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>6)drag.moved=true;tx=drag.tx+dx;ty=drag.ty+dy;applyZ()}});
+function endPtr(e){
+  if(!pts.has(e.pointerId))return;pts.delete(e.pointerId);if(pts.size<2)pinch=null;
+  if(drag&&pts.size===0){const dx=e.clientX-drag.x,dt=Date.now()-drag.t;
+    if(sc<=baseScale*1.02&&Math.abs(dx)>60&&dt<600)zgo(dx<0?1:-1);
+    else if(!drag.moved){const t=Date.now();if(t-zTap<320){sc>baseScale*1.3?fitZ():zoomAt(2.6,e.clientX,e.clientY);zTap=0}else zTap=t}
+    drag=null}
+  if(pts.size===1){const p=[...pts.values()][0];drag={x:p.x,y:p.y,tx,ty,t:Date.now(),moved:true}}
+}
+zv.addEventListener('pointerup',endPtr);zv.addEventListener('pointercancel',endPtr);
+zv.addEventListener('wheel',e=>{e.preventDefault();zoomAt(Math.exp(-e.deltaY*0.0018),e.clientX,e.clientY)},{passive:false});
+const zc=f=>zoomAt(f,VL+VW/2,VT+VH/2);
+$('zin').onclick=()=>zc(1.5);$('zout').onclick=()=>zc(1/1.5);
+$('zprev').onclick=()=>zgo(-1);$('znext').onclick=()=>zgo(1);$('zclose').onclick=closeZoom;
+
+/* 本で同じページに少し留まったら、そのページの高画質版を先読み（拡大を押した瞬間に表示できるように） */
+let dwell=0;
+function prefetchCurrent(){clearTimeout(dwell);dwell=setTimeout(()=>{if(!flip||!pages.length)return;const i=flip.getCurrentPageIndex();
+  getBig(src(pages[i],true)).catch(()=>{});if(spread&&pages[i+1])getBig(src(pages[i+1],true)).catch(()=>{})},1200)}
+
+/* 初回だけ操作ヒント */
+function hint(){if(store.get('hinted'))return;const t=$('toast');t.classList.remove('hide');setTimeout(()=>t.classList.add('hide'),3500);store.set('hinted','1')}
+
+function start(){
+  if(!WEEKS.length){$('stage').innerHTML='<div id="count"></div><p class="empty"><b>次の号を準備中です</b>しばらくお待ちください。</p>';$('zoomBtn').disabled=true;return}
+  renderAll(false);hint()}
+if(window.St)start();else addEventListener('load',start);
+</script>
+
+</body>
+</html>

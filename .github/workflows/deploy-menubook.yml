@@ -31,8 +31,20 @@ jobs:
           exit $ng
 
       - name: Cloudflare Pages へ公開
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy menubook --project-name=yoshikei-menubook --branch=main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          [ -n "$CLOUDFLARE_API_TOKEN" ] || { echo "::error::CLOUDFLARE_API_TOKEN が登録されていません"; exit 1; }
+          [ -n "$CLOUDFLARE_ACCOUNT_ID" ] || { echo "::error::CLOUDFLARE_ACCOUNT_ID が登録されていません"; exit 1; }
+          set +e
+          npx --yes wrangler@4 pages deploy menubook --project-name=yoshikei-menubook --branch=main --commit-dirty=true > out.log 2>&1
+          rc=$?
+          cat out.log
+          if [ $rc -ne 0 ]; then
+            # エラー内容を注釈として残す（ログを開かなくても読めるように）
+            grep -vE '^\s*$' out.log | tail -15 | while IFS= read -r l; do echo "::error::$l"; done
+          else
+            grep -oE 'https://[^ ]+pages\.dev' out.log | tail -1 | sed 's/^/::notice::公開しました /'
+          fi
+          exit $rc

@@ -63,7 +63,7 @@ jobs:
           # 公開した index.html が本番URL（https://yoshikei-menubook.pages.dev/）で配信されているか確かめる
           want=$(md5sum menubook/index.html | cut -d' ' -f1)
           for i in 1 2 3 4 5 6; do
-            got=$(curl -fsS -H 'Cache-Control: no-cache' "https://yoshikei-menubook.pages.dev/index.html?v=$GITHUB_RUN_ID" | md5sum | cut -d' ' -f1)
+            got=$(curl -fsSL -H 'Cache-Control: no-cache' "https://yoshikei-menubook.pages.dev/?v=$GITHUB_RUN_ID" | md5sum | cut -d' ' -f1)
             [ "$got" = "$want" ] && { echo "::notice::本番URLに反映されました https://yoshikei-menubook.pages.dev/"; exit 0; }
             sleep 10
           done

@@ -1,0 +1,46 @@
+# 献立表サイト：kondate/ に変更が入ったら、既存の Cloudflare Pages プロジェクト
+# 「yoshikei-kondate」へ自動で公開する（URL は https://yoshikei-kondate.pages.dev/ のまま）
+name: 献立表を公開
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'kondate/**'
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-kondate
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: data.js と PDF の確認
+        run: |
+          node -e '
+            global.window = {};
+            require("./kondate/data.js");
+            const fs = require("fs");
+            const k = window.KONDATE;
+            let ng = 0;
+            for (const w of k.weeks) {
+              const d = new Date(w.start + "T00:00:00Z");
+              if (d.getUTCDay() !== 1) { console.log("月曜ではない週:", w.start); ng++; }
+              for (const [key, v] of Object.entries(w.files)) {
+                if (v.endsWith(".pdf") && !fs.existsSync("kondate/" + v)) { console.log("PDFが見つからない:", v); ng++; }
+              }
+            }
+            console.log(k.weeks.map(w => w.start + " " + Object.keys(w.files).join(",")).join("\n"));
+            process.exit(ng ? 1 : 0);
+          '
+
+      - name: Cloudflare Pages へ公開
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy kondate --project-name=yoshikei-kondate --branch=main --commit-dirty=true

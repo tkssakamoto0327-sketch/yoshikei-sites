@@ -1,0 +1,38 @@
+# メニューブック：menubook/ に変更が入ったら、既存の Cloudflare Pages プロジェクト
+# 「yoshikei-menubook」へ自動で公開する（URL は https://yoshikei-menubook.pages.dev/ のまま）
+name: メニューブックを公開
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'menubook/**'
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-menubook
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: ページ画像のそろい方を確認
+        run: |
+          n=$(find menubook -type f | wc -l)
+          echo "ファイル数: $n（上限 20,000）"
+          # 大きい画像と小さい画像（_s）が必ず対になっているか
+          ng=0
+          for f in $(find menubook -name '*.webp' ! -name '*_s.webp'); do
+            [ -f "${f%.webp}_s.webp" ] || { echo "小画像がない: $f"; ng=1; }
+          done
+          exit $ng
+
+      - name: Cloudflare Pages へ公開
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy menubook --project-name=yoshikei-menubook --branch=main --commit-dirty=true

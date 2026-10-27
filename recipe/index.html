@@ -1,0 +1,1108 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>ヨシケイキッチンレシピ帳</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #eef7e6;
+    --ink: #1c2b16;
+    --ink-soft: #48573f;
+    --muted: #7c8a70;
+    --line: #dbe8cf;
+    --line-soft: #edf5e5;
+    --primary: #4c8c22;
+    --primary-deep: #2c5a14;
+    --primary-tint: #e5f0d9;
+    --accent: #2c5a14;
+    --accent-deep: #1c3d0c;
+    --accent-tint: #e5f0d9;
+    --accent-ink: #2c5a14;
+    --chip-bg: #eef5e6;
+    --shadow: 0 10px 26px -18px rgba(30, 60, 15, 0.35);
+    --radius: 14px;
+    --focus: #4c8c22;
+    --own: #c62828;
+    --own-bg: #fdecea;
+    --alg: #7a4300;
+    --alg-bg: #fff3dc;
+    --alg-line: #f0c27a;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10160c;
+      --surface: #1a2414;
+      --surface-2: #212e19;
+      --ink: #eef2e6;
+      --ink-soft: #c3ccb6;
+      --muted: #93a084;
+      --line: #324127;
+      --line-soft: #26331e;
+      --primary: #8fce5c;
+      --primary-deep: #c6eca4;
+      --primary-tint: #263a1a;
+      --accent: #8fce5c;
+      --accent-deep: #c6eca4;
+      --accent-tint: #263a1a;
+      --accent-ink: #c6eca4;
+      --chip-bg: #26331e;
+      --shadow: 0 12px 32px -16px rgba(0, 0, 0, 0.6);
+      --focus: #8fce5c;
+      --own: #ff8a80;
+      --own-bg: #3a1f1c;
+      --alg: #ffd596;
+      --alg-bg: #3a2c14;
+      --alg-line: #6b5126;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #10160c;
+    --surface: #1a2414;
+    --surface-2: #212e19;
+    --ink: #eef2e6;
+    --ink-soft: #c3ccb6;
+    --muted: #93a084;
+    --line: #324127;
+    --line-soft: #26331e;
+    --primary: #8fce5c;
+    --primary-deep: #c6eca4;
+    --primary-tint: #263a1a;
+    --accent: #8fce5c;
+    --accent-deep: #c6eca4;
+    --accent-tint: #263a1a;
+    --accent-ink: #c6eca4;
+    --chip-bg: #26331e;
+    --shadow: 0 12px 32px -16px rgba(0, 0, 0, 0.6);
+    --focus: #8fce5c;
+    --own: #ff8a80;
+    --own-bg: #3a1f1c;
+    --alg: #ffd596;
+    --alg-bg: #3a2c14;
+    --alg-line: #6b5126;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  a { color: inherit; }
+
+  ::selection { background: var(--accent-tint); color: var(--accent-ink); }
+
+  :focus-visible {
+    outline: 2.5px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 18px 64px;
+  }
+
+  .order-bar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line-soft);
+    padding: 10px 18px;
+  }
+  .order-bar-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .order-bar-text { font-size: 0.82rem; color: var(--ink-soft); line-height: 1.4; }
+  a.order-btn {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #d9480f;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 11px 22px;
+    border-radius: 999px;
+    box-shadow: 0 6px 14px -8px rgba(217, 72, 15, 0.7);
+    transition: background .15s ease, transform .1s ease;
+  }
+  a.order-btn:hover { background: #bf3f0c; }
+  a.order-btn:active { transform: scale(0.98); }
+  a.order-btn:focus-visible { outline: 2.5px solid #d9480f; outline-offset: 3px; }
+  @media (max-width: 420px) {
+    .order-bar-inner { flex-direction: column; align-items: stretch; gap: 8px; text-align: center; }
+    a.order-btn { justify-content: center; }
+  }
+
+  header.site {
+    background: linear-gradient(155deg, var(--primary-deep), var(--primary) 82%);
+    color: #f5faf0;
+    padding: 28px 18px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  header.site::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 16% 20%, rgba(255,255,255,0.12) 0, transparent 40%),
+      radial-gradient(circle at 86% 82%, rgba(255,255,255,0.08) 0, transparent 46%);
+    pointer-events: none;
+  }
+  .site-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .logo-badge {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+  }
+  .logo-badge img {
+    display: block;
+    height: 26px;
+    width: auto;
+  }
+  h1.brand {
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .brand-sub {
+    margin: 3px 0 0;
+    font-size: 0.82rem;
+    color: rgba(245,250,240,0.85);
+    letter-spacing: 0.02em;
+  }
+
+  main { padding-top: 22px; }
+
+  .steps {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .step-pill {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    padding: 4px 10px 4px 8px;
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--line-soft);
+  }
+  .step-pill.active { background: var(--primary-tint); color: var(--primary-deep); border-color: transparent; font-weight: 700; }
+  .step-pill .num {
+    width: 16px; height: 16px; border-radius: 50%;
+    background: var(--line-soft);
+    color: var(--muted);
+    font-size: 0.66rem;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+  }
+  .step-pill.active .num { background: var(--primary); color: #fff; }
+
+  section.card {
+    background: var(--surface);
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+
+  .field-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  button.chip {
+    font-family: inherit;
+    font-size: 0.92rem;
+    padding: 9px 16px;
+    border-radius: 10px;
+    border: 1.5px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+    transition: border-color .15s ease, background .15s ease, color .15s ease, transform .1s ease;
+  }
+  button.chip:hover { border-color: var(--primary); }
+  button.chip:active { transform: scale(0.98); }
+  button.chip.selected {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #f7fcf3;
+    font-weight: 700;
+  }
+
+  /* course badges use a per-course pastel accent, set inline via --course-color */
+  button.chip.course {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    text-align: left;
+  }
+  button.chip.course .dot {
+    width: 13px; height: 13px;
+    border-radius: 4px;
+    background: var(--course-color, var(--muted));
+    flex: none;
+    box-shadow: inset 0 0 0 1.5px rgba(0,0,0,0.08);
+  }
+  button.chip.course .course-meta { font-size: 0.72rem; color: var(--muted); margin-top: 1px; }
+  button.chip.course.selected {
+    background: var(--course-color, var(--primary));
+    border-color: var(--course-color, var(--primary));
+    color: #2b2b1f;
+  }
+  button.chip.course.selected .course-meta { color: rgba(43,43,31,0.7); }
+  button.chip.course.selected .dot { background: rgba(255,255,255,0.85); }
+
+  .people-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .stepper {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .stepper button {
+    width: 44px; height: 44px;
+    border: none;
+    background: var(--surface-2);
+    color: var(--primary-deep);
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .stepper button:hover { background: var(--primary-tint); }
+  .stepper input {
+    width: 62px;
+    text-align: center;
+    border: none;
+    border-left: 1.5px solid var(--line);
+    border-right: 1.5px solid var(--line);
+    height: 44px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    font-family: inherit;
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .people-unit { font-size: 0.95rem; color: var(--muted); }
+  .quick-people { display: flex; gap: 6px; }
+  .quick-people button {
+    font-family: inherit;
+    border: 1.5px solid var(--line);
+    background: var(--surface);
+    color: var(--ink-soft);
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+  .quick-people button:hover { border-color: var(--primary); color: var(--primary-deep); }
+
+  .recipe-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+  h2.recipe-title {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 1.3rem;
+    margin: 0;
+    color: var(--primary-deep);
+    text-wrap: balance;
+  }
+  .recipe-serves {
+    flex: none;
+    font-size: 0.82rem;
+    color: var(--accent-ink);
+    background: var(--accent-tint);
+    padding: 5px 11px;
+    border-radius: 999px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .recipe-count {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 2px 0 6px;
+  }
+  .meal-photo {
+    margin: 12px 0 4px;
+  }
+  .meal-photo img {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+  .meal-photo figcaption {
+    text-align: center;
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .alg-band {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 8px;
+    margin: 10px 0 4px;
+    padding: 9px 12px;
+    background: var(--alg-bg);
+    border: 1px solid var(--alg-line);
+    border-radius: 10px;
+    color: var(--alg);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+  .alg-band .alg-label { font-weight: 700; white-space: nowrap; }
+  .alg-band .alg-list { font-weight: 700; }
+  .alg-band .alg-none { font-weight: 400; }
+  .allergen-chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0 4px; }
+  .allergen-chip {
+    font-size: 0.72rem;
+    background: var(--chip-bg);
+    color: var(--ink-soft);
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+
+  .dish-block { margin-top: 22px; }
+  .dish-block-sep {
+    padding-top: 22px;
+    border-top: 1px solid var(--line-soft);
+  }
+  h3.dish-title {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 1.08rem;
+    color: var(--primary-deep);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    text-wrap: balance;
+  }
+  .dish-order {
+    flex: none;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    background: var(--primary-tint);
+    color: var(--primary-deep);
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .section-h {
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 16px 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-h::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line-soft);
+  }
+
+  table.ingredients {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.96rem;
+  }
+  table.ingredients td {
+    padding: 8px 4px;
+    border-bottom: 1px solid var(--line-soft);
+    vertical-align: baseline;
+  }
+  table.ingredients tr:last-child td { border-bottom: none; }
+  td.ing-name { color: var(--ink); }
+  td.ing-qty {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    color: var(--primary-deep);
+    white-space: nowrap;
+    padding-left: 12px;
+  }
+  .indented { padding-left: 1.1em; color: var(--ink-soft); }
+  table.ingredients tr.own td.ing-name,
+  table.ingredients tr.own td.ing-qty { color: var(--own); }
+  .own-tag {
+    display: inline-block;
+    font-size: 0.66rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--own);
+    background: var(--own-bg);
+    border: 1px solid var(--own);
+    border-radius: 999px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    vertical-align: 0.1em;
+    white-space: nowrap;
+  }
+  .own-legend {
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    margin: 4px 0 6px;
+  }
+  .own-legend .own-tag { margin: 0 6px 0 0; }
+  .own-legend b { color: var(--own); font-weight: 700; }
+
+  ol.method {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: step;
+  }
+  ol.method li {
+    counter-increment: step;
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--line-soft);
+  }
+  ol.method li:last-child { border-bottom: none; }
+  ol.method li::before {
+    content: counter(step);
+    flex: none;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    background: var(--primary-tint);
+    color: var(--primary-deep);
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .dish-name-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .dish-name-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--line-soft);
+    font-size: 1rem;
+  }
+  .dish-name-list li:last-child { border-bottom: none; }
+
+  .nutrition-box {
+    background: var(--surface-2);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 0.86rem;
+    color: var(--ink-soft);
+  }
+  .nutrition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px 16px;
+    margin-top: 8px;
+  }
+  .nutrition-item .n-label { font-size: 0.72rem; color: var(--muted); }
+  .nutrition-item .n-value { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); }
+  .nutrition-caption { font-size: 0.74rem; color: var(--muted); margin-top: 10px; }
+
+  .day-total-box {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--line-soft);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+  }
+  .day-total-box .n-label-inline { color: var(--muted); }
+
+  .coming-soon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+    color: var(--accent-ink);
+    background: var(--accent-tint);
+    padding: 9px 13px;
+    border-radius: 10px;
+    margin: 4px 0 18px;
+  }
+
+  .empty-hint {
+    color: var(--muted);
+    font-size: 0.92rem;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .footnotes {
+    font-size: 0.76rem;
+    color: var(--muted);
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line-soft);
+  }
+  .footnotes p { margin: 2px 0; }
+
+  footer.site {
+    text-align: center;
+    font-size: 0.76rem;
+    color: var(--muted);
+    padding: 30px 18px 10px;
+  }
+
+  @media (max-width: 420px) {
+    h1.brand { font-size: 1.28rem; }
+    section.card { padding: 16px; }
+  }
+</style>
+
+<div class="order-bar">
+  <div class="order-bar-inner">
+    <span class="order-bar-text">お届けのご注文はこちらから</span>
+    <a class="order-btn" href="https://kitchenorderbposervice.dot-hl-net.com/kitchen/r/p2_inputA.php?access_key=YkTof3KuSh54ima94f345fIIeow93" target="_blank" rel="noopener noreferrer">🛒 注文する</a>
+  </div>
+</div>
+
+<header class="site">
+  <div class="site-inner">
+    <div class="logo-badge"><img src="logo.png" alt="YOSHIKEI"></div>
+    <div>
+      <h1 class="brand">レシピ帳</h1>
+      <p class="brand-sub">コースを選んで、人数分のレシピをすぐに</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <main>
+    <div class="steps" id="steps"></div>
+
+    <section class="card" id="card-course">
+      <p class="field-label"><span>コースを選ぶ</span></p>
+      <div class="chip-row" id="course-chips"></div>
+    </section>
+
+    <section class="card" id="card-week" hidden>
+      <p class="field-label"><span>週を選ぶ</span></p>
+      <div class="chip-row" id="week-chips"></div>
+    </section>
+
+    <section class="card" id="card-date" hidden>
+      <p class="field-label"><span>日付を選ぶ</span></p>
+      <div class="chip-row" id="date-chips"></div>
+    </section>
+
+    <section class="card" id="card-meal" hidden>
+      <p class="field-label"><span>食事を選ぶ</span></p>
+      <div class="chip-row" id="meal-chips"></div>
+    </section>
+
+    <section class="card" id="card-people" hidden>
+      <p class="field-label"><span>何人分にしますか？</span></p>
+      <div class="people-row">
+        <div class="stepper">
+          <button type="button" id="people-minus" aria-label="人数を減らす">−</button>
+          <input id="people-input" type="number" min="3" max="30" step="1" value="3" inputmode="numeric" aria-label="人数">
+          <button type="button" id="people-plus" aria-label="人数を増やす">＋</button>
+        </div>
+        <span class="people-unit">人分</span>
+        <div class="quick-people" id="quick-people"></div>
+      </div>
+    </section>
+
+    <section class="card" id="card-recipe" hidden></section>
+
+    <section class="card" id="card-empty">
+      <p class="empty-hint">上から順番に選んでいくと、レシピや献立の内容が表示されます。</p>
+    </section>
+  </main>
+
+  <footer class="site">
+    <p>※ お届け食材はメニュー日当日中にお召し上がりください。冷凍食品は加熱し過ぎにご注意ください。</p>
+    <p>人数ごとの分量は1人分の記載量をもとに自動計算した目安です（3〜8人分はボタンで選択、9人分以上は＋で調整できます）。</p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+
+
+const state = { course: null, week: null, date: null, meal: null, people: 3 };
+
+const MEAL_ORDER = ['朝食', '昼食', '夕食'];
+const COURSE_ORDER = ['tezukuri', 'kantan', 'volume', 'chokantan', 'chokantanplus'];
+
+const els = {
+  steps: document.getElementById('steps'),
+  courseChips: document.getElementById('course-chips'),
+  weekChips: document.getElementById('week-chips'),
+  dateChips: document.getElementById('date-chips'),
+  mealChips: document.getElementById('meal-chips'),
+  quickPeople: document.getElementById('quick-people'),
+  peopleInput: document.getElementById('people-input'),
+  cardWeek: document.getElementById('card-week'),
+  cardDate: document.getElementById('card-date'),
+  cardMeal: document.getElementById('card-meal'),
+  cardPeople: document.getElementById('card-people'),
+  cardRecipe: document.getElementById('card-recipe'),
+  cardEmpty: document.getElementById('card-empty'),
+};
+
+function courseColor(hex) { return '#' + hex; }
+
+// 食材の単位ごとに公式レシピの増量ルールを再現する。
+// ヨシケイの3人分・4人分の実データを1人分の記載量と比較した結果:
+//  - g/mlなど計量できる単位はほぼ完全に「1人分の量 × 人数」の線形計算どおり(93〜99%が完全一致)。
+//  - コ/切/本/枚/袋/ﾊﾟｯｸ/ワなど「個数」で数える単位は、線形計算の結果が整数にならない場合、
+//    必ず切り上げ（例: 2/3コ×4人=2.67→3コ、1/3本×4人=1.33→2本）。切り捨てられた例は0件だった。
+// これに基づき、個数単位は常に切り上げ、計量単位はそのまま計算した値を表示する。
+const DISCRETE_UNITS = new Set(['コ', '個', '切', '本', '枚', '袋', 'ﾊﾟｯｸ', 'パック', 'ワ', '玉', '束', '丁', '尾', '缶', '片']);
+
+function fmtQty(parsed, people) {
+  if (!parsed || parsed.value === null || parsed.value === undefined) {
+    return { text: parsed ? parsed.raw : '', approx: false };
+  }
+  const total = parsed.value * people;
+  let numStr;
+  if (DISCRETE_UNITS.has(parsed.unit)) {
+    // 個数単位は必ず切り上げ（浮動小数点誤差を吸収してからceil）
+    const rounded = Math.ceil(total - 1e-6);
+    numStr = String(rounded);
+  } else if (Math.abs(total - Math.round(total)) < 0.01) {
+    numStr = String(Math.round(total));
+  } else {
+    numStr = total.toFixed(1).replace(/\.0$/, '');
+    if (total < 10) numStr = total.toFixed(2).replace(/0$/, '').replace(/\.$/, '');
+  }
+  const prefix = parsed.approx ? '約' : '';
+  return { text: `${prefix}${numStr}${parsed.unit}`, approx: parsed.approx };
+}
+
+function parseNutrition(str) {
+  if (!str) return [];
+  const re = /([^\d\s]+)\s*([\d.]+)\s*(kcal|g)/g;
+  const out = [];
+  let m;
+  while ((m = re.exec(str)) !== null) {
+    out.push({ label: m[1], value: parseFloat(m[2]), unit: m[3] });
+  }
+  return out;
+}
+
+function currentCourse() { return state.course ? COURSES[state.course] : null; }
+
+function buildSteps() {
+  const course = currentCourse();
+  const items = [
+    { n: 1, label: 'コース', done: !!state.course },
+    { n: 2, label: '週', done: !!state.week },
+    { n: 3, label: '日付', done: !!state.date },
+    { n: 4, label: '食事', done: !!state.meal },
+    { n: 5, label: course && course.has_recipe ? '人数' : '内容', done: !!state.meal },
+  ];
+  els.steps.innerHTML = items.map(it =>
+    `<span class="step-pill ${it.done ? 'active' : ''}"><span class="num">${it.n}</span>${it.label}</span>`
+  ).join('');
+}
+
+// ISO date ("YYYY-MM-DD") -> the Monday that starts its week, as an ISO date string.
+// All source data weeks already run Monday-Sunday, so this just needs to key dates
+// consistently into their week group.
+function mondayIso(iso) {
+  const d = new Date(iso + 'T00:00:00Z');
+  const day = d.getUTCDay(); // 0=Sun..6=Sat
+  const diff = day === 0 ? -6 : 1 - day;
+  d.setUTCDate(d.getUTCDate() + diff);
+  return d.toISOString().slice(0, 10);
+}
+
+function mdLabel(iso) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}`;
+}
+
+function getWeeks(course) {
+  const isoList = Object.keys(course.days);
+  const map = new Map();
+  isoList.forEach(iso => {
+    const wk = mondayIso(iso);
+    if (!map.has(wk)) map.set(wk, []);
+    map.get(wk).push(iso);
+  });
+  return Array.from(map.entries())
+    .sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
+    .map(([weekStart, isos]) => {
+      const sorted = isos.slice().sort();
+      return {
+        key: weekStart,
+        isos: sorted,
+        label: `${mdLabel(sorted[0])}週`,
+      };
+    });
+}
+
+function renderCourses() {
+  els.courseChips.innerHTML = '';
+  COURSE_ORDER.forEach(key => {
+    const c = COURSES[key];
+    if (!c) return;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip course' + (state.course === key ? ' selected' : '');
+    btn.style.setProperty('--course-color', courseColor(c.color));
+    const metaText = c.has_recipe ? 'レシピあり' : 'レシピは準備中';
+    btn.innerHTML = `<span class="dot"></span><span><div>${c.label}</div><div class="course-meta">${metaText}</div></span>`;
+    btn.addEventListener('click', () => {
+      if (state.course !== key) {
+        state.course = key;
+        state.week = null; state.date = null; state.meal = null;
+        renderAll();
+      }
+    });
+    els.courseChips.appendChild(btn);
+  });
+}
+
+function renderWeeks() {
+  const course = currentCourse();
+  if (!course) { els.cardWeek.hidden = true; return; }
+  const weeks = getWeeks(course);
+  if (weeks.length <= 1) {
+    // Only one week of data: skip this step entirely, just auto-select it.
+    els.cardWeek.hidden = true;
+    if (!state.week && weeks.length === 1) state.week = weeks[0].key;
+    return;
+  }
+  els.cardWeek.hidden = false;
+  els.weekChips.innerHTML = '';
+  weeks.forEach(w => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip' + (state.week === w.key ? ' selected' : '');
+    btn.textContent = w.label;
+    btn.addEventListener('click', () => {
+      if (state.week !== w.key) {
+        state.week = w.key;
+        state.date = null; state.meal = null;
+        renderAll();
+      }
+    });
+    els.weekChips.appendChild(btn);
+  });
+}
+
+function renderDates() {
+  const course = currentCourse();
+  if (!course || !state.week) { els.cardDate.hidden = true; return; }
+  els.cardDate.hidden = false;
+  const weeks = getWeeks(course);
+  const week = weeks.find(w => w.key === state.week);
+  const isoList = week ? week.isos : [];
+  els.dateChips.innerHTML = '';
+  isoList.forEach(iso => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip' + (state.date === iso ? ' selected' : '');
+    btn.textContent = course.days[iso].short_label || iso;
+    btn.addEventListener('click', () => {
+      state.date = iso;
+      state.meal = null;
+      renderAll();
+    });
+    els.dateChips.appendChild(btn);
+  });
+}
+
+function renderMeals() {
+  const course = currentCourse();
+  if (!course || !state.date) { els.cardMeal.hidden = true; return; }
+  els.cardMeal.hidden = false;
+  const day = course.days[state.date];
+  const available = MEAL_ORDER.filter(m => day.meals[m]);
+  els.mealChips.innerHTML = '';
+  available.forEach(m => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip' + (state.meal === m ? ' selected' : '');
+    btn.textContent = m;
+    btn.addEventListener('click', () => {
+      state.meal = m;
+      renderAll();
+    });
+    els.mealChips.appendChild(btn);
+  });
+}
+
+function renderPeopleCard() {
+  const course = currentCourse();
+  if (!course || !course.has_recipe || !state.meal) { els.cardPeople.hidden = true; return; }
+  els.cardPeople.hidden = false;
+  els.quickPeople.innerHTML = '';
+  [3, 4, 5, 6, 7, 8].forEach(n => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = `${n}人`;
+    btn.addEventListener('click', () => {
+      state.people = n;
+      els.peopleInput.value = n;
+      renderRecipe();
+    });
+    els.quickPeople.appendChild(btn);
+  });
+}
+
+function renderNutritionBox(nutrition, people, title) {
+  if (!nutrition) return '';
+  const items = parseNutrition(nutrition);
+  if (people <= 1) {
+    const grid = items.map(it =>
+      `<div class="nutrition-item"><div class="n-label">${it.label}</div><div class="n-value">${it.value}${it.unit}</div></div>`
+    ).join('');
+    return `<h3 class="section-h">${title}</h3>
+      <div class="nutrition-box">
+        <div class="nutrition-grid">${grid}</div>
+      </div>`;
+  }
+  const scaled = items.map(it => {
+    const total = it.value * people;
+    const totalStr = Number.isInteger(total) ? total : Math.round(total * 10) / 10;
+    return `<div class="nutrition-item"><div class="n-label">${it.label}</div><div class="n-value">${totalStr}${it.unit}</div></div>`;
+  }).join('');
+  return `<h3 class="section-h">${title}</h3>
+    <div class="nutrition-box">
+      <div>1人分：${nutrition}</div>
+      <div class="nutrition-grid">${scaled}</div>
+      <div class="nutrition-caption">上段は献立表の1人分表記、グリッドは${people}人分に換算した目安値です。</div>
+    </div>`;
+}
+
+const ALLERGEN_ORDER = ['えび', 'かに', '小麦', 'そば', '卵', '乳成分', '落花生', 'くるみ'];
+function mealAllergenBand(dishes, label) {
+  const found = new Set();
+  dishes.forEach(d => (d.allergens || []).forEach(a => String(a).split(/[\s　]+/).filter(Boolean).forEach(t => found.add(t))));
+  const sorted = [...found].sort((a, b) => {
+    const ia = ALLERGEN_ORDER.indexOf(a), ib = ALLERGEN_ORDER.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+  const body = sorted.length
+    ? `<span class="alg-list">${sorted.join('・')}</span>`
+    : '<span class="alg-none">記載なし</span>';
+  return `<div class="alg-band"><span class="alg-label">⚠ ${label}のアレルゲン</span>${body}</div>`;
+}
+
+function renderPhoto(mealData) {
+  if (!mealData.photo) return '';
+  return `<figure class="meal-photo">
+    <img src="${mealData.photo}" alt="盛付例の写真" loading="lazy">
+    <figcaption>写真は盛付例です</figcaption>
+  </figure>`;
+}
+
+function renderRecipe() {
+  const course = currentCourse();
+  if (!course || !state.date || !state.meal) {
+    els.cardRecipe.hidden = true;
+    els.cardEmpty.hidden = false;
+    return;
+  }
+  els.cardEmpty.hidden = true;
+  els.cardRecipe.hidden = false;
+
+  const day = course.days[state.date];
+  const mealData = day.meals[state.meal];
+  const dayLabel = day.short_label;
+
+  if (!course.has_recipe) {
+    // Overview-only course: dish names + nutrition, recipe detail not yet available.
+    const dishListHtml = mealData.dishes.map((name, i) =>
+      `<li><span class="dish-order">${i + 1}</span>${name}</li>`
+    ).join('');
+    const nutritionHtml = renderNutritionBox(mealData.nutrition, 1, 'この食事の栄養価（1人分）');
+    const dayTotalHtml = day.day_total
+      ? `<div class="day-total-box"><span class="n-label-inline">1日の合計栄養価：</span>${day.day_total.replace(/\n/g, '　')}</div>`
+      : '';
+    const noteHtml = course.global_note
+      ? `<div class="footnotes"><p>${course.global_note.trim()}</p></div>` : '';
+
+    els.cardRecipe.innerHTML = `
+      <div class="recipe-head">
+        <h2 class="recipe-title">${dayLabel} ${state.meal} ${course.label}</h2>
+      </div>
+      ${renderPhoto(mealData)}
+      <div class="coming-soon">🔧 材料・作り方の詳細レシピは近日追加予定です。まずは献立をご確認ください。</div>
+      <h3 class="section-h">献立</h3>
+      <ul class="dish-name-list">${dishListHtml}</ul>
+      ${nutritionHtml}
+      ${dayTotalHtml}
+      ${noteHtml}
+    `;
+    return;
+  }
+
+  // has_recipe course: full ingredient / method detail, scaled to the chosen people count.
+  const dishes = mealData.dishes;
+  const people = state.people;
+
+  const dishBlocks = dishes.map((dish, i) => {
+    const allergenHtml = (dish.allergens && dish.allergens.length)
+      ? `<div class="allergen-chips">${dish.allergens.map(a => `<span class="allergen-chip">⚠ ${a}</span>`).join('')}</div>`
+      : '';
+
+    const ingredientRows = dish.ingredients.map(ing => {
+      const q = fmtQty(ing.qty1_parsed, people);
+      const indentClass = ing.name.startsWith('　') ? ' indented' : '';
+      const cleanName = ing.name.replace(/^　+/, '');
+      const ownTag = ing.own ? '<span class="own-tag">ご用意</span>' : '';
+      return `<tr class="${ing.own ? 'own' : ''}">
+        <td class="ing-name${indentClass}">${cleanName}${ownTag}</td>
+        <td class="ing-qty">${q.text}</td>
+      </tr>`;
+    }).join('');
+
+    const methodSteps = (dish.method || '')
+      .split(/(?<=^|\n)[①-⑳]/)
+      .map(s => s.trim())
+      .filter(Boolean);
+    const methodHtml = methodSteps.length
+      ? `<ol class="method">${methodSteps.map(s => `<li>${s}</li>`).join('')}</ol>`
+      : '<p class="empty-hint">作り方の記載はありません。</p>';
+
+    return `
+      <div class="dish-block${i > 0 ? ' dish-block-sep' : ''}">
+        <h3 class="dish-title"><span class="dish-order">${i + 1}</span>${dish.name}</h3>
+        ${allergenHtml}
+        <h4 class="section-h">材料</h4>
+        <table class="ingredients"><tbody>${ingredientRows}</tbody></table>
+        <h4 class="section-h">作り方</h4>
+        ${methodHtml}
+      </div>`;
+  }).join('');
+
+  const hasOwn = dishes.some(d => d.ingredients.some(ing => ing.own));
+  const nutritionHtml = renderNutritionBox(mealData.nutrition, people, `${dishes.length}品まとめての栄養価`);
+  const noteHtml = course.global_note
+    ? `<div class="footnotes"><p>${course.global_note.trim()}</p></div>` : '';
+
+  els.cardRecipe.innerHTML = `
+    <div class="recipe-head">
+      <h2 class="recipe-title">${dayLabel} ${state.meal} ${course.label}</h2>
+      <span class="recipe-serves">${people}人分</span>
+    </div>
+    ${mealAllergenBand(dishes, state.meal)}
+    ${renderPhoto(mealData)}
+    <p class="recipe-count">${dishes.length}品まとめて表示しています</p>
+    ${hasOwn ? '<p class="own-legend"><span class="own-tag">ご用意</span><b>赤い材料</b>は、お客様でご用意ください</p>' : ''}
+    ${dishBlocks}
+    ${nutritionHtml}
+    ${noteHtml}
+  `;
+}
+
+function renderAll() {
+  renderWeeks();
+  buildSteps();
+  renderCourses();
+  renderDates();
+  renderMeals();
+  renderPeopleCard();
+  if (!state.course || !state.date || !state.meal) {
+    els.cardRecipe.hidden = true;
+    els.cardEmpty.hidden = false;
+  } else {
+    renderRecipe();
+  }
+}
+
+els.peopleInput.addEventListener('input', () => {
+  let v = parseInt(els.peopleInput.value, 10);
+  if (isNaN(v) || v < 3) v = 3;
+  if (v > 30) v = 30;
+  state.people = v;
+  renderRecipe();
+});
+document.getElementById('people-minus').addEventListener('click', () => {
+  state.people = Math.max(3, state.people - 1);
+  els.peopleInput.value = state.people;
+  renderRecipe();
+});
+document.getElementById('people-plus').addEventListener('click', () => {
+  state.people = Math.min(30, state.people + 1);
+  els.peopleInput.value = state.people;
+  renderRecipe();
+});
+
+renderAll();
+</script>
+
+</body></html>

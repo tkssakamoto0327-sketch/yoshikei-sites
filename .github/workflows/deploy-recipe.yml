@@ -1,0 +1,65 @@
+# レシピ帳：recipe/ に変更が入ったら Cloudflare Pages プロジェクト
+# 「yoshikei-recipe」へ自動で公開する（無ければ最初に作る）
+name: レシピ帳を公開
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'recipe/**'
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-recipe
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: data.js と写真の確認
+        run: |
+          node -e '
+            const fs = require("fs");
+            eval(fs.readFileSync("recipe/data.js", "utf8") + ";globalThis.C = COURSES;");
+            let ng = 0, n = 0;
+            for (const [ck, c] of Object.entries(C)) {
+              const days = Object.keys(c.days).sort();
+              console.log(ck, c.label, days.length + "日", days[0] + "〜" + days[days.length - 1]);
+              for (const d of Object.values(c.days)) for (const m of Object.values(d.meals)) {
+                if (m.photo) { n++; if (!fs.existsSync("recipe/" + m.photo)) { console.log("写真が見つからない:", m.photo); ng++; } }
+              }
+            }
+            console.log("写真", n, "件");
+            process.exit(ng ? 1 : 0);
+          '
+
+      - name: Cloudflare Pages へ公開
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          [ -n "$CLOUDFLARE_API_TOKEN" ] || { echo "::error::CLOUDFLARE_API_TOKEN が登録されていません"; exit 1; }
+          [ -n "$CLOUDFLARE_ACCOUNT_ID" ] || { echo "::error::CLOUDFLARE_ACCOUNT_ID が登録されていません"; exit 1; }
+          CLOUDFLARE_API_TOKEN=$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')
+          CLOUDFLARE_ACCOUNT_ID=$(printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')
+          export CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID
+          set +e
+          # プロジェクトが無ければ作る（本番ブランチは main）
+          if ! npx --yes wrangler@4 pages project list 2>&1 | grep -q 'yoshikei-recipe'; then
+            npx --yes wrangler@4 pages project create yoshikei-recipe --production-branch=main > create.log 2>&1
+            rc=$?; cat create.log
+            [ $rc -eq 0 ] || { grep -vE '^\s*$' create.log | tail -10 | while IFS= read -r l; do echo "::error::$l"; done; exit $rc; }
+            echo "::notice::Cloudflare に yoshikei-recipe プロジェクトを作成しました"
+          fi
+          npx --yes wrangler@4 pages deploy recipe --project-name=yoshikei-recipe --branch=main --commit-dirty=true > out.log 2>&1
+          rc=$?
+          cat out.log
+          if [ $rc -ne 0 ]; then
+            grep -vE '^\s*$' out.log | tail -15 | while IFS= read -r l; do echo "::error::$l"; done
+          else
+            grep -oE 'https://[^ ]+pages\.dev' out.log | tail -1 | sed 's/^/::notice::公開しました /'
+          fi
+          exit $rc

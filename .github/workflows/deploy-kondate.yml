@@ -52,7 +52,7 @@ jobs:
           case "$CLOUDFLARE_API_TOKEN" in
             *curl*|*Bearer*|*Authorization*|*http*) echo "::error::トークン欄にトークン以外の文字（curl の例文など）が入っています。トークンの文字列だけを登録してください"; exit 1;;
           esac
-          echo "トークンの長さ: ${#CLOUDFLARE_API_TOKEN} 文字 / アカウントIDの長さ: ${#CLOUDFLARE_ACCOUNT_ID} 文字"
+          echo "::notice::トークンの長さ: ${#CLOUDFLARE_API_TOKEN} 文字 / アカウントIDの長さ: ${#CLOUDFLARE_ACCOUNT_ID} 文字 / トークンの先頭: ${CLOUDFLARE_API_TOKEN:0:3}…"
           printf '%s' "$CLOUDFLARE_API_TOKEN" | grep -qE '^[A-Za-z0-9_-]+$' || { echo "::error::トークンに使えない文字が含まれています（長さ ${#CLOUDFLARE_API_TOKEN} 文字）。トークンの文字列だけを登録してください"; exit 1; }
           set +e
           npx --yes wrangler@4 pages deploy kondate --project-name=yoshikei-kondate --branch=main --commit-dirty=true > out.log 2>&1

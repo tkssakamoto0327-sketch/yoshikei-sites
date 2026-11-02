@@ -64,6 +64,12 @@ window.KONDATE = {
       kantan: 'pdf/2026-11-23_kantan.pdf',
       chokantan: 'pdf/2026-11-23_chokantan.pdf',
       volume: 'pdf/2026-11-23_volume.pdf',
-      chokantanplus: 'pdf/2026-11-23_chokantanplus.pdf' } }
+      chokantanplus: 'pdf/2026-11-23_chokantanplus.pdf' } },
+    { start: '2026-11-30', files: {
+      tezukuri: 'pdf/2026-11-30_tezukuri.pdf',
+      kantan: 'pdf/2026-11-30_kantan.pdf',
+      chokantan: 'pdf/2026-11-30_chokantan.pdf',
+      volume: 'pdf/2026-11-30_volume.pdf',
+      chokantanplus: 'pdf/2026-11-30_chokantanplus.pdf' } }
   ]
 };

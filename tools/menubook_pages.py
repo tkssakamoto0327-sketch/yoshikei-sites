@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ヨシケイ メニューブック用：PDF → 縦向き・傾き補正済みのページ画像（WebP）
 usage:
-  python3 menubook_pages.py KIND PDF OUTDIR PREFIX [--rotate ccw|cw|none]
+  python3 menubook_pages.py KIND PDF OUTDIR PREFIX [--rotate ccw|cw|180|none]
 KIND:
   portrait : 1ページ=縦1ページ（スマイル&テーブル）
   spreads  : 横長ページは中央で左右2ページに分割、縦長はそのまま（&more）
@@ -73,7 +73,7 @@ def main():
         if kind == 'portrait':
             emit(im)
         elif kind == 'rotate':
-            code = {'ccw': cv2.ROTATE_90_COUNTERCLOCKWISE, 'cw': cv2.ROTATE_90_CLOCKWISE}.get(rot)
+            code = {'ccw': cv2.ROTATE_90_COUNTERCLOCKWISE, 'cw': cv2.ROTATE_90_CLOCKWISE, '180': cv2.ROTATE_180}.get(rot)
             if code is not None: im = cv2.rotate(im, code)
             im = trim(im)
             h, w = im.shape[:2]

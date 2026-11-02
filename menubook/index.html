@@ -145,7 +145,7 @@ const ALL_WEEKS=[
     smile:{pages:range('st',1,32),toc:stToc},
     more:{pages:range('mo',1,16),toc:[]},
     lovyu:{pages:range('lv',1,8),toc:lvToc(['16日 月','17日 火','18日 水','19日 木','20日 金','21日 土'])},
-    toku:{flyers:[{name:'京都&関西特集',pages:range('tk',1,8)},{name:'九州フェア',pages:range('tk',9,16)}]}}}
+    toku:{flyers:[{name:'京都&関西特集',pages:range('tk',1,4)},{name:'九州フェア',pages:range('tk',5,8)}]}}}
 ];
 /* 自動削除：その号の翌週の月曜 5:00（日本時間）を過ぎたら表示しない
    例）10/12号 → 2026-10-19(月) 05:00 に消える */
@@ -206,7 +206,7 @@ let menuKey=store.get('menu')||'smile';
 let flip=null,spread=false,pages=[];
 const RATIO=1600/2264;
 const $=id=>document.getElementById(id);
-const IMGV='20261019'; /* 画像を差し替えたら値を変える（端末の古いキャッシュを無効化） */
+const IMGV='20261102b'; /* 画像を差し替えたら値を変える（端末の古いキャッシュを無効化） */
 const src=(name,big)=>`${name.includes('/')?name:WEEKS[weekIdx].id+'/'+name}${big?'':'_s'}.webp?v=${IMGV}`;
 let flyerIdx=0;   // 特販など、1つのメニューに複数チラシがあるときの選択
 const curMenu=()=>WEEKS[weekIdx].menus[menuKey];

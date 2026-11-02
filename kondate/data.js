@@ -17,30 +17,6 @@ window.KONDATE = {
     { key: 'chokantanplus', name: '超簡単プラス',           color: '#B8CCE4' }
   ],
   weeks: [
-    { start: '2026-10-05', files: {
-      tezukuri: '1e1Q8gJChDLMpbsPMFwTVOeD_f_juW3Cb',
-      kantan: '1LuiQK1VJSlUVOXB_fdOJr9xrllqenXQo',
-      chokantan: '1-y42A2SF5j-_wd7_Rl71537CmPe4kW9S',
-      volume: '18ZxhIUyyUxRE09gExat2lh3XAEOQxnIw',
-      chokantanplus: '1hb3s_Z0Liz4009zAQ-AcoH-DKhrq-pwn' } },
-    { start: '2026-10-12', files: {
-      tezukuri: '1UIqJlB04ndzn7zcUkUZXYfcO8k1tcxhV',
-      kantan: '1aem4tp3iiQGFyM1m81EbTl7UlwEwtnTX',
-      chokantan: '1yqSPdckLhaFf1Pxv9qZ_YG7cPT8LJYZu',
-      volume: '1Nse5LjEsJDdVKA_yPEuUf50nAkKtPElQ',
-      chokantanplus: '1r9R_bDe-ak4upNStk-hjSq-2DNrTmc6t' } },
-    { start: '2026-10-19', files: {
-      tezukuri: '1Ru8mI-UFVcw9OqmKfyxRbuscMpyh_VX1',
-      kantan: '1EBTpf3xTU1nC_i7mvUUbipPNfd2qYnMY',
-      chokantan: '1lqAoX6Hm5yyazpuIevcTcwO482v95NIY',
-      volume: '1O9BtR3D1FaWGqmAKxDQK2NAqETVEH3gb',
-      chokantanplus: '1GK3xBMd1ykMbA6unzuPCqFywpVwq4KcN' } },
-    { start: '2026-10-26', files: {
-      tezukuri: '18_7BAtg_OVaUNkISQlJJENJDIDkBVcYf',
-      kantan: '1qXbJsbN1M86oRFpdSwD9OVrA4_LHd7IK',
-      chokantan: '1lRphtO-0zVGBeKttjwLsxLYu1zdGtR8d',
-      volume: '1riZwiojRGyh3GzHsA8Z9u0KFFscCAUp0',
-      chokantanplus: '1k8Y-RYbz0k8zACxiF0Q8-SMN82Q-acr5' } },
     { start: '2026-11-02', files: {
       tezukuri: '1hxx394GUA15-xIXAVPwGg2h9MjzCa7hq',
       kantan: '1c7z5I_Tf7sElVPlxMPUkJRHPbXRXBUAb',

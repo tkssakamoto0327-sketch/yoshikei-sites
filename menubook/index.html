@@ -132,12 +132,6 @@ const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standar
 const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
 const annivToc=[['50周年記念ミールキット',1],['レシピ',2]];
 const ALL_WEEKS=[
-  {id:'w26',mon:'2026-10-26',label:'10/26号',deadline:'10/21(水) 17:00',menus:{
-    smile:{pages:range('st',1,32),toc:stToc},
-    more:{pages:range('mo',1,16),toc:[]},
-    lovyu:{pages:range('lv',1,8),toc:lvToc(['26日 月','27日 火','28日 水','29日 木','30日 金','31日 土'])},
-    anniv:{pages:range('sp/anniv50/an',1,4),toc:annivToc},
-    toku:{flyers:[{name:'東北フェア',pages:range('tk',1,4)},{name:'健康とやすらぎ通信',pages:range('tk',5,6)}]}}},
   {id:'w1102',mon:'2026-11-02',label:'11/2号',deadline:'10/28(水) 17:00',menus:{
     smile:{pages:range('st',1,32),toc:stToc},
     more:{pages:range('mo',1,16),toc:[]},

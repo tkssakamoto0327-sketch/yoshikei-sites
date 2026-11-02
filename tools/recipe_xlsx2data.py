@@ -152,6 +152,8 @@ def kondate_photos(repo, monday, key, n_days, n_meals):
             rows[-1].append(i)
         else:
             rows.append([i])
+    # 「今週の新メニュー」欄のイラストなど、表の外にある単独の画像の行は除く
+    rows = [r for r in rows if len(r) * 2 > n_days]
     if len(rows) != n_meals or any(len(r) != n_days for r in rows):
         print(f'!! {os.path.basename(pdf)}: 写真の並び {[len(r) for r in rows]}（必要 {n_meals}行×{n_days}列）。写真は取り込みません', file=sys.stderr)
         return None

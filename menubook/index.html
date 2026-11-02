@@ -18,7 +18,7 @@
   color-scheme:light;
   --red:#e2231a; --red-deep:#b5170f; --red-soft:#fde9e6;
   --bg:#f6efe9; --paper:#ffffff; --ink:#3b2b25; --muted:#8c7b71; --line:#eadbd1;
-  --c-smile:#e2231a; --c-more:#2f9a4a; --c-lovyu:#d9577f; --c-toku:#ee7f00; --c-anniv:#b8860b; --c-season:#2f5d8c;
+  --c-smile:#e2231a; --c-more:#2f9a4a; --c-lovyu:#d9577f; --c-toku:#ee7f00; --c-season:#2f5d8c;
   --font:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;
   --tabH:64px;
 }
@@ -64,7 +64,7 @@ button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 @media (max-width:360px){.order{padding:0 9px;font-size:12px}.weeks button{padding:4px 4px 3px}}
 
 /* メニュータブ（下） */
-.tabs{flex:none;position:relative;z-index:10;display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1fr 1.2fr;gap:2px;background:var(--paper);border-top:1px solid var(--line);padding:5px 6px calc(5px + env(safe-area-inset-bottom,0px))}
+.tabs{flex:none;position:relative;z-index:10;display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1.2fr;gap:2px;background:var(--paper);border-top:1px solid var(--line);padding:5px 6px calc(5px + env(safe-area-inset-bottom,0px))}
 .tabs button{border:0;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px 2px;min-height:42px;border-radius:10px;cursor:pointer;color:var(--muted);min-width:0}
 .tabs span{font-size:12px;font-weight:700;white-space:nowrap;letter-spacing:-.02em;line-height:1.15;text-align:center}
 .tabs small{font-size:9px;font-weight:500;margin-top:-2px}
@@ -130,7 +130,6 @@ button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 const range=(p,a,b)=>Array.from({length:b-a+1},(_,i)=>`${p}${String(a+i).padStart(2,'0')}`);
 const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standard',10],['Balance',14],['CUT',18],['FUN',22],['Timely',26],['オリジナル',28],['特集',29],['コレdo!',30]];
 const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
-const annivToc=[['50周年記念ミールキット',1],['レシピ',2]];
 const ALL_WEEKS=[
   {id:'w1102',mon:'2026-11-02',label:'11/2号',deadline:'10/28(水) 17:00',menus:{
     smile:{pages:range('st',1,32),toc:stToc},
@@ -176,8 +175,8 @@ const ICON={
   lovyu:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>',
   toku:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8L3 12Z"/><circle cx="7.5" cy="8.5" r="1.4" fill="currentColor"/></svg>'
 };
-const MENUS=[['smile','スマイル&amp;<br>テーブル','スマイル&テーブル'],['more','&more','&more'],['lovyu','ラビュ','ラビュ'],['anniv','50周年','50周年記念 スペシャルメニュー'],['toku','特販','特販'],['season','期間限定','期間限定']];
-const MCOL={smile:'var(--c-smile)',more:'var(--c-more)',lovyu:'var(--c-lovyu)',toku:'var(--c-toku)',anniv:'var(--c-anniv)',season:'var(--c-season)'};
+const MENUS=[['smile','スマイル&amp;<br>テーブル','スマイル&テーブル'],['more','&more','&more'],['lovyu','ラビュ','ラビュ'],['toku','特販','特販'],['season','期間限定','期間限定']];
+const MCOL={smile:'var(--c-smile)',more:'var(--c-more)',lovyu:'var(--c-lovyu)',toku:'var(--c-toku)',season:'var(--c-season)'};
 
 /* ===== 状態 ===== */
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};

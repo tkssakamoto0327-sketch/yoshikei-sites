@@ -131,11 +131,6 @@ const range=(p,a,b)=>Array.from({length:b-a+1},(_,i)=>`${p}${String(a+i).padStar
 const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standard',10],['Balance',14],['CUT',18],['FUN',22],['Timely',26],['オリジナル',28],['特集',29],['コレdo!',30]];
 const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
 const ALL_WEEKS=[
-  {id:'w1102',mon:'2026-11-02',label:'11/2号',deadline:'10/28(水) 17:00',menus:{
-    smile:{pages:range('st',1,32),toc:stToc},
-    more:{pages:range('mo',1,16),toc:[]},
-    lovyu:{pages:range('lv',1,8),toc:lvToc(['2日 月','3日 火','4日 水','5日 木','6日 金','7日 土'])},
-    toku:{flyers:[{name:'食彩健美',pages:range('tk',1,4)},{name:'けんこう応援団',pages:range('tk',5,9)}]}}},
   {id:'w1109',mon:'2026-11-09',label:'11/9号',deadline:'11/4(水) 17:00',menus:{
     smile:{pages:range('st',1,32),toc:stToc},
     more:{pages:range('mo',1,16),toc:[]},

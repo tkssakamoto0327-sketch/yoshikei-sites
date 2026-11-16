@@ -131,11 +131,6 @@ const range=(p,a,b)=>Array.from({length:b-a+1},(_,i)=>`${p}${String(a+i).padStar
 const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standard',10],['Balance',14],['CUT',18],['FUN',22],['Timely',26],['オリジナル',28],['特集',29],['コレdo!',30]];
 const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
 const ALL_WEEKS=[
-  {id:'w1109',mon:'2026-11-09',label:'11/9号',deadline:'11/4(水) 17:00',menus:{
-    smile:{pages:range('st',1,32),toc:stToc},
-    more:{pages:range('mo',1,16),toc:[]},
-    lovyu:{pages:range('lv',1,8),toc:lvToc(['9日 月','10日 火','11日 水','12日 木','13日 金','14日 土'])},
-    toku:{flyers:[{name:'かふぇめし',pages:range('tk',1,4)},{name:'暮らしの雑貨通信',pages:range('tk',5,8)},{name:'特別販売パン',pages:range('tk',9,9)}]}}},
   {id:'w1116',mon:'2026-11-16',label:'11/16号',deadline:'11/11(水) 17:00',menus:{
     smile:{pages:range('st',1,32),toc:stToc},
     more:{pages:range('mo',1,16),toc:[]},

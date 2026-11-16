@@ -7,5449 +7,6 @@ const COURSES = {
   "global_note": "※ご飯の栄養量は含まれません ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
   "seasonal_note": null,
   "days": {
-   "2026-11-09": {
-    "short_label": "11/9（月）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "鶏肉といんげんの煮もの",
-        "method": "①玉葱は薄切りにする。\n②鍋に油を熱して①、鶏肉、凍ったままのいんげんを炒め、だし汁、調味料を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "若鶏コマ",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "いんげん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "オクラの二色あえ",
-        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのオクラを加える）、水気をきる。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "オクラ刻み（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（豆腐・チンゲン菜）",
-        "method": "①豆腐はさいの目に切る。\n②鍋にだし汁を入れて煮立て、凍ったままのチンゲン菜を加えて煮、みそを溶かし入れ、豆腐を加えて沸騰直前に火を止める。",
-        "ingredients": [
-         {
-          "name": "豆腐",
-          "qty1_raw": "1/6ﾊﾟｯｸ",
-          "qty3_raw": "1/2ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.16666666666666666,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/6ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "チンゲン菜（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 158.00kcal　蛋白質 10.50g　脂質 8.70g　炭水化物 12.10g　食塩相当量 1.70g",
-      "photo": "photos/d880d4cbdf80.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "豚肉と２色ピーマンのうま塩炒め",
-        "method": "①豚肉に酒、しょうゆ、片栗粉をもみ込んでおく。\n②玉葱は薄切りにする。\n③鶏がらスープの素、酒を合わせておく。\n④フライパンに油を熱して①、②を炒め、凍ったままのピーマンスライスを加えて更に炒め、③で調味し、塩、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "豚コマ",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　片栗粉",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "２色ピーマンスライス（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "白はんぺんと小松菜の煮もの",
-        "method": "①白はんぺんは解凍して短冊切りにする。\n②鍋にだし汁、調味料を入れて煮立て、①、凍ったままの小松菜を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "白はんぺん（冷凍）",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "春雨サラダ",
-        "method": "①春雨はたっぷりの熱湯に約6分つけ、水にさらして食べやすく切り、水気をよくきる。\n②人参（みそ汁にも使用）は細切りにしてゆで、水気をきる。\n③味付けポン酢で①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "春雨",
-          "qty1_raw": "8ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 8.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "8ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（焼麩・人参）",
-        "method": "①人参（サラダにも使用）はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、焼麩を加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 249.00kcal　蛋白質 13.90g　脂質 12.00g　炭水化物 21.10g　食塩相当量 3.10g",
-      "photo": "photos/e803a0759364.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "あじの煮付け",
-        "method": "①生姜は薄切りにする。\n②鍋に水、調味料、生姜、凍ったままの魚を入れて落とし蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "あじ（60g）（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         },
-         {
-          "name": "生姜",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "10ｇ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "40ｍｌ",
-          "qty3_raw": "120ｍｌ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "40ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "じゃが芋の炒めもの",
-        "method": "①じゃが芋は半月又いちょう切りにし、水にさらして固めにゆでる。焼ちくわは縦半分に切って斜め切りにする。\n②フライパンに油を熱して①、枝豆を炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "焼ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "むき枝豆（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "カリフラワーのサラダ",
-        "method": "①人参は半月又いちょう切りしてゆで（途中、凍ったままのカリフラワーを加える）、水気をきる。\n②お好みのドレッシングで①をあえる。",
-        "ingredients": [
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　お好みのドレッシング",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（卵・玉葱）",
-        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、みそを溶かし入れ、溶き卵を流し入れて加熱する。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1/3コ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "卵"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 263.00kcal　蛋白質 20.30g　脂質 10.20g　炭水化物 24.50g　食塩相当量 2.80g",
-      "photo": "photos/0c42c36d438b.jpg"
-     }
-    },
-    "day_total": "エネルギー 670kcal\n蛋白質 44.7g\n脂質 30.9g\n炭水化物 57.7g\n食塩相当量 7.6g"
-   },
-   "2026-11-10": {
-    "short_label": "11/10（火）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "さつま芋の炒めもの",
-        "method": "①さつま芋は半月又いちょう切りにして水にさらし、固めにゆでる。貝割大根は食べやすく切る。\n②フライパンに油を熱して豚肉を炒め、①を加えて更に炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "豚コマ",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "さつま芋",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "貝割大根（冷蔵）",
-          "qty1_raw": "1/12ﾊﾟｯｸ",
-          "qty3_raw": "1/4ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/12ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "白菜のあっさり煮",
-        "method": "①白菜は食べやすく切り、人参は半月又いちょう切りにする。\n②鍋に水、鶏がらスープの素、しょうゆ、人参を入れて煮立て、白菜を加えて煮、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（焼麩・太葱）",
-        "method": "①太葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、焼麩を加えて煮、みそを溶かし入れ、①を散らす。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 173.00kcal　蛋白質 6.70g　脂質 7.60g　炭水化物 22.10g　食塩相当量 2.00g",
-      "photo": "photos/8cb023caa43f.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "たらの蒲焼き",
-        "method": "①凍ったままの魚に酒、塩を振っておく。\n②凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n③さとう、酒、しょうゆ、みりんを合わせておく。\n④フライパンに油を熱して水気を押さえて小麦粉をまぶした魚を焼き、③の合わせたたれを加えてからめ、②を添える。",
-        "ingredients": [
-         {
-          "name": "助宗たら切身（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　小麦粉",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "ほうれん草（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "鶏五目ご飯",
-        "method": "①混ぜ御飯の素は流水解凍する。\n②温かいご飯に混ぜ御飯の素を汁ごと混ぜ合わせる。",
-        "ingredients": [
-         {
-          "name": "鶏五目混ぜ御飯の素（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　ご飯",
-          "qty1_raw": "約150ｇ",
-          "qty3_raw": "約450ｇ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｇ",
-           "approx": true,
-           "raw": "約150ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "キャベツのサラダ",
-        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切りにして共にゆで、水気を絞る。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　マヨネーズ",
-          "qty1_raw": "5.3ｇ",
-          "qty3_raw": "大1 1/3",
-          "qty1_parsed": {
-           "value": 5.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（なす・細葱）",
-        "method": "①細葱は小口切り、なすは半月切りにして水にさらす。\n②鍋にだし汁を入れて煮立て、なすを加えて煮、みそを溶かし入れ、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "なす",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 217.00kcal　蛋白質 15.50g　脂質 10.30g　炭水化物 17.20g　食塩相当量 3.20g",
-      "photo": "photos/95e09d32b035.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "鶏肉のプルコギソース炒め",
-        "method": "①鶏肉は解凍する。\n②もやしは食べやすく切り、人参は半月又いちょう切りにする。\n③フライパンに油を熱して鶏肉、人参を炒め、もやしを加えて更に炒める。",
-        "ingredients": [
-         {
-          "name": "鶏肉のプルコギソース炒め（冷凍）",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
-          "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "80ｇ"
-          }
-         },
-         {
-          "name": "もやし（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "ブロッコリーの煮もの",
-        "method": "①ウインナーは斜め切りにする。\n②鍋にだし汁、調味料を入れて煮立て、①、凍ったままのブロッコリーを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "ウインナー",
-          "qty1_raw": "2/3本",
-          "qty3_raw": "2本",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "本",
-           "approx": false,
-           "raw": "2/3本"
-          }
-         },
-         {
-          "name": "ブロッコリー（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "大根のしそあえ",
-        "method": "①青じその葉はせん切りにし、水にさらす。大根は薄い半月又いちょう切りにし、ゆでて水気を絞る。\n②調味料で①をあえる。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "青じその葉（冷蔵）",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "鶏がらスープ（わかめ・グリンピース）",
-        "method": "①鍋に水、鶏がらスープの素を入れて煮立て、わかめ、グリンピースを加えて煮、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "グリンピース（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 236.00kcal　蛋白質 17.20g　脂質 11.00g　炭水化物 18.10g　食塩相当量 3.00g",
-      "photo": "photos/4ca58a49689b.jpg"
-     }
-    },
-    "day_total": "エネルギー 626kcal\n蛋白質 39.4g\n脂質 28.9g\n炭水化物 57.4g\n食塩相当量 8.2g"
-   },
-   "2026-11-11": {
-    "short_label": "11/11（水）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "焼ちくわとれんこんの煮もの",
-        "method": "①人参は半月又いちょう切りにし、焼ちくわは縦半分に切って斜め切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、焼ちくわ、凍ったままのれんこんを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "焼ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "れんこん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "納豆",
-        "method": "①流水解凍し、しょうゆをかける。",
-        "ingredients": [
-         {
-          "name": "極小粒納豆（冷凍）",
-          "qty1_raw": "1ﾊﾟｯｸ",
-          "qty3_raw": "3ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（キャベツ・細葱）",
-        "method": "①細葱は小口切り、キャベツは食べやすく切る。\n②鍋にだし汁を入れて煮立て、キャベツを加えて煮、みそを溶かし入れ、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 143.00kcal　蛋白質 8.20g　脂質 4.00g　炭水化物 19.20g　食塩相当量 2.60g",
-      "photo": "photos/2a8359a0c715.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏肉とじゃが芋の洋風煮",
-        "method": "①じゃが芋、人参は共に一口大に切り、じゃが芋は水にさらす。鶏肉は食べやすく切る。\n②鍋に水、コンソメ、さとう、酒、じゃが芋、人参を入れて煮立て、鶏肉を加えて蓋をして煮、塩、黒こしょうで味を調え、バターを加えてからめる。",
-        "ingredients": [
-         {
-          "name": "若鶏モモ肉",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "0.2ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.2,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　粗びき黒こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "　バター又マーガリン",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "大根ソテー",
-        "method": "①大根は薄い半月又いちょう切りにし、ベーコンは短冊切りにする。\n②フライパンに油を熱して①を炒め、調味料で味を調える。",
-        "ingredients": [
-         {
-          "name": "ベーコン",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "乳成分 卵"
-        ]
-       },
-       {
-        "name": "白菜とわかめのサラダ",
-        "method": "①白菜は食べやすく切ってゆで、水気を絞る。わかめは水につけて戻す。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "ミネストローネ",
-        "method": "①鍋に水、コンソメを入れて煮立て、シェルマカロニを加えて約10分煮、ケチャップ、塩、こしょうで味を調え、パセリを散らす。",
-        "ingredients": [
-         {
-          "name": "シェルマカロニ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "乾燥パセリ",
-          "qty1_raw": "1/3袋",
-          "qty3_raw": "1袋",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/3袋"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　トマトケチャップ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 306.00kcal　蛋白質 13.30g　脂質 17.50g　炭水化物 28.80g　食塩相当量 2.70g",
-      "photo": "photos/b17970a70c20.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉の炭火風焼き",
-        "method": "①コーンはゆでて水気をきる。\n②豚肉は食べやすく切る。\n③フライパンに油を熱して②を焼き、たれ（お好みで加減）を加えてからめ、①を添える。",
-        "ingredients": [
-         {
-          "name": "豚切り落とし肉",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "炭火風しょうゆだれ",
-          "qty1_raw": "1/2袋",
-          "qty3_raw": "1 1/2袋",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/2袋"
-          }
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "レタスのシャキシャキサラダ",
-        "method": "①レタスは食べやすく切る。かに風味かまぼこは半分に切ってほぐしてゆで、水気をきる。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "かに風味かまぼこ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "レタス又葉野菜（冷蔵）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/4",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "2.6ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 2.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       },
-       {
-        "name": "里芋の煮ころがし",
-        "method": "①人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、凍ったままの里芋を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "里芋（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（えのき茸・太葱）",
-        "method": "①太葱は小口切りにし、えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れ、太葱を散らす。",
-        "ingredients": [
-         {
-          "name": "えのき茸（冷蔵）",
-          "qty1_raw": "16.66ｇ",
-          "qty3_raw": "50ｇ",
-          "qty1_parsed": {
-           "value": 16.66,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "16.66ｇ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 273.00kcal　蛋白質 15.20g　脂質 16.50g　炭水化物 18.10g　食塩相当量 2.70g",
-      "photo": "photos/1a04eb048b3e.jpg"
-     }
-    },
-    "day_total": "エネルギー 722kcal\n蛋白質 36.7g\n脂質 38.0g\n炭水化物 66.1g\n食塩相当量 8.0g"
-   },
-   "2026-11-12": {
-    "short_label": "11/12（木）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "炒り豆腐",
-        "method": "①豆腐は適当な大きさに切り、充分に水気をきる。\n②人参は半月又いちょう切りにする。\n③フライパンに油を熱して②、凍ったままのチンゲン菜を炒め、だし汁を加え、豆腐を崩しながら加えて更に炒める。\n④調味料を加えて汁気がなくなるまで炒める｡",
-        "ingredients": [
-         {
-          "name": "豆腐",
-          "qty1_raw": "1/3ﾊﾟｯｸ",
-          "qty3_raw": "1ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/3ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "チンゲン菜（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "16.6ｍｌ",
-          "qty3_raw": "50ｍｌ",
-          "qty1_parsed": {
-           "value": 16.6,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "16.6ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "いんげんのマヨあえ",
-        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままのいんげんを加える）、水気をきる。\n②調味料で①をあえる。",
-        "ingredients": [
-         {
-          "name": "いんげん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　マヨネーズ",
-          "qty1_raw": "5.3ｇ",
-          "qty3_raw": "大1 1/3",
-          "qty1_parsed": {
-           "value": 5.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（大根・わかめ）",
-        "method": "①大根はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、わかめを加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 195.00kcal　蛋白質 10.10g　脂質 13.40g　炭水化物 12.60g　食塩相当量 2.40g",
-      "photo": "photos/71713b8f58a4.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "厚切りハムステーキカツ",
-        "method": "①グリーンリーフは食べやすく切る。\n②カツは凍ったまま約170℃の揚げ油で揚げ（5人用約4分）、器に盛り、ソースをかけて①を添える。",
-        "ingredients": [
-         {
-          "name": "厚切りハムステーキカツ（冷凍）",
-          "qty1_raw": "1枚",
-          "qty3_raw": "3枚",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1枚"
-          }
-         },
-         {
-          "name": "　揚げ油",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "　ソース",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "ｸﾞﾘｰﾝﾘｰﾌ又葉野菜（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "もやしのかき玉煮",
-        "method": "①もやしは食べやすく切る。\n②鍋にだし汁、調味料を入れて煮立て、①を加えて煮、溶き卵を流し入れて加熱する。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1/3コ"
-          }
-         },
-         {
-          "name": "もやし（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "卵"
-        ]
-       },
-       {
-        "name": "ブロッコリーのサラダ",
-        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n②お好みのドレッシングで①をあえる。",
-        "ingredients": [
-         {
-          "name": "ブロッコリー（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　お好みのドレッシング",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（オクラ・太葱）",
-        "method": "①太葱、オクラは共に小口切りにする。\n②鍋にだし汁を入れて煮立て、オクラを加えて煮、みそを溶かし入れ、太葱を散らす。",
-        "ingredients": [
-         {
-          "name": "オクラ（冷蔵）",
-          "qty1_raw": "2/3本",
-          "qty3_raw": "2本",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "本",
-           "approx": false,
-           "raw": "2/3本"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 313.00kcal　蛋白質 15.00g　脂質 14.40g　炭水化物 32.70g　食塩相当量 3.60g",
-      "photo": "photos/0ef2c4e7781b.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "焼き鳥丼",
-        "method": "①玉葱は薄切りにする。鶏肉は食べやすく切り、合わせた調味料につけておく。\n②フライパンに油を熱して玉葱、鶏肉（つけ汁はとっておく）を焼き、つけ汁を加えてからめる。\n③丼に温かいご飯を盛り、②をのせる。",
-        "ingredients": [
-         {
-          "name": "若鶏ムネ肉",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "かぼちゃのあえもの",
-        "method": "①かぼちゃはところどころ皮をむいて一口大に切り、油揚げは短冊切りにして共にゆで、水気をきる。\n②だし汁、鶏がらスープの素を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "油揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "かぼちゃ（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "3.3ｍｌ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "3.3ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "カリフラワーの煮もの",
-        "method": "①鍋にだし汁、調味料を入れて煮立て、凍ったままのカリフラワー、枝豆を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "むき枝豆（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "40ｍｌ",
-          "qty3_raw": "120ｍｌ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "40ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（白菜・細葱）",
-        "method": "①細葱は小口切り、白菜は食べやすく切る。\n②鍋にだし汁を入れて煮立て、白菜を加えて煮、みそを溶かし入れ、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 253.00kcal　蛋白質 19.80g　脂質 10.80g　炭水化物 21.50g　食塩相当量 2.90g",
-      "photo": "photos/4838109f5fd5.jpg"
-     }
-    },
-    "day_total": "エネルギー 761kcal\n蛋白質 44.9g\n脂質 38.6g\n炭水化物 66.8g\n食塩相当量 8.9g"
-   },
-   "2026-11-13": {
-    "short_label": "11/13（金）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "オムレツ",
-        "method": "①玉葱は薄切り、ピーマンは細切りにする。\n②溶き卵に塩、こしょうを混ぜる。\n③フライパンに油を熱して①を炒め、②を流し入れて大きく混ぜ、蓋をして両面を焼き、食べやすく切り、ケチャップをかける。\n\n◎一度に焼いて人数分に切り分ければ、簡単にできます（フライパンの大きさにより加減してください）。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "ピーマン（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　トマトケチャップ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "卵"
-        ]
-       },
-       {
-        "name": "レタスのさっと煮",
-        "method": "①レタスは食べやすく切り、人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、火が通ったらレタスを加えてさっと煮る。",
-        "ingredients": [
-         {
-          "name": "レタス（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "スープ（焼麩・グリンピース）",
-        "method": "①鍋に水、コンソメ、酒を入れて煮立て、焼麩、グリンピースを加えて煮、塩、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "グリンピース（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 153.00kcal　蛋白質 7.80g　脂質 9.30g　炭水化物 9.70g　食塩相当量 2.20g",
-      "photo": "photos/54e469aaee1d.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "大阪王将 羽根つき餃子",
-        "method": "①フライパンに凍ったままの餃子を並べ、火をつける。\n②中火で約5分焼く。\n③中火のまま水気をとばし羽根全体に焼き色をつける。餃子の周りがキツネ色になってきたら様子を見ながら調整する。\n④調味料を合わせ、③に添える。\n\n\n◎油・水を使用せずに焼くことができます。傷やはがれ等のあるフライパンを使用する際は少量の油をひいてください。",
-        "ingredients": [
-         {
-          "name": "大阪王将　羽根つき餃子（冷凍）",
-          "qty1_raw": "5コ",
-          "qty3_raw": "15コ",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "5コ"
-          }
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "白はんぺんと胡瓜のあえもの",
-        "method": "①胡瓜は小口切りにして塩もみし、水気を絞る。白はんぺんは解凍して短冊切りにする。玉葱は薄切りにしてゆで、水気を絞る。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "白はんぺん（冷凍）",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "胡瓜（冷蔵）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "大根の煮もの",
-        "method": "①大根、人参は共に半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "鶏がらスープ（小松菜・細葱）",
-        "method": "①細葱は小口切りにする。\n②鍋に水、鶏がらスープの素、しょうゆを入れて煮立て、凍ったままの小松菜を加えて煮、こしょうで味を調え、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "1.25ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.25,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.25ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 289.00kcal　蛋白質 8.40g　脂質 12.40g　炭水化物 36.40g　食塩相当量 4.00g",
-      "photo": "photos/cf5cab8c9884.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉とほうれん草の煮もの",
-        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、豚肉、凍ったままのほうれん草を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "豚コマ",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "ほうれん草（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "9ｇ",
-          "qty3_raw": "大1 1/2",
-          "qty1_parsed": {
-           "value": 9.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "9ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "五目揚げとれんこんの炒めもの",
-        "method": "①五目揚げは短冊切りにする。\n②フライパンに油を熱して①、凍ったままのれんこんを炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "五目揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "れんこん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "さつま芋のあえもの",
-        "method": "①さつま芋、人参は半月又いちょう切りにし、さつま芋は水にさらして共にゆで、水気をきる。\n②調味料で①をあえる。",
-        "ingredients": [
-         {
-          "name": "さつま芋",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　マヨネーズ",
-          "qty1_raw": "5.3ｇ",
-          "qty3_raw": "大1 1/3",
-          "qty1_parsed": {
-           "value": 5.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（わかめ・太葱）",
-        "method": "①太葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、わかめを加えて煮、みそを溶かし入れ、太葱を散らす。",
-        "ingredients": [
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 325.00kcal　蛋白質 16.00g　脂質 16.60g　炭水化物 32.50g　食塩相当量 3.50g",
-      "photo": "photos/b529047e4a5a.jpg"
-     }
-    },
-    "day_total": "エネルギー 767kcal\n蛋白質 32.2g\n脂質 38.3g\n炭水化物 78.6g\n食塩相当量 9.7g"
-   },
-   "2026-11-14": {
-    "short_label": "11/14（土）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "鶏肉と白菜の炒め煮",
-        "method": "①白菜は食べやすく切り、人参は半月又いちょう切りにする。\n②鍋に油を熱して①、鶏肉を炒め、だし汁、調味料を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "若鶏コマ",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "なすのあえもの",
-        "method": "①なすは縦半分に切って斜め切りにして水にさらし、玉葱は薄切りにして共にゆで、水気を絞る。\n②調味料で①をあえる。",
-        "ingredients": [
-         {
-          "name": "なす",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（キャベツ・細葱）",
-        "method": "①細葱は小口切り、キャベツは食べやすく切る。\n②鍋にだし汁を入れて煮立て、キャベツを加えて煮、みそを溶かし入れ、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 125.00kcal　蛋白質 7.30g　脂質 7.00g　炭水化物 10.80g　食塩相当量 1.70g",
-      "photo": "photos/7510209adab1.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "豚肉といんげんの炒めもの",
-        "method": "①玉葱は薄切りにする。\n②豚肉は酒、しょうゆ、片栗粉をもみ込む。\n③フライパンに油を熱して①、②を炒め、凍ったままのいんげんを加えて更に炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "豚コマ",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　片栗粉",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "いんげん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "ちくわとじゃが芋のあえもの",
-        "method": "①じゃが芋は半月又いちょう切りにして水にさらし、ちくわは小口切りにして共にゆで、水気をきる。\n②調味料で①をあえる。",
-        "ingredients": [
-         {
-          "name": "ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "　マヨネーズ",
-          "qty1_raw": "5.3ｇ",
-          "qty3_raw": "大1 1/3",
-          "qty1_parsed": {
-           "value": 5.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "チンゲン菜の煮もの",
-        "method": "①人参は半月又いちょう切りにする。\n②鍋に水、鶏がらスープの素、しょうゆ、①を入れて煮立て、凍ったままのチンゲン菜を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "チンゲン菜（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "40ｍｌ",
-          "qty3_raw": "120ｍｌ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "40ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小 1/2",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（焼麩・太葱）",
-        "method": "①太葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、焼麩を加えて煮、みそを溶かし入れ、①を散らす。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 261.00kcal　蛋白質 14.20g　脂質 16.00g　炭水化物 20.00g　食塩相当量 2.50g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/3bcbfcd1d3ca.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "鶏肉の田楽みそ焼き",
-        "method": "①鶏肉は食べやすく切る。\n②田楽みそ（お好みで加減）、酒を合わせておく。\n③フライパンに油を熱して鶏肉を焼き、火が通ったら②を加えてからめ、器に盛り、ミニトマトを添える。",
-        "ingredients": [
-         {
-          "name": "若鶏ムネ肉",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
-          "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "80ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "田楽みそ",
-          "qty1_raw": "2/3袋",
-          "qty3_raw": "2袋",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "袋",
-           "approx": false,
-           "raw": "2/3袋"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "ミニトマト（冷蔵）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "オクラのそぼろ煮",
-        "method": "①鍋にだし汁、調味料を入れて煮立て、ひき肉、凍ったままのオクラを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "豚ひき肉",
-          "qty1_raw": "15ｇ",
-          "qty3_raw": "45ｇ",
-          "qty1_parsed": {
-           "value": 15.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "15ｇ"
-          }
-         },
-         {
-          "name": "オクラ刻み（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "40ｍｌ",
-          "qty3_raw": "120ｍｌ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "40ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "大根の二色サラダ",
-        "method": "①大根は薄い半月又いちょう切りにし、コーンと共にゆで、水気を絞る。\n②味付けポン酢で①をあえる。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "すまし汁（とろろ昆布・人参）",
-        "method": "①人参はいちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮、椀に盛り、とろろ昆布をのせる。",
-        "ingredients": [
-         {
-          "name": "とろろ昆布（粉末）",
-          "qty1_raw": "2/3袋",
-          "qty3_raw": "2袋",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "袋",
-           "approx": false,
-           "raw": "2/3袋"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 257.00kcal　蛋白質 22.70g　脂質 11.60g　炭水化物 17.20g　食塩相当量 2.20g",
-      "photo": "photos/8d8362f97f8a.jpg"
-     }
-    },
-    "day_total": "エネルギー 643kcal\n蛋白質 44.2g\n脂質 34.6g\n炭水化物 48.0g\n食塩相当量 6.4g"
-   },
-   "2026-11-15": {
-    "short_label": "11/15（日）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "刻み昆布の煮もの",
-        "method": "①刻み昆布は水につけて戻し、食べやすく切る。人参は半月又いちょう切り、五目揚げは短冊切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、刻み昆布、五目揚げを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "五目揚げ",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "刻み昆布",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "15ｇ",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "40ｍｌ",
-          "qty3_raw": "120ｍｌ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "40ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "かぼちゃのバター醤油炒め",
-        "method": "①かぼちゃ、玉葱は共に薄切りにする。\n②フライパンにバターを熱して①を炒め、しょうゆで調味する。",
-        "ingredients": [
-         {
-          "name": "かぼちゃ（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　バター又マーガリン",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（えのき茸・太葱）",
-        "method": "①太葱は小口切りにし、えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れ、太葱を散らす。",
-        "ingredients": [
-         {
-          "name": "えのき茸（冷蔵）",
-          "qty1_raw": "16.66ｇ",
-          "qty3_raw": "50ｇ",
-          "qty1_parsed": {
-           "value": 16.66,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "16.66ｇ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 140.00kcal　蛋白質 6.40g　脂質 4.40g　炭水化物 22.80g　食塩相当量 2.90g",
-      "photo": "photos/40e60f9b2b34.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏肉のみぞれうどん",
-        "method": "①大根はおろして軽く水気をきる。\n②ぶなしめじは食べやすく切り、人参は半月又いちょう切りにする。\n③鍋にだし汁、調味料、人参を入れて煮立て、鶏肉、ぶなしめじを加えて煮、つゆを作る。\n④うどんはさっと熱湯でゆで、水気をきって器に盛る。\n⑤④に③のつゆをかけ、①をのせる。",
-        "ingredients": [
-         {
-          "name": "ゆでうどん",
-          "qty1_raw": "1玉",
-          "qty3_raw": "3玉",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "玉",
-           "approx": false,
-           "raw": "1玉"
-          }
-         },
-         {
-          "name": "若鶏コマ",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "ぶなしめじ（冷蔵）",
-          "qty1_raw": "1/6ﾊﾟｯｸ",
-          "qty3_raw": "1/2ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.16666666666666666,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/6ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "300ｍｌ",
-          "qty3_raw": "900ｍｌ",
-          "qty1_parsed": {
-           "value": 300.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "300ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.6ｇ",
-          "qty3_raw": "小 1/3",
-          "qty1_parsed": {
-           "value": 0.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "18ｇ",
-          "qty3_raw": "大3",
-          "qty1_parsed": {
-           "value": 18.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "18ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "18ｇ",
-          "qty3_raw": "大3",
-          "qty1_parsed": {
-           "value": 18.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "18ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "カリフラワーの信田炒め",
-        "method": "①油揚げは短冊切りにする。\n②フライパンに油を熱して①、凍ったままのカリフラワー、グリンピースを炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "油揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "グリンピース（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "白菜のあえもの",
-        "method": "①白菜は食べやすく切り、玉葱は薄切りにして共にゆで、水気を絞る。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 390.00kcal　蛋白質 19.40g　脂質 10.90g　炭水化物 57.90g　食塩相当量 2.80g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/7b9b8c8643ad.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "かれいの塩レモンマリネ風",
-        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n②ソース（お好みで加減）、オリーブ油、黒こしょうを合わせる。\n③フライパンに多めの油（1cmくらい）を熱し、凍ったままの魚を揚げ焼き、熱いうちに①と共に②に漬ける。",
-        "ingredients": [
-         {
-          "name": "骨取りかれい＜粉付＞（冷凍）",
-          "qty1_raw": "3切",
-          "qty3_raw": "9切",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "3切"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "ブロッコリー（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "塩レモンソース",
-          "qty1_raw": "1/3袋",
-          "qty3_raw": "1袋",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/3袋"
-          }
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　粗びき黒こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "キャベツのかに風味煮",
-        "method": "①キャベツは食べやすく切り、かに風味かまぼこは半分に切ってほぐす。\n②鍋にだし汁、調味料を入れて煮立て、①を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "かに風味かまぼこ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       },
-       {
-        "name": "里芋のあえもの",
-        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままの里芋を加える）、水気をきる。\n②お好みのドレッシングで①をあえる。",
-        "ingredients": [
-         {
-          "name": "里芋（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　お好みのドレッシング",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "スープ（焼麩・わかめ）",
-        "method": "①鍋に水、コンソメ、酒を入れて煮立て、焼麩、わかめを加えて煮、塩、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 203.00kcal　蛋白質 12.50g　脂質 5.30g　炭水化物 27.20g　食塩相当量 3.30g",
-      "photo": "photos/6f0130fcd636.jpg"
-     }
-    },
-    "day_total": "エネルギー 733kcal\n蛋白質 38.3g\n脂質 20.6g\n炭水化物 107.9g\n食塩相当量 9.0g"
-   },
    "2026-11-16": {
     "short_label": "11/16（月）",
     "meals": {
@@ -27375,45 +21932,27 @@ const COURSES = {
      }
     },
     "day_total": "エネルギー 687kcal\n蛋白質 30.0g\n脂質 35.7g\n炭水化物 67.2g\n食塩相当量 8.9g"
-   }
-  }
- },
- "kantan": {
-  "label": "簡単おかず",
-  "color": "FFC000",
-  "has_recipe": true,
-  "global_note": "※ご飯の栄養量は含まれません　※写真は盛付例です ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
-  "seasonal_note": null,
-  "days": {
-   "2026-11-09": {
-    "short_label": "11/9（月）",
+   },
+   "2026-12-14": {
+    "short_label": "12/14（月）",
     "meals": {
      "朝食": {
       "dishes": [
        {
-        "name": "チャンプルー",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "name": "いんげんのコンソメ煮",
+        "method": "①玉葱は薄切りにする。\n②鍋に水、コンソメ、酒、①を入れて煮立て、ひき肉、凍ったままのいんげんを加えて煮、塩、こしょうで調味する。",
         "ingredients": [
          {
-          "name": "チャンプルー（冷凍）",
-          "qty1_raw": "56ｇ",
-          "qty3_raw": "168ｇ",
+          "name": "鶏ひき肉",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
           "qty1_parsed": {
-           "value": 56.0,
+           "value": 20.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "56ｇ"
+           "raw": "20ｇ"
           }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "いんげんのサラダ",
-        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのいんげんを加える）、水気をきる。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
+         },
          {
           "name": "いんげん（冷凍）",
           "qty1_raw": "30ｇ",
@@ -27426,95 +21965,6 @@ const COURSES = {
           }
          },
          {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（オクラ・玉葱）",
-        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、凍ったままのオクラを加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "オクラ刻み（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
           "name": "玉葱",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
@@ -27526,597 +21976,38 @@ const COURSES = {
           }
          },
          {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
           "qty1_parsed": {
-           "value": 150.0,
+           "value": 60.0,
            "unit": "ｍｌ",
            "approx": false,
-           "raw": "150ｍｌ"
+           "raw": "60ｍｌ"
           },
           "own": true
          },
          {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
           "qty1_parsed": {
-           "value": 6.0,
+           "value": 1.1,
            "unit": "ｇ",
            "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 123.00kcal　蛋白質 4.30g　脂質 6.10g　炭水化物 14.30g　食塩相当量 1.70g",
-      "photo": "photos/947f8afebc2f.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏の竜田揚げ",
-        "method": "①コーンはゆでて水気をきる。\n②竜田揚げは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約18～20分）、①を添える。",
-        "ingredients": [
-         {
-          "name": "やわらか若鶏竜田揚げ（冷凍）",
-          "qty1_raw": "90ｇ",
-          "qty3_raw": "270ｇ",
-          "qty1_parsed": {
-           "value": 90.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "90ｇ"
-          }
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "春雨の含め煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
-        "ingredients": [
-         {
-          "name": "春雨の含め煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "小松菜の炒めもの",
-        "method": "①玉葱は薄切りにする。\n②フライパンに油を熱して①を炒め、凍ったままの小松菜を加えて更に炒め、塩、こしょうで調味する。",
-        "ingredients": [
-         {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 296.00kcal　蛋白質 13.50g　脂質 18.00g　炭水化物 22.00g　食塩相当量 2.20g",
-      "photo": "photos/6aa342abee01.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "さばのカレー煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8分）。",
-        "ingredients": [
-         {
-          "name": "さばカレー煮（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "ほうれん草とツナのあえもの",
-        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのほうれん草を加える）、水に取って水気を絞る。\n②ツナフレーク油漬は油をきっておく。\n③調味料で①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "ツナフレーク油漬（70g）",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1/3コ"
-          }
-         },
-         {
-          "name": "ほうれん草（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "金時豆",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "金時豆煮（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 263.00kcal　蛋白質 15.40g　脂質 15.30g　炭水化物 13.80g　食塩相当量 1.20g",
-      "photo": "photos/74e55092c3e3.jpg"
-     }
-    },
-    "day_total": "エネルギー 682kcal\n蛋白質 33.2g\n脂質 39.4g\n炭水化物 50.1g\n食塩相当量 5.1g"
-   },
-   "2026-11-10": {
-    "short_label": "11/10（火）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "野菜さつま揚げ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "野菜さつま揚げ（冷凍）",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵 えび"
-        ]
-       },
-       {
-        "name": "白菜の煮もの",
-        "method": "①白菜、貝割大根は共に食べやすく切る。\n②鍋にだし汁、調味料を煮立て、①を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "貝割大根（冷蔵）",
-          "qty1_raw": "1/12ﾊﾟｯｸ",
-          "qty3_raw": "1/4ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/12ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
+           "raw": "1.1ｇ"
           },
           "own": true
          },
          {
           "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/4",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（焼麩・太葱）",
-        "method": "①太葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、焼麩を加えて煮、みそを溶かし入れ、①を散らす。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 111.00kcal　蛋白質 5.20g　脂質 4.80g　炭水化物 13.00g　食塩相当量 2.20g",
-      "photo": "photos/d8f3165593ff.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "牛肉とごぼうのしぐれ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
-        "ingredients": [
-         {
-          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "冬瓜の生姜あんかけ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "冬瓜の生姜あんかけ(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "キャベツのだしじょうゆあえ",
-        "method": "①キャベツは食べやすく切り、玉葱は薄切りにして共にゆで、水気を絞る。\n②だし汁、しょうゆを合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "3.3ｍｌ",
+          "qty1_raw": "3.3ｇ",
           "qty3_raw": "大 2/3",
           "qty1_parsed": {
            "value": 3.3,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "3.3ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 220.00kcal　蛋白質 5.50g　脂質 9.60g　炭水化物 27.30g　食塩相当量 2.10g",
-      "photo": "photos/746d84b04950.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "鶏団子のトマト煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "鶏団子のトマト煮（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "もやしの炒めもの",
-        "method": "①もやしは食べやすく切り、ピーマンは細切り、ベーコンは短冊切りにする。\n②フライパンに油を熱して①を炒め、塩、こしょうで調味する。",
-        "ingredients": [
-         {
-          "name": "ベーコン",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "もやし（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "ピーマン（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
+           "raw": "3.3ｇ"
           },
           "own": true
          },
@@ -28145,57 +22036,12 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": [
-         "乳成分 卵"
-        ]
+        "allergens": []
        },
        {
-        "name": "ブロッコリーのくるみあえ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "name": "れんこんサラダ",
+        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのれんこんを加える）、水気をきる。\n②調味料を合わせ、①をあえる。",
         "ingredients": [
-         {
-          "name": "ブロッコリーのくるみあえ（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 くるみ"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 239.00kcal　蛋白質 9.70g　脂質 16.80g　炭水化物 14.00g　食塩相当量 1.70g",
-      "photo": "photos/fd8fbba35fd8.jpg"
-     }
-    },
-    "day_total": "エネルギー 570kcal\n蛋白質 20.4g\n脂質 31.2g\n炭水化物 54.3g\n食塩相当量 6.0g"
-   },
-   "2026-11-11": {
-    "short_label": "11/11（水）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "焼ちくわとれんこんの炒めもの",
-        "method": "①人参は半月又いちょう切り、焼ちくわは縦半分に切って斜め切りにする。\n②フライパンに油を熱して人参を炒め、焼ちくわ、凍ったままのれんこんを加えて更に炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "焼ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
          {
           "name": "れんこん（冷凍）",
           "qty1_raw": "30ｇ",
@@ -28219,6 +22065,254 @@ const COURSES = {
           }
          },
          {
+          "name": "　塩",
+          "qty1_raw": "0.5ｇ",
+          "qty3_raw": "小 1/4",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "2.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "ミネストローネ",
+        "method": "①鍋に水、コンソメを入れて煮立て、コーンを加えて煮、ケチャップ、塩、こしょうで味を調え、パセリを散らす。",
+        "ingredients": [
+         {
+          "name": "カーネルコーン（冷凍）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "乾燥パセリ",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　トマトケチャップ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 123.00kcal　蛋白質 5.40g　脂質 5.50g　炭水化物 13.90g　食塩相当量 2.30g",
+      "photo": "photos/b7e67e5b835f.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "豚肉とカリフラワーの煮もの",
+        "method": "①人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、豚肉、凍ったままのカリフラワーを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "カリフラワー（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "40ｍｌ",
+          "qty3_raw": "120ｍｌ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "40ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "3.3ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 3.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "8ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 8.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "8ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "小松菜の炒めもの",
+        "method": "①白はんぺんは解凍して短冊切りにする。\n②フライパンに油を熱して①、凍ったままの小松菜を炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "白はんぺん（冷凍）",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
           "name": "　油",
           "qty1_raw": "4ｇ",
           "qty3_raw": "大1",
@@ -28227,6 +22321,18 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
           },
           "own": true
          },
@@ -28243,14 +22349,26 @@ const COURSES = {
           "own": true
          },
          {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
           "qty1_parsed": {
-           "value": 3.0,
+           "value": 0.3,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3ｇ"
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
           },
           "own": true
          }
@@ -28260,11 +22378,11 @@ const COURSES = {
         ]
        },
        {
-        "name": "モロヘイヤのお浸し",
-        "method": "①流水解凍する。",
+        "name": "里芋のドレッシングあえ",
+        "method": "①凍ったままの里芋、枝豆は共にゆで、水気をきる。\n②お好みのドレッシングで①をあえる。",
         "ingredients": [
          {
-          "name": "モロヘイヤのお浸し(冷凍)",
+          "name": "里芋（冷凍）",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -28273,18 +22391,50 @@ const COURSES = {
            "approx": false,
            "raw": "30ｇ"
           }
+         },
+         {
+          "name": "むき枝豆（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
          }
         ],
-        "allergens": [
-         "小麦"
-        ]
+        "allergens": []
        },
        {
-        "name": "みそ汁（キャベツ・細葱）",
-        "method": "①細葱は小口切り、キャベツは食べやすく切る。\n②鍋にだし汁を入れて煮立て、キャベツを加えて煮、みそを溶かし入れ、細葱を散らす。",
+        "name": "みそ汁（焼麩・玉葱）",
+        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、焼麩を加えて煮、みそを溶かし入れる。",
         "ingredients": [
          {
-          "name": "キャベツ（冷蔵）",
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "玉葱",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
           "qty1_parsed": {
@@ -28292,17 +22442,6 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
           }
          },
          {
@@ -28330,49 +22469,150 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": []
+        "allergens": [
+         "小麦"
+        ]
        }
       ],
-      "nutrition": "エネルギー 126.00kcal　蛋白質 4.20g　脂質 5.30g　炭水化物 16.50g　食塩相当量 2.00g",
-      "photo": "photos/e4df4393f88c.jpg"
+      "nutrition": "エネルギー 247.00kcal　蛋白質 16.00g　脂質 12.50g　炭水化物 19.10g　食塩相当量 3.20g",
+      "photo": "photos/c865d9a6a155.jpg"
      },
-     "昼食": {
+     "夕食": {
       "dishes": [
        {
-        "name": "親子丼",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約15分）、温かいご飯にのせる。",
+        "name": "鶏肉のバタポン焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②鶏肉は食べやすく切り、塩、黒こしょうをもみ込む。\n③フライパンにバターを熱して鶏肉を焼き、火が通ったら味付けポン酢で調味し、①を添える。",
         "ingredients": [
          {
-          "name": "親子丼の具（冷凍）",
-          "qty1_raw": "90ｇ",
-          "qty3_raw": "270ｇ",
+          "name": "若鶏ムネ肉",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
           "qty1_parsed": {
-           "value": 90.0,
+           "value": 80.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "90ｇ"
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　粗びき黒こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "　バター又マーガリン",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　味付けポン酢",
+          "qty1_raw": "12ｇ",
+          "qty3_raw": "大2",
+          "qty1_parsed": {
+           "value": 12.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "12ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
           }
          }
         ],
-        "allergens": [
-         "小麦 卵"
-        ]
+        "allergens": []
+       },
+       {
+        "name": "くずし豆腐のサラダ",
+        "method": "①凍ったままのオクラはゆでて、水気をきる。\n②調味料を合わせ、軽く水気をきって手で崩した豆腐、①をあえる。",
+        "ingredients": [
+         {
+          "name": "豆腐",
+          "qty1_raw": "1/3ﾊﾟｯｸ",
+          "qty3_raw": "1ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/3ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "オクラ刻み（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
        },
        {
         "name": "じゃが芋の煮もの",
-        "method": "①じゃが芋、人参は共に半月又いちょう切りにし、じゃが芋は水にさらす。五目揚げは短冊切りにする。\n②鍋にだし汁、調味料、じゃが芋、人参を入れて煮立て、五目揚げを加えて蓋をして煮る。",
+        "method": "①じゃが芋、人参（みそ汁にも使用）は共に一口大に切り、じゃが芋は水にさらす。\n②鍋にだし汁、調味料、①を入れて蓋をして煮る。",
         "ingredients": [
-         {
-          "name": "五目揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
          {
           "name": "じゃが芋",
           "qty1_raw": "2/3コ",
@@ -28408,6 +22648,594 @@ const COURSES = {
           "own": true
          },
          {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（わかめ・人参）",
+        "method": "①人参（煮ものにも使用）はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、わかめを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 294.00kcal　蛋白質 27.60g　脂質 13.30g　炭水化物 22.20g　食塩相当量 3.30g",
+      "photo": "photos/87f6471fdf1b.jpg"
+     }
+    },
+    "day_total": "エネルギー 664kcal\n蛋白質 49.0g\n脂質 31.3g\n炭水化物 55.2g\n食塩相当量 8.8g"
+   },
+   "2026-12-15": {
+    "short_label": "12/15（火）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "豚肉とチンゲン菜の炒めもの",
+        "method": "①玉葱は薄切りにする。\n②フライパンに油を熱して豚肉、①を炒め、凍ったままのチンゲン菜を加えて更に炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "チンゲン菜（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "胡瓜のサラダ",
+        "method": "①胡瓜は小口切り、人参は薄い半月又いちょう切りにして共に塩もみし、水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "胡瓜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 5.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（白菜・焼麩）",
+        "method": "①白菜は食べやすく切る。\n②鍋にだし汁を入れて煮立て、①、焼麩を加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 151.00kcal　蛋白質 6.70g　脂質 11.40g　炭水化物 7.50g　食塩相当量 1.70g",
+      "photo": "photos/d26217429f97.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "鶏肉と大根のみそ炒め",
+        "method": "①大根、人参は共に薄い半月又いちょう切りにする。鶏肉は食べやすく切る。\n②さとう、酒、しょうゆ、みそを合わせる。\n③フライパンに油を熱して①を炒め、②の調味料を加えて炒め合わせる。",
+        "ingredients": [
+         {
+          "name": "若鶏モモ肉",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "70ｇ",
+          "qty3_raw": "210ｇ",
+          "qty1_parsed": {
+           "value": 70.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "70ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "レタスのミモザサラダ",
+        "method": "①卵は固ゆでにし（沸騰後約10分）、粗みじん切りにする。\n②レタスは食べやすく切る。\n③調味料を合わせ、①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.5ｇ",
+          "qty3_raw": "小 1/4",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "2.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "さつま芋の煮もの",
+        "method": "①さつま芋は半月又いちょう切りにし、水にさらす。玉葱は薄切りにする。\n②鍋にだし汁、調味料、①を入れて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "さつま芋",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "すまし汁（とろろ昆布・細葱）",
+        "method": "①細葱は小口切りにする。\n②鍋にだし汁、調味料を入れて煮、細葱を散らして椀に盛り、とろろ昆布をのせる。",
+        "ingredients": [
+         {
+          "name": "とろろ昆布（粉末）",
+          "qty1_raw": "2/3袋",
+          "qty3_raw": "2袋",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "袋",
+           "approx": false,
+           "raw": "2/3袋"
+          }
+         },
+         {
+          "name": "細葱（冷蔵）",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
           "name": "　塩",
           "qty1_raw": "0.3ｇ",
           "qty3_raw": "少々",
@@ -28416,6 +23244,193 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 317.00kcal　蛋白質 13.60g　脂質 16.10g　炭水化物 32.10g　食塩相当量 3.20g",
+      "photo": "photos/5d48d3e91c00.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "たらの中華風あんかけ",
+        "method": "①ピーマンは細切り、玉葱は薄切りにする。\n②鍋に水、鶏がらスープの素、酒、しょうゆ、玉葱を入れて煮立て、ピーマンを加えて煮、倍量の水で溶いた片栗粉でとろみをつける。\n③フライパンに多めの油（1㎝位）を熱し、凍ったままの魚を揚げ焼いて器に盛り、②をかける。",
+        "ingredients": [
+         {
+          "name": "骨取りたら＜粉付＞（冷凍）",
+          "qty1_raw": "2切",
+          "qty3_raw": "6切",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "2切"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         },
+         {
+          "name": "ピーマン（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "40ｍｌ",
+          "qty3_raw": "120ｍｌ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "40ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "0.6ｇ",
+          "qty3_raw": "小 1/3",
+          "qty1_parsed": {
+           "value": 0.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　片栗粉",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "キャベツのかに風味炒め",
+        "method": "①キャベツは食べやすく切り、かに風味かまぼこは半分に切ってほぐす。\n②フライパンに油を熱して①を炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "かに風味かまぼこ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
           },
           "own": true
          },
@@ -28432,105 +23447,28 @@ const COURSES = {
           "own": true
          },
          {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
           "qty1_parsed": {
-           "value": 4.0,
+           "value": 1.6,
            "unit": "ｇ",
            "approx": false,
-           "raw": "4ｇ"
+           "raw": "1.6ｇ"
           },
           "own": true
          }
         ],
         "allergens": [
-         "小麦 卵"
+         "小麦 卵 かに"
         ]
        },
        {
-        "name": "切干大根とわかめの酢のもの",
-        "method": "①流水解凍する。",
+        "name": "ブロッコリーのサラダ",
+        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n②お好みのドレッシングで①をあえる。",
         "ingredients": [
          {
-          "name": "切干大根とわかめの酢のもの（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 150.00kcal　蛋白質 10.00g　脂質 1.90g　炭水化物 27.30g　食塩相当量 3.00g",
-      "photo": "photos/b75b36e63744.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "厚揚げと豚肉の煮もの",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "厚揚げと豚肉の煮もの（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "ナポリタン",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
-        "ingredients": [
-         {
-          "name": "ナポリタン（冷凍）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "レタスサラダ",
-        "method": "①レタスは食べやすく切る。\n②ハムは短冊切りにしてゆで（途中、コーンを加える）、水気をきる。\n③お好みのドレッシングで①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "ポークハム",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "レタス又葉野菜（冷蔵）",
+          "name": "ブロッコリー（冷凍）",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -28541,7 +23479,7 @@ const COURSES = {
           }
          },
          {
-          "name": "カーネルコーン（冷凍）",
+          "name": "人参（冷蔵）",
           "qty1_raw": "10ｇ",
           "qty3_raw": "30ｇ",
           "qty1_parsed": {
@@ -28564,134 +23502,11 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": [
-         "乳成分 卵"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 367.00kcal　蛋白質 17.90g　脂質 21.70g　炭水化物 24.10g　食塩相当量 2.40g",
-      "photo": "photos/b05256c49dae.jpg"
-     }
-    },
-    "day_total": "エネルギー 643kcal\n蛋白質 32.1g\n脂質 28.9g\n炭水化物 67.9g\n食塩相当量 7.4g"
-   },
-   "2026-11-12": {
-    "short_label": "11/12（木）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "いわしとひじきのハンバーグ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "いわしとひじきのハンバーグ（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "大根のサラダ",
-        "method": "①大根は薄い半月又いちょう切り、貝割大根は食べやすく切って共にゆで、水気を絞る。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "貝割大根（冷蔵）",
-          "qty1_raw": "1/12ﾊﾟｯｸ",
-          "qty3_raw": "1/4ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/12ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
         "allergens": []
        },
        {
-        "name": "鶏がらスープ（えのき茸・わかめ）",
-        "method": "①えのき茸は食べやすく切る。\n②鍋に水、鶏がらスープの素を入れて煮立て、①、わかめを加えて煮、こしょうで味を調える。",
+        "name": "鶏がらスープ（えのき茸・太葱）",
+        "method": "①太葱は小口切りにし、えのき茸は食べやすく切る。\n②鍋に水、鶏がらスープの素を入れて煮立て、えのき茸を加えて煮、こしょうで味を調え、太葱を散らす。",
         "ingredients": [
          {
           "name": "えのき茸（冷蔵）",
@@ -28705,14 +23520,14 @@ const COURSES = {
           }
          },
          {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
           "qty1_parsed": {
-           "value": 1.0,
+           "value": 10.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "1ｇ"
+           "raw": "10ｇ"
           }
          },
          {
@@ -28755,28 +23570,34 @@ const COURSES = {
         "allergens": []
        }
       ],
-      "nutrition": "エネルギー 119.00kcal　蛋白質 5.10g　脂質 6.60g　炭水化物 9.80g　食塩相当量 1.70g",
-      "photo": "photos/8dff10b82e20.jpg"
-     },
-     "昼食": {
+      "nutrition": "エネルギー 178.00kcal　蛋白質 13.50g　脂質 7.80g　炭水化物 15.10g　食塩相当量 2.20g",
+      "photo": "photos/90e7eb95758e.jpg"
+     }
+    },
+    "day_total": "エネルギー 646kcal\n蛋白質 33.8g\n脂質 35.3g\n炭水化物 54.7g\n食塩相当量 7.1g"
+   },
+   "2026-12-16": {
+    "short_label": "12/16（水）",
+    "meals": {
+     "朝食": {
       "dishes": [
        {
-        "name": "あじのしそ巻天ぷら",
-        "method": "①凍ったままのブロッコリーはゆで、水気をきる。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約12～15分）、①を添える。",
+        "name": "焼ちくわと里芋の煮もの",
+        "method": "①人参（炒めものにも使用）は半月又いちょう切り、焼ちくわは縦半分に切って斜め切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、焼ちくわ、凍ったままの里芋を加えて蓋をして煮る。",
         "ingredients": [
          {
-          "name": "真アジのしそ巻天ぷら(油調済)(冷凍)",
-          "qty1_raw": "4コ",
-          "qty3_raw": "12コ",
+          "name": "焼ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
           "qty1_parsed": {
-           "value": 4.0,
-           "unit": "コ",
+           "value": 0.3333333333333333,
+           "unit": "本",
            "approx": false,
-           "raw": "4コ"
+           "raw": "1/3本"
           }
          },
          {
-          "name": "ブロッコリー（冷凍）",
+          "name": "里芋（冷凍）",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -28785,6 +23606,65 @@ const COURSES = {
            "approx": false,
            "raw": "30ｇ"
           }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "40ｍｌ",
+          "qty3_raw": "120ｍｌ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "40ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "0.6ｇ",
+          "qty3_raw": "小 2/3",
+          "qty1_parsed": {
+           "value": 0.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
@@ -28792,29 +23672,29 @@ const COURSES = {
         ]
        },
        {
-        "name": "さつま芋の炒めもの",
-        "method": "①さつま芋は半月又いちょう切りにして水にさらし、固めにゆでる。にらは食べやすく切る。\n②フライパンに油を熱してさつま芋を炒め、にらを加えてさっと炒め、塩、こしょうで調味する。",
+        "name": "カリフラワーの炒めもの",
+        "method": "①人参（煮ものにも使用）は半月又いちょう切りにする。\n②フライパンに油を熱して①、凍ったままのカリフラワーを炒め、調味料で調味する。",
         "ingredients": [
          {
-          "name": "さつま芋",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
+          "name": "カリフラワー（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
           "qty1_parsed": {
-           "value": 50.0,
+           "value": 40.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "50ｇ"
+           "raw": "40ｇ"
           }
          },
          {
-          "name": "にら（冷蔵）",
-          "qty1_raw": "1/12ワ",
-          "qty3_raw": "1/4ワ",
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
           "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ワ",
+           "value": 10.0,
+           "unit": "ｇ",
            "approx": false,
-           "raw": "1/12ワ"
+           "raw": "10ｇ"
           }
          },
          {
@@ -28857,79 +23737,11 @@ const COURSES = {
         "allergens": []
        },
        {
-        "name": "春菊とピーナッツのあえもの",
-        "method": "①流水解凍する。",
+        "name": "みそ汁（青菜・玉葱）",
+        "method": "①青菜は食べやすく切り、玉葱は薄切りにする。\n②鍋にだし汁、玉葱を入れて煮立て、青菜を加えて煮、みそを溶かし入れる。",
         "ingredients": [
          {
-          "name": "春菊とピーナッツの和え物(冷凍)",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 落花生"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 256.00kcal　蛋白質 10.20g　脂質 10.00g　炭水化物 33.80g　食塩相当量 1.00g",
-      "photo": "photos/532efa93be01.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "スタミナポーク",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "スタミナポーク（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "カリフラワーのうま煮",
-        "method": "①人参は半月又いちょう切り、かに風味かまぼこは半分に切ってほぐす。\n②鍋に水、鶏がらスープの素、調味料、人参を入れて煮立て、かに風味かまぼこ、凍ったままのカリフラワーを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "かに風味かまぼこ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
+          "name": "青菜（冷蔵）",
           "qty1_raw": "10ｇ",
           "qty3_raw": "30ｇ",
           "qty1_parsed": {
@@ -28937,214 +23749,6 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       },
-       {
-        "name": "ほうれん草と人参の白あえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "ほうれん草と人参の白和え(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 280.00kcal　蛋白質 12.20g　脂質 17.20g　炭水化物 17.40g　食塩相当量 2.50g",
-      "photo": "photos/2c651a66bcbe.jpg"
-     }
-    },
-    "day_total": "エネルギー 655kcal\n蛋白質 27.5g\n脂質 33.8g\n炭水化物 61.0g\n食塩相当量 5.2g"
-   },
-   "2026-11-13": {
-    "short_label": "11/13（金）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "豚肉ともやしの煮もの",
-        "method": "①もやしは食べやすく切る。\n②鍋にだし汁、調味料を入れて煮立て、①、豚肉、グリンピースを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "豚コマ",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "もやし（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "グリンピース（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "ピーマンと春雨の炒め煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "ピーマンと春雨の炒め煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "みそ汁（卵・玉葱）",
-        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、みそを溶かし入れ、溶き卵を流し入れて加熱する。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1/3コ"
           }
          },
          {
@@ -29183,51 +23787,275 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": [
-         "卵"
-        ]
+        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 161.00kcal　蛋白質 9.40g　脂質 6.70g　炭水化物 16.80g　食塩相当量 2.30g",
-      "photo": "photos/0402d9c43c40.jpg"
+      "nutrition": "エネルギー 136.00kcal　蛋白質 5.10g　脂質 5.20g　炭水化物 18.60g　食塩相当量 2.50g",
+      "photo": "photos/8bad45d8a6ea.jpg"
      },
      "昼食": {
       "dishes": [
        {
-        "name": "鶏肉のハニーマスタード",
-        "method": "①凍ったままの小松菜はゆでて水に取り、水気を絞る。\n②チキンは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、①を添える。",
+        "name": "さばの塩焼き",
+        "method": "①塩、油を混ぜ合わせて、凍ったままの魚にまぶしておく。\n②グリルで魚の両面を焼き、青じその葉を添える。",
         "ingredients": [
          {
-          "name": "グリルチキン（ハニーマスタード）(冷凍)",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
+          "name": "真さば切身（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
           "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｇ",
+           "value": 1.0,
+           "unit": "切",
            "approx": false,
-           "raw": "80ｇ"
+           "raw": "1切"
           }
          },
          {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
+          "name": "　塩",
+          "qty1_raw": "0.6ｇ",
+          "qty3_raw": "小 1/3",
           "qty1_parsed": {
-           "value": 20.0,
+           "value": 0.6,
            "unit": "ｇ",
            "approx": false,
-           "raw": "20ｇ"
+           "raw": "0.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "0.6ｇ",
+          "qty3_raw": "小 1/2",
+          "qty1_parsed": {
+           "value": 0.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "青じその葉（冷蔵）",
+          "qty1_raw": "1枚",
+          "qty3_raw": "3枚",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1枚"
           }
          }
         ],
         "allergens": []
        },
        {
-        "name": "かぼちゃの炒めもの",
-        "method": "①かぼちゃ、玉葱は共に薄切りにする。\n②フライパンに油を熱して①を炒め、調味料で調味する。",
+        "name": "五目揚げとれんこんの煮もの",
+        "method": "①五目揚げは短冊切りにする。\n②鍋にだし汁、調味料を入れて煮立て、①、凍ったままのれんこんを加えて蓋をして煮る。",
         "ingredients": [
          {
-          "name": "かぼちゃ（冷蔵）",
+          "name": "五目揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "れんこん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "キャベツのマヨあえ",
+        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切りにして共にゆで、水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 5.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（わかめ・太葱）",
+        "method": "①太葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、わかめを加えて煮、みそを溶かし入れ、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 235.00kcal　蛋白質 16.10g　脂質 15.10g　炭水化物 14.50g　食塩相当量 3.10g",
+      "photo": "photos/63fa58073a63.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "豚肉の甘辛炒め",
+        "method": "①豚肉は解凍する。\n②もやしは食べやすく切り、玉葱は薄切りにする。\n③フライパンに油を熱して①、玉葱を炒め、もやしを加えて更に炒める。",
+        "ingredients": [
+         {
+          "name": "豚肉の甘辛炒め（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "もやし（冷蔵）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -29259,6 +24087,116 @@ const COURSES = {
            "raw": "4ｇ"
           },
           "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "ハムと白菜のあえもの",
+        "method": "①白菜は食べやすく切り、ハムは短冊切りにして共にゆで、水気を絞る。\n②ごま油、味付けポン酢を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "ポークハム",
+          "qty1_raw": "2/3枚",
+          "qty3_raw": "2枚",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "枚",
+           "approx": false,
+           "raw": "2/3枚"
+          }
+         },
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　味付けポン酢",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分 卵"
+        ]
+       },
+       {
+        "name": "大根の煮もの",
+        "method": "①大根は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、コーンを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "カーネルコーン（冷凍）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
          },
          {
           "name": "　しょうゆ",
@@ -29274,123 +24212,6 @@ const COURSES = {
          },
          {
           "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みかんなます",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "みかんなます（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 281.00kcal　蛋白質 17.00g　脂質 12.10g　炭水化物 26.30g　食塩相当量 1.70g",
-      "photo": "photos/bbe188827f10.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "かれいの照り焼き",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～12分）。",
-        "ingredients": [
-         {
-          "name": "カレイ照焼き(里芋・いんげん入)(調理済)(冷凍)",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 かに"
-        ]
-       },
-       {
-        "name": "厚揚げのおかか煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "厚揚げのおかか煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "れんこんのあえもの",
-        "method": "①人参は半月又いちょう切りにしてゆで（途中、凍ったままのれんこんを加える）、水気をきる。\n②調味料を合わせ、①をあえる。",
-        "ingredients": [
-         {
-          "name": "れんこん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
           "qty1_raw": "2ｇ",
           "qty3_raw": "小1",
           "qty1_parsed": {
@@ -29403,140 +24224,20 @@ const COURSES = {
          }
         ],
         "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 133.00kcal　蛋白質 8.70g　脂質 5.30g　炭水化物 13.20g　食塩相当量 0.90g",
-      "photo": "photos/293d2bc4efdd.jpg"
-     }
-    },
-    "day_total": "エネルギー 575kcal\n蛋白質 35.1g\n脂質 24.1g\n炭水化物 56.3g\n食塩相当量 4.9g"
-   },
-   "2026-11-14": {
-    "short_label": "11/14（土）",
-    "meals": {
-     "朝食": {
-      "dishes": [
+       },
        {
-        "name": "キャベツのそぼろ炒め",
-        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切りにする。\n②フライパンにオリーブ油を熱して人参を炒め、ひき肉、キャベツを加えて更に炒め、調味料で調味する。",
+        "name": "みそ汁（焼麩・細葱）",
+        "method": "①細葱は小口切りにする。\n②鍋にだし汁を入れて煮立て、焼麩を加えて煮、みそを溶かし入れ、①を散らす。",
         "ingredients": [
          {
-          "name": "鶏ひき肉",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
           "qty1_parsed": {
            "value": 2.0,
-           "unit": "ｇ",
+           "unit": "コ",
            "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "白菜の塩昆布あえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "白菜の塩昆布あえ（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "みそ汁（油揚げ・細葱）",
-        "method": "①細葱は小口切り、油揚げは短冊切りにする。\n②鍋にだし汁を入れて煮立て、油揚げを加えて煮、みそを溶かし入れ、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "油揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
+           "raw": "2コ"
           }
          },
          {
@@ -29575,51 +24276,118 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 131.00kcal　蛋白質 7.70g　脂質 9.20g　炭水化物 6.60g　食塩相当量 1.80g",
-      "photo": "photos/1beefdbf0342.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "さわら柚子風味煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8分）。",
-        "ingredients": [
-         {
-          "name": "さわら幽庵煮（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
         "allergens": [
          "小麦"
         ]
-       },
+       }
+      ],
+      "nutrition": "エネルギー 203.00kcal　蛋白質 12.90g　脂質 10.60g　炭水化物 16.10g　食塩相当量 2.30g",
+      "photo": "photos/e155aa7788b5.jpg"
+     }
+    },
+    "day_total": "エネルギー 574kcal\n蛋白質 34.1g\n脂質 30.9g\n炭水化物 49.2g\n食塩相当量 7.9g"
+   },
+   "2026-12-17": {
+    "short_label": "12/17（木）",
+    "meals": {
+     "朝食": {
+      "dishes": [
        {
-        "name": "ブロッコリーのあえもの",
-        "method": "①人参は半月又いちょう切り、ちくわは小口切りにして共にゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n②だし汁、しょうゆを合わせ、①をあえる。",
+        "name": "オムレツ",
+        "method": "①玉葱は薄切りにする。\n②溶き卵に塩、こしょうを混ぜる。\n③フライパンに油を熱して①、枝豆を炒め、②を流し入れて大きく混ぜ、蓋をして両面を焼き、食べやすく切り、ケチャップをかける。\n\n◎一度に焼いて人数分に切り分ければ、簡単にできます（フライパンの大きさにより加減してください）。",
         "ingredients": [
          {
-          "name": "ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
+          "name": "卵",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
           "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
+           "value": 1.0,
+           "unit": "コ",
            "approx": false,
-           "raw": "1/3本"
+           "raw": "1コ"
           }
          },
          {
-          "name": "ブロッコリー（冷凍）",
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "むき枝豆（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　トマトケチャップ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "グリーンサラダ",
+        "method": "①グリーンリーフ、貝割大根は共に食べやすく切り、貝割大根は塩もみして水気を絞る。\n②①を器に盛り、合わせた調味料をかける。",
+        "ingredients": [
+         {
+          "name": "ｸﾞﾘｰﾝﾘｰﾌ又葉野菜（冷蔵）",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -29630,25 +24398,25 @@ const COURSES = {
           }
          },
          {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
+          "name": "貝割大根（冷蔵）",
+          "qty1_raw": "1/12ﾊﾟｯｸ",
+          "qty3_raw": "1/4ﾊﾟｯｸ",
           "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
+           "value": 0.08333333333333333,
+           "unit": "ﾊﾟｯｸ",
            "approx": false,
-           "raw": "10ｇ"
+           "raw": "1/12ﾊﾟｯｸ"
           }
          },
          {
-          "name": "　だし汁",
-          "qty1_raw": "5ｍｌ",
-          "qty3_raw": "大1",
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
           "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｍｌ",
+           "value": 5.3,
+           "unit": "ｇ",
            "approx": false,
-           "raw": "5ｍｌ"
+           "raw": "5.3ｇ"
           },
           "own": true
          },
@@ -29665,111 +24433,55 @@ const COURSES = {
           "own": true
          }
         ],
-        "allergens": [
-         "小麦 卵"
-        ]
+        "allergens": []
        },
        {
-        "name": "黒豆",
-        "method": "①流水解凍する。",
+        "name": "スープ（シェルマカロニ・人参）",
+        "method": "①人参はいちょう切りにする。\n②鍋に水、コンソメ、酒を入れて煮立て、①、シェルマカロニを入れて約10分煮、塩、こしょうで味を調える。",
         "ingredients": [
          {
-          "name": "黒豆煮（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
+          "name": "シェルマカロニ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
           "qty1_parsed": {
-           "value": 30.0,
+           "value": 6.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 194.00kcal　蛋白質 14.30g　脂質 5.80g　炭水化物 22.00g　食塩相当量 1.50g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/b4fb2f81970a.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "ごぼう入りつくねの和風あんかけ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12～15分）。",
-        "ingredients": [
-         {
-          "name": "ごぼう入りつくねの和風あんかけ（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "すき昆布とえのきの酢の物",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "すき昆布とえのきの酢の物（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "オクラの煮もの",
-        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、凍ったままのオクラを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "オクラ刻み（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
+           "raw": "6ｇ"
           }
          },
          {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
           "qty1_parsed": {
-           "value": 20.0,
+           "value": 10.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "20ｇ"
+           "raw": "10ｇ"
           }
          },
          {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
           "qty1_parsed": {
-           "value": 50.0,
+           "value": 150.0,
            "unit": "ｍｌ",
            "approx": false,
-           "raw": "50ｍｌ"
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
           },
           "own": true
          },
@@ -29787,18 +24499,125 @@ const COURSES = {
          },
          {
           "name": "　塩",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/4",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
           "qty1_parsed": {
-           "value": 0.5,
+           "value": 0.3,
            "unit": "ｇ",
            "approx": false,
-           "raw": "0.5ｇ"
+           "raw": "0.3ｇ"
           },
           "own": true
          },
          {
-          "name": "　みりん",
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 207.00kcal　蛋白質 9.00g　脂質 14.00g　炭水化物 11.60g　食塩相当量 1.90g",
+      "photo": "photos/411f5988f6a9.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "ポークハヤシライス",
+        "method": "①玉葱は薄切り、人参は半月又いちょう切りにする。\n②鍋にバターを熱して弱火で玉葱、人参を炒め、豚肉を加えて更に炒め、水を加えてアクを取りながら蓋をして煮る。\n③火が通ったら火を止め、ハヤシフレークを加えて混ぜ、再び弱火にかけて煮込み、調味料（塩は味をみながら加減）で調味する。\n④温かいご飯に③のハヤシソースをかける。\n\n◎濃いめに仕上げたい場合は、水の量を8割程度に減らし、様子をみながら調節してください。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "ハヤシフレーク",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　バター又マーガリン",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "250ｍｌ",
+          "qty3_raw": "750ｍｌ",
+          "qty1_parsed": {
+           "value": 250.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "250ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "7.5ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 7.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "7.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ソース",
           "qty1_raw": "2ｇ",
           "qty3_raw": "小1",
           "qty1_parsed": {
@@ -29808,28 +24627,54 @@ const COURSES = {
            "raw": "2ｇ"
           },
           "own": true
+         },
+         {
+          "name": "　トマトケチャップ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
          }
         ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 208.00kcal　蛋白質 8.30g　脂質 9.30g　炭水化物 23.80g　食塩相当量 2.70g",
-      "photo": "photos/9d86247c5ccc.jpg"
-     }
-    },
-    "day_total": "エネルギー 533kcal\n蛋白質 30.3g\n脂質 24.3g\n炭水化物 52.4g\n食塩相当量 6.0g"
-   },
-   "2026-11-15": {
-    "short_label": "11/15（日）",
-    "meals": {
-     "朝食": {
-      "dishes": [
+        "allergens": [
+         "小麦"
+        ]
+       },
        {
-        "name": "白はんぺんとかぼちゃの煮もの",
-        "method": "①かぼちゃはところどころ皮をむいて一口大に切り、玉葱は薄切り、白はんぺんは解凍して短冊切りにする。\n②鍋にだし汁、調味料、かぼちゃ、玉葱を入れて煮立て、白はんぺんを加えて蓋をして煮る。",
+        "name": "じゃが芋のあえもの",
+        "method": "①じゃが芋は半月又いちょう切りにして水にさらし、油揚げは短冊切りにして共にゆで、水気をきる。\n②お好みのドレッシングで①をあえる。",
         "ingredients": [
          {
-          "name": "白はんぺん（冷凍）",
+          "name": "油揚げ",
           "qty1_raw": "1/3枚",
           "qty3_raw": "1枚",
           "qty1_parsed": {
@@ -29840,7 +24685,37 @@ const COURSES = {
           }
          },
          {
-          "name": "かぼちゃ（冷蔵）",
+          "name": "じゃが芋",
+          "qty1_raw": "2/3コ",
+          "qty3_raw": "2コ",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2/3コ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "白菜の炒めもの",
+        "method": "①白菜は食べやすく切る。\n②フライパンに油を熱し、①、グリンピースを炒め、調味料で味を調える。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -29848,6 +24723,88 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "グリンピース（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 417.00kcal　蛋白質 15.60g　脂質 25.50g　炭水化物 35.20g　食塩相当量 4.00g",
+      "photo": "photos/3a88c0df17d7.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉とかぼちゃの煮もの",
+        "method": "①かぼちゃはところどころ皮をむいて一口大に切り、玉葱は薄切りにする。\n②鶏肉は食べやすく切る。\n③鍋にだし汁、調味料、①を入れて煮立て、②を加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "若鶏モモ肉",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "かぼちゃ（冷蔵）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
           }
          },
          {
@@ -29875,6 +24832,490 @@ const COURSES = {
          },
          {
           "name": "　さとう",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "8ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 8.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "9ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 9.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "9ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "いんげんの炒めもの",
+        "method": "①ウインナーは斜め切りにする。\n②フライパンに油を熱して①、凍ったままのいんげんを炒め、塩、こしょうで調味する。",
+        "ingredients": [
+         {
+          "name": "ウインナー",
+          "qty1_raw": "2/3本",
+          "qty3_raw": "2本",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "本",
+           "approx": false,
+           "raw": "2/3本"
+          }
+         },
+         {
+          "name": "いんげん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "なすの華風あえ",
+        "method": "①なすは縦半分に切って斜め切りにして水にさらし、人参は半月又いちょう切りにして共にゆで、水気を絞る。\n②だし汁、鶏がらスープの素を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "なす",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "3.3ｍｌ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 3.3,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "3.3ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（キャベツ・太葱）",
+        "method": "①太葱は小口切りにし、キャベツは食べやすく切る。\n②鍋にだし汁を入れて煮立て、キャベツを加えて煮、みそを溶かし入れ、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 306.00kcal　蛋白質 14.70g　脂質 14.00g　炭水化物 34.40g　食塩相当量 3.10g",
+      "photo": "photos/d015c8b3ac86.jpg"
+     }
+    },
+    "day_total": "エネルギー 930kcal\n蛋白質 39.3g\n脂質 53.5g\n炭水化物 81.2g\n食塩相当量 9.0g"
+   },
+   "2026-12-18": {
+    "short_label": "12/18（金）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "鶏肉とブロッコリーの炒めもの",
+        "method": "①玉葱は薄切りにする。\n②フライパンに油を熱して①、鶏肉を炒め、凍ったままのブロッコリーを加えて更に炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "若鶏コマ",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "ブロッコリー（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "もやしの二色あえ",
+        "method": "①もやしは食べやすく切り、人参は半月又いちょう切りにして共にゆで、水気を絞る。\n②お好みのドレッシングで①をあえる。",
+        "ingredients": [
+         {
+          "name": "もやし（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（焼麩・えのき茸）",
+        "method": "①えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、①、焼麩を加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "えのき茸（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 111.00kcal　蛋白質 8.50g　脂質 5.70g　炭水化物 8.60g　食塩相当量 1.30g",
+      "photo": "photos/2302370ec6c7.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "シーフードチャプチェ",
+        "method": "①シーフードミックスは解凍して水気を押さえ、酒を振る。\n②春雨はたっぷりの熱湯に約2分つけ、水にさらして食べやすく切り、水気をきる。\n③にらは食べやすく切り、玉葱は薄切りにする。\n④鶏がらスープの素、さとう、酒、しょうゆを合わせておく。\n⑤フライパンにごま油を熱して水気を押さえたシーフードミックス、玉葱を炒め、にら、②を加えて更に炒め、④を加えて炒め合わせ、塩、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "シーフードミックス（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "春雨",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "にら（冷蔵）",
+          "qty1_raw": "1/12ワ",
+          "qty3_raw": "1/4ワ",
+          "qty1_parsed": {
+           "value": 0.08333333333333333,
+           "unit": "ワ",
+           "approx": false,
+           "raw": "1/12ワ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
           "qty1_raw": "1ｇ",
           "qty3_raw": "小1",
           "qty1_parsed": {
@@ -29886,6 +25327,1136 @@ const COURSES = {
           "own": true
          },
          {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "えび"
+        ]
+       },
+       {
+        "name": "オクラのそぼろ煮",
+        "method": "①鍋にだし汁、調味料を入れて煮立て、ひき肉、凍ったままのオクラを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "豚ひき肉",
+          "qty1_raw": "15ｇ",
+          "qty3_raw": "45ｇ",
+          "qty1_parsed": {
+           "value": 15.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "15ｇ"
+          }
+         },
+         {
+          "name": "オクラ刻み（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "40ｍｌ",
+          "qty3_raw": "120ｍｌ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "40ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "さつま芋のサラダ",
+        "method": "①さつま芋、人参は共に半月又いちょう切りにし、さつま芋は水にさらして共にゆで、水気をきる。\n②調味料で①をあえる。",
+        "ingredients": [
+         {
+          "name": "さつま芋",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 5.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "鶏がらスープ（卵・太葱）",
+        "method": "①太葱は小口切りにする。\n②鍋に水、鶏がらスープの素を入れて煮立て、こしょうで味を調え、溶き卵を流し入れて加熱し、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 347.00kcal　蛋白質 16.20g　脂質 13.40g　炭水化物 42.50g　食塩相当量 3.40g",
+      "photo": "photos/2a188ab1c7c1.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "洋風玉葱ソースで食べるポークソテー",
+        "method": "①レタスは食べやすく切る。\n②玉葱はみじん切りにする。豚肉は食べやすく切り、塩、こしょうする。\n③フライパンに油を熱して豚肉を焼き、器に盛る。\n④フライパンの汚れを拭き取り、油を足して玉葱を炒め、ソース（お好みで加減）を加えてさっとからめ、③にかけ、①を添える。",
+        "ingredients": [
+         {
+          "name": "豚切り落とし肉",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "ローストビーフソース",
+          "qty1_raw": "1/2袋",
+          "qty3_raw": "1 1/2袋",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/2袋"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "大根サラダ",
+        "method": "①大根は薄い半月又いちょう切り、ちくわは小口切りにして共にゆで（途中、コーンを加える）、水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "カーネルコーン（冷凍）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "れんこんの煮もの",
+        "method": "①人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、凍ったままのれんこんを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "れんこん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "スープ（わかめ・細葱）",
+        "method": "①細葱は小口切りにする。\n②鍋に水、コンソメ、酒を入れて煮立て、わかめを加えて煮、塩、こしょうで味を調え、細葱を散らす。",
+        "ingredients": [
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "細葱（冷蔵）",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 264.00kcal　蛋白質 14.10g　脂質 15.80g　炭水化物 17.40g　食塩相当量 2.90g",
+      "photo": "photos/fef66b96dafd.jpg"
+     }
+    },
+    "day_total": "エネルギー 722kcal\n蛋白質 38.8g\n脂質 34.9g\n炭水化物 68.5g\n食塩相当量 7.6g"
+   },
+   "2026-12-19": {
+    "short_label": "12/19（土）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "豆腐のあっさり煮",
+        "method": "①玉葱は薄切り、人参は半月又いちょう切りにする。豆腐は食べやすく切り、軽く水気をきる。\n②鍋にだし汁、調味料、玉葱、人参を入れて煮立て、豆腐を加えて煮る。",
+        "ingredients": [
+         {
+          "name": "豆腐",
+          "qty1_raw": "1/3ﾊﾟｯｸ",
+          "qty3_raw": "1ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/3ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.5ｇ",
+          "qty3_raw": "小 1/4",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "キャベツの炒めもの",
+        "method": "①キャベツは食べやすく切る。\n②フライパンに油を熱して①、グリンピースを炒め、鶏がらスープの素、酒で調味する。",
+        "ingredients": [
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "グリンピース（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（なす・太葱）",
+        "method": "①太葱は小口切り、なすは半月切りにし、水にさらす。\n②鍋にだし汁を入れて煮立て、なすを加えて煮、みそを溶かし入れ、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "なす",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 153.00kcal　蛋白質 8.70g　脂質 8.00g　炭水化物 13.90g　食塩相当量 2.20g",
+      "photo": "photos/82bb7afd60e6.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "梅風味の鶏つくね",
+        "method": "①玉葱（サラダにも使用）はみじん切りにし、フライパンで炒めて冷ましておく。\n②ひき肉に塩を加えてよくこね、①、練り梅（お好みで加減）、マヨネーズ、片栗粉を加えて更によくこねる。1人2コ当てに丸める。\n③フライパンに油を熱して②を焼き、ミニトマトを添える。",
+        "ingredients": [
+         {
+          "name": "鶏ひき肉",
+          "qty1_raw": "70ｇ",
+          "qty3_raw": "210ｇ",
+          "qty1_parsed": {
+           "value": 70.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "70ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "練り梅",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　片栗粉",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "ミニトマト（冷蔵）",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "大根の信田煮",
+        "method": "①大根は半月又いちょう切り、油揚げは短冊切りにする。\n②鍋にだし汁、調味料、大根を入れて煮立て、油揚げを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "油揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "いんげんのサラダ",
+        "method": "①玉葱（鶏つくねにも使用）は薄切りにしてゆで（途中、凍ったままのいんげんを加える）、水気をきる。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "いんげん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（焼麩・わかめ）",
+        "method": "①鍋にだし汁を入れて煮立て、焼麩、わかめを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 288.00kcal　蛋白質 17.40g　脂質 19.50g　炭水化物 14.30g　食塩相当量 2.90g",
+      "photo": "photos/611fbfe1845b.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "サーモンすきみ丼",
+        "method": "①サーモンすきみは袋のまま流水解凍する。\n②丼にご飯を盛り、①をのせ、しょうゆをかける。",
+        "ingredients": [
+         {
+          "name": "サーモンすきみ（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
           "name": "　しょうゆ",
           "qty1_raw": "6ｇ",
           "qty3_raw": "大1",
@@ -29894,6 +26465,215 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "カリフラワーの卵炒め",
+        "method": "①溶き卵にみりんを加えて混ぜ、油を熱したフライパンでふんわりと炒めて取り出す。\n②続いて、凍ったままのカリフラワーを炒め、調味料で調味し、①を戻し入れて炒め合わせる。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "2/3コ",
+          "qty3_raw": "2コ",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2/3コ"
+          }
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "カリフラワー（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "白菜の煮もの",
+        "method": "①白菜は食べやすく切り、玉葱は薄切りにする。\n②鍋にだし汁、調味料、玉葱を入れて煮立て、白菜を加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "すまし汁（とろろ昆布・人参）",
+        "method": "①人参はいちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮、椀に盛り、とろろ昆布をのせる。",
+        "ingredients": [
+         {
+          "name": "とろろ昆布（粉末）",
+          "qty1_raw": "2/3袋",
+          "qty3_raw": "2袋",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "袋",
+           "approx": false,
+           "raw": "2/3袋"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
           },
           "own": true
          },
@@ -29911,15 +26691,38 @@ const COURSES = {
          }
         ],
         "allergens": [
-         "小麦 卵"
+         "小麦"
         ]
-       },
+       }
+      ],
+      "nutrition": "エネルギー 254.00kcal　蛋白質 15.10g　脂質 16.40g　炭水化物 11.80g　食塩相当量 3.20g",
+      "photo": "photos/fbf0f5e87664.jpg"
+     }
+    },
+    "day_total": "エネルギー 695kcal\n蛋白質 41.2g\n脂質 43.9g\n炭水化物 40.0g\n食塩相当量 8.3g"
+   },
+   "2026-12-20": {
+    "short_label": "12/20（日）",
+    "meals": {
+     "朝食": {
+      "dishes": [
        {
-        "name": "甘酢あえ",
-        "method": "①流水解凍する。",
+        "name": "五目揚げと大根の炒めもの",
+        "method": "①大根は薄い半月又いちょう切り、ピーマンは細切りにする。五目揚げは短冊切りにする。\n②フライパンに油を熱して①を炒め、調味料で味を調える。",
         "ingredients": [
          {
-          "name": "甘酢あえ（冷凍）",
+          "name": "五目揚げ",
+          "qty1_raw": "2/3枚",
+          "qty3_raw": "2枚",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "枚",
+           "approx": false,
+           "raw": "2/3枚"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -29928,18 +26731,327 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
+         },
+         {
+          "name": "ピーマン（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦"
+         "小麦 卵"
         ]
        },
        {
-        "name": "みそ汁（えのき茸・太葱）",
-        "method": "①太葱は小口切りにし、えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れ、太葱を散らす。",
+        "name": "粉ふきさつま",
+        "method": "①さつま芋は一口大に切って水にさらし、ゆでて粉をふかせ、塩を振る。",
         "ingredients": [
          {
-          "name": "えのき茸（冷蔵）",
+          "name": "さつま芋",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（わかめ・玉葱）",
+        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、わかめを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 152.00kcal　蛋白質 5.10g　脂質 5.30g　炭水化物 24.30g　食塩相当量 2.20g",
+      "photo": "photos/626c1bdeb82d.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "とんかつ",
+        "method": "①胡瓜は斜め切りにする。\n②かつは凍ったまま約170～180℃の揚げ油で揚げ、食べやすく切り、ソースをかけ、①を添える。",
+        "ingredients": [
+         {
+          "name": "やわらかとんかつ（成型肉）（冷凍）",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "　揚げ油",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         },
+         {
+          "name": "　ソース",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "胡瓜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "ウインナーとブロッコリーの煮もの",
+        "method": "①ウインナーは斜め切りにする。\n②鍋にだし汁、調味料を入れて煮立て、①、凍ったままのブロッコリーを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "ウインナー",
+          "qty1_raw": "2/3本",
+          "qty3_raw": "2本",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "本",
+           "approx": false,
+           "raw": "2/3本"
+          }
+         },
+         {
+          "name": "ブロッコリー（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "白菜のあえもの",
+        "method": "①白菜は食べやすく切り、人参は半月又いちょう切りにして共にゆで、水気を絞る。\n②味付けポン酢で、①をあえる。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　味付けポン酢",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（ごぼう・太葱）",
+        "method": "①太葱は小口切りにする。ごぼうは泥を洗って皮をたわしでこそげ取り、縦半分に切って斜め切りにし、水にさらす。\n②鍋にだし汁、ごぼうを入れて煮、みそを溶かし入れ、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "ごぼう（冷蔵）",
           "qty1_raw": "16.66ｇ",
           "qty3_raw": "50ｇ",
           "qty1_parsed": {
@@ -29988,91 +27100,17 @@ const COURSES = {
         "allergens": []
        }
       ],
-      "nutrition": "エネルギー 118.00kcal　蛋白質 5.40g　脂質 0.70g　炭水化物 25.40g　食塩相当量 2.70g",
-      "photo": "photos/a59025ebee74.jpg"
+      "nutrition": "エネルギー 286.00kcal　蛋白質 12.60g　脂質 12.70g　炭水化物 31.60g　食塩相当量 3.00g",
+      "photo": "photos/6c369c1484cf.jpg"
      },
-     "昼食": {
+     "夕食": {
       "dishes": [
        {
-        "name": "鶏肉野菜巻フライ＆野菜コロッケ",
-        "method": "①コーンはゆでて水気をきる。\n②鶏肉野菜巻きフライとコロッケは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（鶏肉野菜巻きフライ5人用約10～15分、コロッケ5人用約4分）、器に盛り、ソースをかけ、①を添える。",
+        "name": "鶏肉とチンゲン菜のこく旨炒め",
+        "method": "①玉葱は薄切りにする。\n②鶏肉は食べやすく切り、酒、しょうゆ、片栗粉をもみ込む。\n③フライパンに油を熱して①、②を炒め、凍ったままのチンゲン菜を加えて更に炒め、たれ（お好みで加減）で調味する。",
         "ingredients": [
          {
-          "name": "鶏肉野菜巻きフライ（油調済み）（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "コロッケ（野菜入り）（油調済）(冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "　ソース",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "切干大根煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "切干大根煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "白菜の炒めもの",
-        "method": "①白菜は食べやすく切り、人参は半月又いちょう切りにする。\n②フライパンに油を熱して人参を炒め、白菜を加えて更に炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "白菜（冷蔵）",
+          "name": "若鶏ムネ肉",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -30083,98 +27121,43 @@ const COURSES = {
           }
          },
          {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
+          "name": "　酒",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小 1/2",
           "qty1_parsed": {
-           "value": 10.0,
+           "value": 0.8,
            "unit": "ｇ",
            "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
+           "raw": "0.8ｇ"
           },
           "own": true
          },
          {
           "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小 1/2",
           "qty1_parsed": {
-           "value": 3.0,
+           "value": 1.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3ｇ"
+           "raw": "1ｇ"
           },
           "own": true
          },
          {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
+          "name": "　片栗粉",
+          "qty1_raw": "0.5ｇ",
+          "qty3_raw": "小 1/2",
           "qty1_parsed": {
-           "value": 3.0,
+           "value": 0.5,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3ｇ"
+           "raw": "0.5ｇ"
           },
           "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 257.00kcal　蛋白質 6.80g　脂質 14.60g　炭水化物 25.70g　食塩相当量 1.80g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/0c6485d0bbaf.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉とたけのこの中華風",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "豚肉と竹の子の中華風（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "ほうれん草の炒めもの",
-        "method": "①玉葱は薄切り、ウインナーは斜め切りにする。\n②フライパンに油を熱し、玉葱を炒め、ウインナー、凍ったままのほうれん草を加えて更に炒め、調味料で調味する。",
-        "ingredients": [
-         {
-          "name": "ウインナー",
-          "qty1_raw": "2/3本",
-          "qty3_raw": "2本",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "本",
-           "approx": false,
-           "raw": "2/3本"
-          }
          },
          {
-          "name": "ほうれん草（冷凍）",
+          "name": "チンゲン菜（冷凍）",
           "qty1_raw": "40ｇ",
           "qty3_raw": "120ｇ",
           "qty1_parsed": {
@@ -30208,26 +27191,123 @@ const COURSES = {
           "own": true
          },
          {
-          "name": "　酒",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
+          "name": "焼き肉のたれ",
+          "qty1_raw": "1/2袋",
+          "qty3_raw": "1 1/2袋",
           "qty1_parsed": {
-           "value": 3.3,
+           "value": 0.5,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/2袋"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "かぼちゃのサラダ",
+        "method": "①かぼちゃはところどころ皮をむいて一口大に切り、かに風味かまぼこは半分に切ってほぐして共にゆで、水気をきる。\n②お好みのドレッシングで①をあえる。",
+        "ingredients": [
+         {
+          "name": "かに風味かまぼこ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "かぼちゃ（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3.3ｇ"
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "キャベツのさっと煮",
+        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切りにする。\n②鍋に水、鶏がらスープの素、調味料、人参を入れて煮立て、キャベツを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
           },
           "own": true
          },
          {
           "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
           "qty1_parsed": {
-           "value": 3.0,
+           "value": 2.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "3ｇ"
+           "raw": "2ｇ"
           },
           "own": true
          },
@@ -30247,32 +27327,76 @@ const COURSES = {
         "allergens": []
        },
        {
-        "name": "ブロッコリーのナムル",
-        "method": "①流水解凍する。",
+        "name": "みそ汁（ぶなしめじ・焼麩）",
+        "method": "①ぶなしめじは食べやすく切る。\n②鍋にだし汁を入れて煮立て、①、焼麩を加えて煮、みそを溶かし入れる。",
         "ingredients": [
          {
-          "name": "ブロッコリーのナムル（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
+          "name": "ぶなしめじ（冷蔵）",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
           "qty1_parsed": {
-           "value": 35.0,
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/6ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "35ｇ"
-          }
+           "raw": "6ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦 卵 かに"
+         "小麦"
         ]
        }
       ],
-      "nutrition": "エネルギー 253.00kcal　蛋白質 10.50g　脂質 18.50g　炭水化物 11.30g　食塩相当量 1.50g",
-      "photo": "photos/36cdcc4d3f6f.jpg"
+      "nutrition": "エネルギー 217.00kcal　蛋白質 16.10g　脂質 7.80g　炭水化物 25.40g　食塩相当量 3.00g",
+      "photo": "photos/676731e558a0.jpg"
      }
     },
-    "day_total": "エネルギー 628kcal\n蛋白質 22.7g\n脂質 33.8g\n炭水化物 62.4g\n食塩相当量 6.0g"
-   },
+    "day_total": "エネルギー 655kcal\n蛋白質 33.8g\n脂質 25.8g\n炭水化物 81.3g\n食塩相当量 8.2g"
+   }
+  }
+ },
+ "kantan": {
+  "label": "簡単おかず",
+  "color": "FFC000",
+  "has_recipe": true,
+  "global_note": "※ご飯の栄養量は含まれません　※写真は盛付例です ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
+  "seasonal_note": null,
+  "days": {
    "2026-11-16": {
     "short_label": "11/16（月）",
     "meals": {
@@ -42025,47 +39149,84 @@ const COURSES = {
      }
     },
     "day_total": "エネルギー 555kcal\n蛋白質 31.5g\n脂質 32.3g\n炭水化物 36.8g\n食塩相当量 5.8g"
-   }
-  }
- },
- "chokantan": {
-  "label": "超簡単おかず",
-  "color": "FF9966",
-  "has_recipe": true,
-  "global_note": "※ご飯の栄養量は含まれません　※写真は盛付例です ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
-  "seasonal_note": null,
-  "days": {
-   "2026-11-09": {
-    "short_label": "11/9（月）",
+   },
+   "2026-12-14": {
+    "short_label": "12/14（月）",
     "meals": {
      "朝食": {
       "dishes": [
        {
-        "name": "チャンプルー",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "name": "焼ちくわといんげんのバター醤油炒め",
+        "method": "①人参は半月又いちょう切り、焼ちくわは縦半分に切って斜め切りにする。\n②フライパンにバターを熱して人参を炒め、焼ちくわ、凍ったままのいんげんを加えて更に炒め、しょうゆで調味する。",
         "ingredients": [
          {
-          "name": "チャンプルー（冷凍）",
-          "qty1_raw": "56ｇ",
-          "qty3_raw": "168ｇ",
+          "name": "焼ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
           "qty1_parsed": {
-           "value": 56.0,
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "いんげん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "56ｇ"
+           "raw": "30ｇ"
           }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　バター又マーガリン",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦"
+         "小麦 卵"
         ]
        },
        {
-        "name": "わかめと青梗菜のさっぱりあえ",
-        "method": "①流水解凍する。",
+        "name": "キャベツの煮浸し",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
         "ingredients": [
          {
-          "name": "わかめと青梗菜のさっぱり和え（冷凍）",
+          "name": "キャベツの煮浸し（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -42081,46 +39242,9 @@ const COURSES = {
         ]
        },
        {
-        "name": "いんげんの信田煮",
-        "method": "①流水解凍する。",
+        "name": "鶏がらスープ（コーン・玉葱）",
+        "method": "①玉葱は薄切りにする。\n②鍋に水、鶏がらスープの素、①を入れて煮立て、コーンを加えて煮、こしょうで味を調える。",
         "ingredients": [
-         {
-          "name": "いんげんの信田煮（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 66.00kcal　蛋白質 3.00g　脂質 2.40g　炭水化物 9.20g　食塩相当量 1.50g",
-      "photo": "photos/f80f73f567c5.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏の竜田揚げ",
-        "method": "①コーンはゆでて水気をきる。\n②竜田揚げは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約18～20分）、①を添える。",
-        "ingredients": [
-         {
-          "name": "やわらか若鶏竜田揚げ（冷凍）",
-          "qty1_raw": "90ｇ",
-          "qty3_raw": "270ｇ",
-          "qty1_parsed": {
-           "value": 90.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "90ｇ"
-          }
-         },
          {
           "name": "カーネルコーン（冷凍）",
           "qty1_raw": "10ｇ",
@@ -42131,104 +39255,9 @@ const COURSES = {
            "approx": false,
            "raw": "10ｇ"
           }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "春雨の含め煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
-        "ingredients": [
+         },
          {
-          "name": "春雨の含め煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "小松菜のお浸し",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "小松菜のおひたし(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 259.00kcal　蛋白質 13.30g　脂質 13.90g　炭水化物 21.40g　食塩相当量 2.30g",
-      "photo": "photos/b7b3d317f986.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "さばのカレー煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8分）。",
-        "ingredients": [
-         {
-          "name": "さばカレー煮（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "切干大根とツナのサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "切干大根とツナのサラダ（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "金時豆",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "金時豆煮（冷凍）",
+          "name": "玉葱",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
           "qty1_parsed": {
@@ -42237,167 +39266,65 @@ const COURSES = {
            "approx": false,
            "raw": "20ｇ"
           }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
          }
         ],
         "allergens": []
        }
       ],
-      "nutrition": "エネルギー 176.00kcal　蛋白質 11.40g　脂質 7.00g　炭水化物 14.10g　食塩相当量 1.20g",
-      "photo": "photos/9400f3c86c00.jpg"
-     }
-    },
-    "day_total": "エネルギー 501kcal\n蛋白質 27.7g\n脂質 23.3g\n炭水化物 44.7g\n食塩相当量 5.0g"
-   },
-   "2026-11-10": {
-    "short_label": "11/10（火）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "野菜さつま揚げ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～15分）。",
-        "ingredients": [
-         {
-          "name": "野菜さつま揚げ（冷凍）",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵 えび"
-        ]
-       },
-       {
-        "name": "ひじきとくわいのサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "ひじきとくわいのサラダ（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "豆腐干の中華あんかけ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6分）。",
-        "ingredients": [
-         {
-          "name": "豆腐干の中華あんかけ（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 150.00kcal　蛋白質 6.30g　脂質 9.30g　炭水化物 12.30g　食塩相当量 1.40g",
-      "photo": "photos/fb8997099e72.jpg"
+      "nutrition": "エネルギー 104.00kcal　蛋白質 3.20g　脂質 4.30g　炭水化物 14.20g　食塩相当量 2.50g",
+      "photo": "photos/44243d7254bc.jpg"
      },
      "昼食": {
       "dishes": [
        {
-        "name": "牛肉とごぼうのしぐれ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
+        "name": "七種具材の中華丼",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、温かいご飯にのせる。",
         "ingredients": [
          {
-          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
+          "name": "中華丼(冷凍)",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
           "qty1_parsed": {
-           "value": 100.0,
+           "value": 90.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "冬瓜の生姜あんかけ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "冬瓜の生姜あんかけ(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "山形のだし",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "山形のだし（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 212.00kcal　蛋白質 5.10g　脂質 9.50g　炭水化物 25.10g　食塩相当量 2.40g",
-      "photo": "photos/fbb0b470e884.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "鶏団子のトマト煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "鶏団子のトマト煮（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
+           "raw": "90ｇ"
           }
          }
         ],
@@ -42426,95 +39353,11 @@ const COURSES = {
         ]
        },
        {
-        "name": "ブロッコリーのくるみあえ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "name": "里芋の煮もの",
+        "method": "①人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、凍ったままの里芋を加えて蓋をして煮る。",
         "ingredients": [
          {
-          "name": "ブロッコリーのくるみあえ（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 くるみ"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 255.00kcal　蛋白質 8.10g　脂質 16.50g　炭水化物 25.00g　食塩相当量 1.70g",
-      "photo": "photos/afd0fa14aeed.jpg"
-     }
-    },
-    "day_total": "エネルギー 617kcal\n蛋白質 19.5g\n脂質 35.3g\n炭水化物 62.4g\n食塩相当量 5.5g"
-   },
-   "2026-11-11": {
-    "short_label": "11/11（水）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "豆腐ナゲット",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、ケチャップをかける。",
-        "ingredients": [
-         {
-          "name": "豆腐入りナゲット（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "　トマトケチャップ",
-          "qty1_raw": "12ｇ",
-          "qty3_raw": "大2",
-          "qty1_parsed": {
-           "value": 12.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "12ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "人参とツナの卵炒め",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～8分）。",
-        "ingredients": [
-         {
-          "name": "人参とツナの卵炒め（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "乳成分 卵"
-        ]
-       },
-       {
-        "name": "モロヘイヤのお浸し",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "モロヘイヤのお浸し(冷凍)",
+          "name": "里芋（冷凍）",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -42523,44 +39366,101 @@ const COURSES = {
            "approx": false,
            "raw": "30ｇ"
           }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 191.00kcal　蛋白質 3.70g　脂質 10.60g　炭水化物 25.50g　食塩相当量 2.30g",
+      "photo": "photos/8a6be554f6e0.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉となすのトマト煮込み",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "鶏肉となすのトマト煮込み（冷凍）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
          }
         ],
         "allergens": [
          "小麦"
         ]
-       }
-      ],
-      "nutrition": "エネルギー 196.00kcal　蛋白質 8.10g　脂質 11.80g　炭水化物 14.40g　食塩相当量 1.60g",
-      "photo": "photos/974de2274d6b.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "親子丼",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約15分）、温かいご飯にのせる。",
-        "ingredients": [
-         {
-          "name": "親子丼の具（冷凍）",
-          "qty1_raw": "90ｇ",
-          "qty3_raw": "270ｇ",
-          "qty1_parsed": {
-           "value": 90.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "90ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
        },
        {
-        "name": "切干大根とわかめの酢のもの",
-        "method": "①流水解凍する。",
+        "name": "豆腐のそぼろ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
         "ingredients": [
          {
-          "name": "切干大根とわかめの酢のもの（冷凍）",
+          "name": "豆腐のそぼろ煮（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -42574,6 +39474,915 @@ const COURSES = {
         "allergens": [
          "小麦"
         ]
+       },
+       {
+        "name": "ほうれん草のサラダ",
+        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままのほうれん草を加える）、水に取って水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 219.00kcal　蛋白質 10.90g　脂質 15.10g　炭水化物 11.20g　食塩相当量 1.40g",
+      "photo": "photos/371017e8a545.jpg"
+     }
+    },
+    "day_total": "エネルギー 514kcal\n蛋白質 17.8g\n脂質 30.0g\n炭水化物 50.9g\n食塩相当量 6.2g"
+   },
+   "2026-12-15": {
+    "short_label": "12/15（火）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "豚肉ともやしの煮もの",
+        "method": "①もやし、貝割大根は共に食べやすく切る。\n②鍋にだし汁、調味料を入れて煮立て、①、豚肉を加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "もやし（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "貝割大根（冷蔵）",
+          "qty1_raw": "1/12ﾊﾟｯｸ",
+          "qty3_raw": "1/4ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.08333333333333333,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/12ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "マカロニサラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
+        "ingredients": [
+         {
+          "name": "マカロニサラダ（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "みそ汁（焼麩・わかめ）",
+        "method": "①鍋にだし汁を煮立て、焼麩、わかめを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 147.00kcal　蛋白質 7.60g　脂質 6.90g　炭水化物 14.40g　食塩相当量 2.40g",
+      "photo": "photos/6930b8823752.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "キーマカレー",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（約5分）、温かいご飯にかける。",
+        "ingredients": [
+         {
+          "name": "キーマカレー（冷凍）",
+          "qty1_raw": "1ﾊﾟｯｸ",
+          "qty3_raw": "3ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1ﾊﾟｯｸ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "レタスのミモザサラダ",
+        "method": "①卵は固ゆでにし（沸騰後約10分）、粗みじん切りにする。\n②レタスは食べやすく切る。人参は薄い半月又いちょう切りにして塩もみし、水気を絞る。\n③調味料を合わせ、①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "0.2ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.2,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "なすのみぞれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "なすのみぞれ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 196.00kcal　蛋白質 9.50g　脂質 11.20g　炭水化物 15.20g　食塩相当量 1.70g",
+      "photo": "photos/04d5933c0b66.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "煮込み海鮮メンチカツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
+        "ingredients": [
+         {
+          "name": "煮込み海鮮メンチカツ(冷凍)",
+          "qty1_raw": "76ｇ",
+          "qty3_raw": "228ｇ",
+          "qty1_parsed": {
+           "value": 76.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "76ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "かに風味サラダ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "かに風味サラダ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "じゃが芋の炒めもの",
+        "method": "①じゃが芋は半月又いちょう切りにして水にさらし、固めにゆでる。ピーマンは細切りにする。\n②フライパンに油を熱して①を炒め、塩、こしょうで調味する。",
+        "ingredients": [
+         {
+          "name": "じゃが芋",
+          "qty1_raw": "2/3コ",
+          "qty3_raw": "2コ",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2/3コ"
+          }
+         },
+         {
+          "name": "ピーマン（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 253.00kcal　蛋白質 5.20g　脂質 13.40g　炭水化物 31.60g　食塩相当量 1.90g",
+      "photo": "photos/ee0d0ee2e3c8.jpg"
+     }
+    },
+    "day_total": "エネルギー 596kcal\n蛋白質 22.3g\n脂質 31.5g\n炭水化物 61.2g\n食塩相当量 6.0g"
+   },
+   "2026-12-16": {
+    "short_label": "12/16（水）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "鶏肉とカリフラワーの炒めもの",
+        "method": "①人参は半月又いちょう切りにする。\n②フライパンに油を熱して①を炒め、鶏肉、凍ったままのカリフラワーを加えて更に炒め、塩、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "若鶏コマ",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "カリフラワー（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "高野豆腐とえんどう豆の卵あえ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約7～8分）。",
+        "ingredients": [
+         {
+          "name": "高野豆腐とえんどう豆の卵和え（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "みそ汁（えのき茸・玉葱）",
+        "method": "①えのき茸は食べやすく切り、玉葱は薄切りにする。\n②鍋にだし汁、玉葱を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "えのき茸（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 166.00kcal　蛋白質 12.00g　脂質 8.60g　炭水化物 13.20g　食塩相当量 1.90g",
+      "photo": "photos/e1fb631457cf.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "ホッケの醤油焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約8分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "ホッケ醤油焼き（調理済）（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "五目揚げとキャベツの煮もの",
+        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切り、五目揚げは短冊切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、五目揚げ、キャベツを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "五目揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "ブロッコリーのコンソメ風味",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "ブロッコリーのコンソメ風味（冷凍）",
+          "qty1_raw": "35ｇ",
+          "qty3_raw": "105ｇ",
+          "qty1_parsed": {
+           "value": 35.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "35ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 125.00kcal　蛋白質 12.30g　脂質 3.70g　炭水化物 12.40g　食塩相当量 1.50g",
+      "photo": "photos/6eaac7a1de3b.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "チャプチェ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
+        "ingredients": [
+         {
+          "name": "チャプチェ（冷凍）",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
+          "qty1_parsed": {
+           "value": 90.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "90ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "大根のだしじょうゆあえ",
+        "method": "①大根、人参は共に薄い半月又いちょう切り、油揚げは短冊切りにしてゆで、水気を絞る。\n②だし汁、しょうゆを合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "油揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "5ｍｌ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "5ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
        },
        {
         "name": "かぼちゃの煮もの",
@@ -42596,24 +40405,30 @@ const COURSES = {
         ]
        }
       ],
-      "nutrition": "エネルギー 121.00kcal　蛋白質 7.90g　脂質 1.50g　炭水化物 20.70g　食塩相当量 2.10g",
-      "photo": "photos/dfe2e73f8edd.jpg"
-     },
-     "夕食": {
+      "nutrition": "エネルギー 175.00kcal　蛋白質 6.80g　脂質 7.10g　炭水化物 20.70g　食塩相当量 1.20g",
+      "photo": "photos/f1c5f2413e34.jpg"
+     }
+    },
+    "day_total": "エネルギー 466kcal\n蛋白質 31.1g\n脂質 19.4g\n炭水化物 46.3g\n食塩相当量 4.6g"
+   },
+   "2026-12-17": {
+    "short_label": "12/17（木）",
+    "meals": {
+     "朝食": {
       "dishes": [
        {
-        "name": "厚揚げと豚肉の煮もの",
+        "name": "枝豆と蓮根のすり身寄せ",
         "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
         "ingredients": [
          {
-          "name": "厚揚げと豚肉の煮もの（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
+          "name": "枝豆と蓮根のすり身寄せ（冷凍）",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
           "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
+           "value": 2.0,
+           "unit": "コ",
            "approx": false,
-           "raw": "120ｇ"
+           "raw": "2コ"
           }
          }
         ],
@@ -42622,31 +40437,256 @@ const COURSES = {
         ]
        },
        {
-        "name": "ナポリタン",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
+        "name": "さつま芋のマヨサラダ",
+        "method": "①玉葱は薄切りにする。さつま芋は半月又いちょう切りにして水にさらし、玉葱と共にゆでて水気をきる。\n②調味料で、①をあえる。",
         "ingredients": [
          {
-          "name": "ナポリタン（冷凍）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
+          "name": "さつま芋",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
           "qty1_parsed": {
-           "value": 60.0,
+           "value": 50.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "60ｇ"
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（青菜・細葱）",
+        "method": "①細葱は小口切り、青菜は食べやすく切る。\n②鍋にだし汁を入れて煮立て、青菜を加えて煮、みそを溶かし入れ、細葱を散らす。",
+        "ingredients": [
+         {
+          "name": "青菜（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "細葱（冷蔵）",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 194.00kcal　蛋白質 5.40g　脂質 10.00g　炭水化物 24.90g　食塩相当量 1.60g",
+      "photo": "photos/8d4ce6a2e5d9.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "大阪王将　肉焼売",
+        "method": "①レタスは食べやすく切る。\n②肉焼売は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約25～28分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "大阪王将　肉焼売（冷凍）",
+          "qty1_raw": "4コ",
+          "qty3_raw": "12コ",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "4コ"
+          }
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
           }
          }
         ],
         "allergens": [
-         "小麦 乳成分 卵"
+         "小麦"
         ]
        },
        {
-        "name": "いんげんのごまあえ",
+        "name": "白菜の中華風甘酢あえ",
+        "method": "①白菜は食べやすく切り、人参は半月又いちょう切り、ちくわは小口切りにして共にゆで、水気を絞る。\n②調味料を合わせ、①をあえる。\n\n◎酸味が気になる場合は調味料を煮立て、冷ましてからあえてください。",
+        "ingredients": [
+         {
+          "name": "ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.5ｇ",
+          "qty3_raw": "小 1/4",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 1.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "冬瓜の生姜あんかけ",
         "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "いんげんのごまあえ(冷凍)",
+          "name": "冬瓜の生姜あんかけ(冷凍)",
           "qty1_raw": "40ｇ",
           "qty3_raw": "120ｇ",
           "qty1_parsed": {
@@ -42662,43 +40702,113 @@ const COURSES = {
         ]
        }
       ],
-      "nutrition": "エネルギー 370.00kcal　蛋白質 17.10g　脂質 21.90g　炭水化物 25.30g　食塩相当量 2.60g",
-      "photo": "photos/1d3414dd352a.jpg"
-     }
-    },
-    "day_total": "エネルギー 687kcal\n蛋白質 33.1g\n脂質 35.2g\n炭水化物 60.4g\n食塩相当量 6.3g"
-   },
-   "2026-11-12": {
-    "short_label": "11/12（木）",
-    "meals": {
-     "朝食": {
+      "nutrition": "エネルギー 346.00kcal　蛋白質 9.10g　脂質 19.20g　炭水化物 33.80g　食塩相当量 2.80g",
+      "photo": "photos/4fee6c398bf2.jpg"
+     },
+     "夕食": {
       "dishes": [
        {
-        "name": "いわしとひじきのハンバーグ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
+        "name": "さわら柚子あんかけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用10～15分）。",
         "ingredients": [
          {
-          "name": "いわしとひじきのハンバーグ（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
+          "name": "さわら柚子あんかけ（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
           "qty1_parsed": {
            "value": 1.0,
-           "unit": "コ",
+           "unit": "切",
            "approx": false,
-           "raw": "1コ"
+           "raw": "1切"
           }
          }
         ],
         "allergens": [
-         "小麦 乳成分"
+         "小麦"
         ]
        },
        {
-        "name": "金時人参入りなます",
+        "name": "もやしのにら炒め",
+        "method": "①もやし、にらは食べやすく切り、ウインナーは斜め切りにする。\n②フライパンに油を熱してウインナー、もやしを炒め、にらを加えてさっと炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "ウインナー",
+          "qty1_raw": "2/3本",
+          "qty3_raw": "2本",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "本",
+           "approx": false,
+           "raw": "2/3本"
+          }
+         },
+         {
+          "name": "もやし（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "にら（冷蔵）",
+          "qty1_raw": "1/12ワ",
+          "qty3_raw": "1/4ワ",
+          "qty1_parsed": {
+           "value": 0.08333333333333333,
+           "unit": "ワ",
+           "approx": false,
+           "raw": "1/12ワ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "いんげんのピーナッツあえ",
         "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "金時人参入りなます（冷凍）",
+          "name": "いんげんのピーナッツあえ（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -42710,46 +40820,34 @@ const COURSES = {
          }
         ],
         "allergens": [
-         "小麦"
+         "小麦 落花生"
         ]
-       },
-       {
-        "name": "いんげんの洋風あえ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "いんげんの洋風あえ（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 104.00kcal　蛋白質 5.00g　脂質 3.70g　炭水化物 13.00g　食塩相当量 1.20g",
-      "photo": "photos/ff9afec9f4fc.jpg"
-     },
-     "昼食": {
+      "nutrition": "エネルギー 195.00kcal　蛋白質 9.80g　脂質 11.60g　炭水化物 14.50g　食塩相当量 1.70g",
+      "photo": "photos/3799fe196c98.jpg"
+     }
+    },
+    "day_total": "エネルギー 735kcal\n蛋白質 24.3g\n脂質 40.8g\n炭水化物 73.2g\n食塩相当量 6.1g"
+   },
+   "2026-12-18": {
+    "short_label": "12/18（金）",
+    "meals": {
+     "朝食": {
       "dishes": [
        {
-        "name": "あじのしそ巻天ぷら",
-        "method": "①凍ったままのブロッコリーはゆで、水気をきる。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約12～15分）、①を添える。",
+        "name": "ブロッコリーのそぼろ炒め",
+        "method": "①玉葱は薄切りにする。\n②フライパンに油を熱して①を炒め、ひき肉、凍ったままのブロッコリーを加えて更に炒め、調味料を加えて汁気がなくなるまで炒りつける。",
         "ingredients": [
          {
-          "name": "真アジのしそ巻天ぷら(油調済)(冷凍)",
-          "qty1_raw": "4コ",
-          "qty3_raw": "12コ",
+          "name": "鶏ひき肉",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
           "qty1_parsed": {
-           "value": 4.0,
-           "unit": "コ",
+           "value": 20.0,
+           "unit": "ｇ",
            "approx": false,
-           "raw": "4コ"
+           "raw": "20ｇ"
           }
          },
          {
@@ -42762,38 +40860,63 @@ const COURSES = {
            "approx": false,
            "raw": "30ｇ"
           }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "なすのそぼろ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
+         },
          {
-          "name": "なすのそぼろ煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
           "qty1_parsed": {
-           "value": 50.0,
+           "value": 20.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "50ｇ"
+           "raw": "20ｇ"
           }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
          }
         ],
-        "allergens": [
-         "小麦"
-        ]
+        "allergens": []
        },
        {
-        "name": "春菊とピーナッツのあえもの",
+        "name": "大根葉と油揚げのあえもの",
         "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "春菊とピーナッツの和え物(冷凍)",
+          "name": "大根葉と油揚げの和え物(冷凍)",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -42805,61 +40928,184 @@ const COURSES = {
          }
         ],
         "allergens": [
-         "小麦 落花生"
+         "小麦"
         ]
+       },
+       {
+        "name": "みそ汁（豆腐・えのき茸）",
+        "method": "①豆腐はさいの目切り、えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れ、豆腐を加えて沸騰直前に火を止める。",
+        "ingredients": [
+         {
+          "name": "豆腐",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/6ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "えのき茸（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 246.00kcal　蛋白質 11.30g　脂質 12.20g　炭水化物 23.10g　食塩相当量 1.00g",
-      "photo": "photos/6ae2db69cee5.jpg"
+      "nutrition": "エネルギー 153.00kcal　蛋白質 10.20g　脂質 9.00g　炭水化物 10.70g　食塩相当量 1.80g",
+      "photo": "photos/a3b493c074a7.jpg"
      },
-     "夕食": {
+     "昼食": {
       "dishes": [
        {
-        "name": "スタミナポーク",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "name": "かつおの漬け丼",
+        "method": "①かつお漬け丼は袋のまま流水解凍する。\n②丼にご飯を盛り、かつおをのせる。",
         "ingredients": [
          {
-          "name": "スタミナポーク（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
+          "name": "かつお漬け丼（生食用）（冷凍）",
+          "qty1_raw": "53.33ｇ",
+          "qty3_raw": "160ｇ",
           "qty1_parsed": {
-           "value": 100.0,
+           "value": 53.33,
            "unit": "ｇ",
            "approx": false,
-           "raw": "100ｇ"
+           "raw": "53.33ｇ"
           }
          }
         ],
         "allergens": [
-         "小麦 乳成分"
+         "小麦"
         ]
        },
        {
-        "name": "肉団子の白味噌煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
+        "name": "白はんぺんとオクラの煮もの",
+        "method": "①人参は半月又いちょう切り、白はんぺんは解凍して短冊切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、白はんぺん、凍ったままのオクラを加えて蓋をして煮る。",
         "ingredients": [
          {
-          "name": "肉団子の白味噌煮（冷凍）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
+          "name": "白はんぺん（冷凍）",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "オクラ刻み（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
           "qty1_parsed": {
            "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "60ｇ"
-          }
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦 乳成分"
+         "小麦 卵"
         ]
        },
        {
-        "name": "ほうれん草と人参の白あえ",
+        "name": "なすの含め煮",
         "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "ほうれん草と人参の白和え(冷凍)",
+          "name": "なすの含め煮(冷凍)",
           "qty1_raw": "40ｇ",
           "qty3_raw": "120ｇ",
           "qty1_parsed": {
@@ -42875,89 +41121,17 @@ const COURSES = {
         ]
        }
       ],
-      "nutrition": "エネルギー 318.00kcal　蛋白質 15.50g　脂質 17.80g　炭水化物 22.00g　食塩相当量 2.30g",
-      "photo": "photos/37674ed52096.jpg"
-     }
-    },
-    "day_total": "エネルギー 668kcal\n蛋白質 31.8g\n脂質 33.7g\n炭水化物 58.1g\n食塩相当量 4.5g"
-   },
-   "2026-11-13": {
-    "short_label": "11/13（金）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "鶏ねぎさつま揚げ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "プリッと鶏ねぎさつま揚げ（40ｇ）（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "ピーマンと春雨の炒め煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "ピーマンと春雨の炒め煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "オクラとゆばのあえもの",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "オクラとゆばの和えもの（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 143.00kcal　蛋白質 5.40g　脂質 7.10g　炭水化物 14.50g　食塩相当量 1.30g",
-      "photo": "photos/27d73aab0896.jpg"
+      "nutrition": "エネルギー 112.00kcal　蛋白質 13.50g　脂質 0.20g　炭水化物 13.30g　食塩相当量 2.00g",
+      "photo": "photos/3ebb6fb49366.jpg"
      },
-     "昼食": {
+     "夕食": {
       "dishes": [
        {
-        "name": "鶏肉のハニーマスタード",
+        "name": "炭火焼き風チキン",
         "method": "①凍ったままの小松菜はゆでて水に取り、水気を絞る。\n②チキンは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、①を添える。",
         "ingredients": [
          {
-          "name": "グリルチキン（ハニーマスタード）(冷凍)",
+          "name": "グリルチキン（炭火焼き風）（冷凍）",
           "qty1_raw": "80ｇ",
           "qty3_raw": "240ｇ",
           "qty1_parsed": {
@@ -42979,7 +41153,793 @@ const COURSES = {
           }
          }
         ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "カリフラワーの煮もの",
+        "method": "①人参は半月又いちょう切りにする。\n②鍋に水、鶏がらスープの素、しょうゆ、人参を入れて煮立て、凍ったままのカリフラワーを加えて蓋をして煮、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "カリフラワー（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小 1/2",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
         "allergens": []
+       },
+       {
+        "name": "サラダ風ポテト卯の花",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "サラダ風ポテト卯の花(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 245.00kcal　蛋白質 18.70g　脂質 11.30g　炭水化物 16.10g　食塩相当量 2.00g",
+      "photo": "photos/7471da988bf5.jpg"
+     }
+    },
+    "day_total": "エネルギー 510kcal\n蛋白質 42.4g\n脂質 20.5g\n炭水化物 40.1g\n食塩相当量 5.8g"
+   },
+   "2026-12-19": {
+    "short_label": "12/19（土）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "納豆",
+        "method": "①流水解凍し、しょうゆをかける。",
+        "ingredients": [
+         {
+          "name": "極小粒納豆（冷凍）",
+          "qty1_raw": "1ﾊﾟｯｸ",
+          "qty3_raw": "3ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "チャンプルー",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "ingredients": [
+         {
+          "name": "チャンプルー（冷凍）",
+          "qty1_raw": "56ｇ",
+          "qty3_raw": "168ｇ",
+          "qty1_parsed": {
+           "value": 56.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "56ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "みそ汁（なす・人参）",
+        "method": "①なすは半月切りにして水にさらし、人参はいちょう切りにする。\n②鍋にだし汁、人参を入れて煮立て、なすを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "なす",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 121.00kcal　蛋白質 7.70g　脂質 4.90g　炭水化物 13.00g　食塩相当量 1.70g",
+      "photo": "photos/9cd3c38f0f3c.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "ハンバーグ照り焼きソース",
+        "method": "①コーンはゆでて水気をきる。\n②ハンバーグは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "やわらかハンバーグ照り焼きソース(冷凍)",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         },
+         {
+          "name": "カーネルコーン（冷凍）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "いんげんの煮もの",
+        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、凍ったままのいんげんを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "いんげん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "菜の花のごまあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "菜の花のごまあえ(冷凍)",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 282.00kcal　蛋白質 13.40g　脂質 13.50g　炭水化物 26.00g　食塩相当量 2.90g",
+      "photo": "photos/70f6e9df71a3.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "白身魚の葱塩焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "白身魚(バサ)葱塩焼き(冷凍)",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "春雨サラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9～11分）。",
+        "ingredients": [
+         {
+          "name": "春雨サラダ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "白菜の炒めもの",
+        "method": "①白菜は食べやすく切り、人参は半月又いちょう切りにする。\n②フライパンにオリーブ油を熱して人参を炒め、白菜を加えて更に炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 171.00kcal　蛋白質 10.40g　脂質 9.10g　炭水化物 12.50g　食塩相当量 1.20g",
+      "photo": "photos/7b3bfb465d67.jpg"
+     }
+    },
+    "day_total": "エネルギー 574kcal\n蛋白質 31.5g\n脂質 27.5g\n炭水化物 51.5g\n食塩相当量 5.8g"
+   },
+   "2026-12-20": {
+    "short_label": "12/20（日）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "ミートオムレツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～7分）。",
+        "ingredients": [
+         {
+          "name": "ミートオムレツ(冷凍)",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "大根のコンソメ煮",
+        "method": "①大根は半月又いちょう切りにする。\n②鍋に水、コンソメ、①を入れて煮立て、グリンピースを加えて蓋をして煮、塩、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "グリンピース（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "ミネストローネ",
+        "method": "①鍋に水、コンソメを加えて煮立て、マカロニを加えて約4分煮、ケチャップ、塩、こしょうで味を調え、パセリを散らす。",
+        "ingredients": [
+         {
+          "name": "マカロニ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "乾燥パセリ",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　トマトケチャップ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 138.00kcal　蛋白質 5.20g　脂質 2.90g　炭水化物 15.20g　食塩相当量 2.40g",
+      "photo": "photos/d24f06c83ce1.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "牛肉とごぼうのしぐれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
+        "ingredients": [
+         {
+          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "胡瓜のマヨあえ",
+        "method": "①胡瓜は小口切りにし、塩もみして水気を絞る。\n②玉葱は薄切り、ハムは短冊切りにして共にゆで、水気を絞る。\n③調味料で、①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "ポークハム",
+          "qty1_raw": "2/3枚",
+          "qty3_raw": "2枚",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "枚",
+           "approx": false,
+           "raw": "2/3枚"
+          }
+         },
+         {
+          "name": "胡瓜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分 卵"
+        ]
        },
        {
         "name": "油揚げとザーサイ煮",
@@ -43000,214 +41960,26 @@ const COURSES = {
         "allergens": [
          "小麦"
         ]
-       },
-       {
-        "name": "みかんなます",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "みかんなます（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 243.00kcal　蛋白質 17.60g　脂質 10.60g　炭水化物 18.40g　食塩相当量 2.40g",
-      "photo": "photos/24bdec5b6e5b.jpg"
+      "nutrition": "エネルギー 288.00kcal　蛋白質 8.30g　脂質 15.50g　炭水化物 28.60g　食塩相当量 3.10g",
+      "photo": "photos/c361ed6eddb7.jpg"
      },
      "夕食": {
       "dishes": [
        {
-        "name": "かれいの照り焼き",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～12分）。",
+        "name": "つくねと茄子の旨煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～7分）。",
         "ingredients": [
          {
-          "name": "カレイ照焼き(里芋・いんげん入)(調理済)(冷凍)",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
+          "name": "つくねと茄子の旨煮（冷凍）",
+          "qty1_raw": "110ｇ",
+          "qty3_raw": "330ｇ",
           "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 かに"
-        ]
-       },
-       {
-        "name": "厚揚げのおかか煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "厚揚げのおかか煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
+           "value": 110.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "れんこんサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "れんこんサラダ（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 126.00kcal　蛋白質 8.80g　脂質 4.50g　炭水化物 13.10g　食塩相当量 0.90g",
-      "photo": "photos/21414443ae67.jpg"
-     }
-    },
-    "day_total": "エネルギー 512kcal\n蛋白質 31.8g\n脂質 22.2g\n炭水化物 46.0g\n食塩相当量 4.6g"
-   },
-   "2026-11-14": {
-    "short_label": "11/14（土）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "オムレツ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約5～7分）、ケチャップをかける。",
-        "ingredients": [
-         {
-          "name": "プレーンオムレツ（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "　トマトケチャップ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "かぶと油揚げの煮もの",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "かぶと油揚げの煮物（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "白菜の塩昆布あえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "白菜の塩昆布あえ（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 89.00kcal　蛋白質 4.90g　脂質 3.30g　炭水化物 10.20g　食塩相当量 1.60g",
-      "photo": "photos/f6d69895e15c.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "さわら柚子風味煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8分）。",
-        "ingredients": [
-         {
-          "name": "さわら幽庵煮（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "ブロッコリーのくず煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
-        "ingredients": [
-         {
-          "name": "ブロッコリーのくず煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
+           "raw": "110ｇ"
           }
          }
         ],
@@ -43216,57 +41988,22 @@ const COURSES = {
         ]
        },
        {
-        "name": "黒豆",
-        "method": "①流水解凍する。",
+        "name": "かぼちゃの炒めもの",
+        "method": "①かぼちゃ、玉葱は共に薄切り、かに風味かまぼこは半分に切ってほぐす。\n②フライパンに油を熱してかぼちゃ、玉葱を炒め、かに風味かまぼこを加えて更に炒め、調味料で調味する。",
         "ingredients": [
          {
-          "name": "黒豆煮（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
+          "name": "かに風味かまぼこ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
           "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
+           "value": 0.3333333333333333,
+           "unit": "本",
            "approx": false,
-           "raw": "30ｇ"
+           "raw": "1/3本"
           }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 202.00kcal　蛋白質 13.70g　脂質 6.90g　炭水化物 21.50g　食塩相当量 1.60g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/f95f864f1608.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "ごぼう入りつくねの和風あんかけ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12～15分）。",
-        "ingredients": [
+         },
          {
-          "name": "ごぼう入りつくねの和風あんかけ（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "すき昆布とえのきの酢の物",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "すき昆布とえのきの酢の物（冷凍）",
+          "name": "かぼちゃ（冷蔵）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -43275,90 +42012,65 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦"
+         "小麦 卵 かに"
         ]
        },
        {
-        "name": "モロヘイヤの辛しあえ",
-        "method": "①流水解凍する。",
+        "name": "パスタサラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～6分）。",
         "ingredients": [
          {
-          "name": "モロヘイヤの辛し和え（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 191.00kcal　蛋白質 8.10g　脂質 9.40g　炭水化物 20.30g　食塩相当量 2.40g",
-      "photo": "photos/05bf0d2dadb3.jpg"
-     }
-    },
-    "day_total": "エネルギー 482kcal\n蛋白質 26.7g\n脂質 19.6g\n炭水化物 52.0g\n食塩相当量 5.6g"
-   },
-   "2026-11-15": {
-    "short_label": "11/15（日）",
-    "meals": {
-     "朝食": {
-      "dishes": [
-       {
-        "name": "かぼちゃのそぼろ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～12分）。",
-        "ingredients": [
-         {
-          "name": "かぼちゃのそぼろ煮(冷凍)",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "甘酢あえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "甘酢あえ（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "なすの生姜煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "なすの生姜煮（冷凍）",
+          "name": "パスタサラダ(冷凍)",
           "qty1_raw": "40ｇ",
           "qty3_raw": "120ｇ",
           "qty1_parsed": {
@@ -43370,182 +42082,25 @@ const COURSES = {
          }
         ],
         "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 83.00kcal　蛋白質 2.40g　脂質 0.10g　炭水化物 18.20g　食塩相当量 0.90g",
-      "photo": "photos/0613812d9860.jpg"
-     },
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏肉野菜巻フライ＆野菜コロッケ",
-        "method": "①コーンはゆでて水気をきる。\n②鶏肉野菜巻きフライとコロッケは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（鶏肉野菜巻きフライ5人用約10～15分、コロッケ5人用約4分）、器に盛り、ソースをかけ、①を添える。",
-        "ingredients": [
-         {
-          "name": "鶏肉野菜巻きフライ（油調済み）（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "コロッケ（野菜入り）（油調済）(冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "　ソース",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "切干大根煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "切干大根煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "カリフラワーのサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "カリフラワーのサラダ（冷凍）",
-          "qty1_raw": "46ｇ",
-          "qty3_raw": "138ｇ",
-          "qty1_parsed": {
-           "value": 46.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "46ｇ"
-          }
-         }
-        ],
-        "allergens": [
          "小麦 乳成分 卵"
         ]
        }
       ],
-      "nutrition": "エネルギー 255.00kcal　蛋白質 7.30g　脂質 14.80g　炭水化物 24.60g　食塩相当量 1.80g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/29109fc36cde.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉とたけのこの中華風",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "豚肉と竹の子の中華風（冷凍）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "海鮮キャベツ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "海鮮キャベツ（冷凍）",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "ブロッコリーのナムル",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "ブロッコリーのナムル（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 209.00kcal　蛋白質 9.90g　脂質 13.50g　炭水化物 11.70g　食塩相当量 1.60g",
-      "photo": "photos/46c401ed5ff6.jpg"
+      "nutrition": "エネルギー 295.00kcal　蛋白質 9.40g　脂質 14.60g　炭水化物 33.20g　食塩相当量 2.40g",
+      "photo": "photos/a0df48f66fe1.jpg"
      }
     },
-    "day_total": "エネルギー 547kcal\n蛋白質 19.6g\n脂質 28.4g\n炭水化物 54.5g\n食塩相当量 4.3g"
-   },
+    "day_total": "エネルギー 721kcal\n蛋白質 22.9g\n脂質 33.0g\n炭水化物 77.0g\n食塩相当量 7.9g"
+   }
+  }
+ },
+ "chokantan": {
+  "label": "超簡単おかず",
+  "color": "FF9966",
+  "has_recipe": true,
+  "global_note": "※ご飯の栄養量は含まれません　※写真は盛付例です ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
+  "seasonal_note": null,
+  "days": {
    "2026-11-16": {
     "short_label": "11/16（月）",
     "meals": {
@@ -49577,935 +48132,38 @@ const COURSES = {
      }
     },
     "day_total": "エネルギー 549kcal\n蛋白質 28.0g\n脂質 25.5g\n炭水化物 50.9g\n食塩相当量 5.4g"
-   }
-  }
- },
- "volume": {
-  "label": "ボリューム",
-  "color": "FF99CC",
-  "has_recipe": true,
-  "global_note": "※ご飯の栄養量は含まれません ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
-  "seasonal_note": null,
-  "days": {
-   "2026-11-09": {
-    "short_label": "11/9（月）",
+   },
+   "2026-12-14": {
+    "short_label": "12/14（月）",
     "meals": {
-     "昼食": {
+     "朝食": {
       "dishes": [
        {
-        "name": "豚肉と根菜の煮もの",
-        "method": "①人参は乱切りにする。\n②鍋に油を熱し、豚肉、①を炒め、凍ったままのごぼう、里芋を加えて更に炒め、だし汁、調味料を加えて落とし蓋をして煮る。",
+        "name": "れんこん金平",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
         "ingredients": [
          {
-          "name": "豚コマ",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
+          "name": "れんこん金平（冷凍）",
+          "qty1_raw": "48ｇ",
+          "qty3_raw": "144ｇ",
           "qty1_parsed": {
-           "value": 80.0,
+           "value": 48.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "80ｇ"
+           "raw": "48ｇ"
           }
-         },
-         {
-          "name": "ささがき牛蒡（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "里芋（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "80ｍｌ",
-          "qty3_raw": "240ｍｌ",
-          "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "80ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "3.3ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "9ｇ",
-          "qty3_raw": "大1 1/2",
-          "qty1_parsed": {
-           "value": 9.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "9ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "ツナとブロッコリーのサラダ",
-        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n②ツナフレーク油漬は油をきっておく。\n③調味料を合わせ、①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "ツナフレーク油漬（70g）",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1/3コ"
-          }
-         },
-         {
-          "name": "ブロッコリー（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　マヨネーズ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（焼麩・わかめ）",
-        "method": "①鍋にだし汁を入れて煮立て、焼麩、わかめを加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
          }
         ],
         "allergens": [
          "小麦"
         ]
-       }
-      ],
-      "nutrition": "エネルギー 391.00kcal　蛋白質 23.60g　脂質 24.60g　炭水化物 21.40g　食塩相当量 3.20g",
-      "photo": "photos/f09e305c0f66.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "メルルーサの塩焼き",
-        "method": "①凍ったままのカリフラワーはゆでて水気をきる。\n②塩、油を混ぜ合わせ、凍ったままの魚にまぶしておく。\n③②をグリルで両面焼き、器に盛って①を添える。",
-        "ingredients": [
-         {
-          "name": "メルルーサ（80g）（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
-          }
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": []
        },
        {
-        "name": "ひじきのそぼろ煮",
-        "method": "①ひじきはたっぷりの水につけて戻す。人参（みそ汁にも使用）は半月又いちょう切りにする。\n②鍋にだし汁、調味料、人参を入れて煮立て、ひき肉、ひじきを加えて蓋をして煮る。",
+        "name": "キャベツの煮浸し",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
         "ingredients": [
          {
-          "name": "鶏ひき肉",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "小芽ひじき",
-          "qty1_raw": "3.33ｇ",
-          "qty3_raw": "10ｇ",
-          "qty1_parsed": {
-           "value": 3.33,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3.33ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "じゃが芋のあえもの",
-        "method": "①じゃが芋は半月又いちょう切りにして水にさらし、ゆでて（途中、枝豆を加える）水気をきる。\n②お好みのドレッシングで、①をあえる。",
-        "ingredients": [
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "むき枝豆（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　お好みのドレッシング",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "みそ汁（ほうれん草・人参）",
-        "method": "①人参（そぼろ煮にも使用）はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、凍ったままのほうれん草を加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "ほうれん草（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 207.00kcal　蛋白質 23.20g　脂質 5.40g　炭水化物 21.40g　食塩相当量 2.40g",
-      "photo": "photos/d0ba094fb6cd.jpg"
-     }
-    },
-    "day_total": "エネルギー 598kcal\n蛋白質 46.8g\n脂質 30.0g\n炭水化物 42.8g\n食塩相当量 5.6g"
-   },
-   "2026-11-10": {
-    "short_label": "11/10（火）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "牛スタミナ丼",
-        "method": "①玉葱は薄切り、にらは食べやすく切る。\n②調味料は合わせておく。\n③フライパンに油を熱し、牛肉、玉葱を炒め、にらを加えてさっと炒め、②を加えてからめ、温かいご飯にのせる。",
-        "ingredients": [
-         {
-          "name": "牛コマ",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "にら（冷蔵）",
-          "qty1_raw": "1/12ワ",
-          "qty3_raw": "1/4ワ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ワ",
-           "approx": false,
-           "raw": "1/12ワ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "キャベツのかに風味煮",
-        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切り、かに風味かまぼこは半分に切ってほぐす。\n②鍋に水、鶏がらスープの素、しょうゆ、人参を入れて煮立て、キャベツ、かに風味かまぼこを加えて煮、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "かに風味かまぼこ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       },
-       {
-        "name": "みそ汁（えのき茸・細葱）",
-        "method": "①細葱は小口切り、えのき茸は食べやすく切る。\n②鍋にだし汁を入れて煮立て、えのき茸を加えて煮、みそを溶かし入れて細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "えのき茸（冷蔵）",
-          "qty1_raw": "16.66ｇ",
-          "qty3_raw": "50ｇ",
-          "qty1_parsed": {
-           "value": 16.66,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "16.66ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 203.00kcal　蛋白質 15.60g　脂質 10.90g　炭水化物 13.00g　食塩相当量 2.70g",
-      "photo": "photos/6f3ff6da35ea.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "白だしでおでん風煮",
-        "method": "①卵は固ゆでにする（沸後約10分）。\n②大根は輪又半月切りにし、ゆでて水気をきる。\n③焼ちくわは斜め切り、豆腐は食べやすく切る。\n④鍋に水、白だし（お好みで加減）、②を入れて煮立て、①、③、凍ったままのウインナーを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "皮なしウインナー(冷凍)",
-          "qty1_raw": "2本",
-          "qty3_raw": "6本",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "本",
-           "approx": false,
-           "raw": "2本"
-          }
-         },
-         {
-          "name": "卵",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "焼ちくわ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "豆腐",
-          "qty1_raw": "1/3ﾊﾟｯｸ",
-          "qty3_raw": "1ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/3ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         },
-         {
-          "name": "白だし",
-          "qty1_raw": "1/2袋",
-          "qty3_raw": "1 1/2袋",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/2袋"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "100ｍｌ",
-          "qty3_raw": "300ｍｌ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "100ｍｌ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "乳成分 卵 小麦 卵 小麦"
-        ]
-       },
-       {
-        "name": "かぼちゃの甘辛炒め",
-        "method": "①かぼちゃ、玉葱は共に薄切りにする。\n②フライパンに油を熱して①を炒め、火が通ったら調味料を加えて汁気がなくなるまで炒める。",
-        "ingredients": [
-         {
-          "name": "かぼちゃ（冷蔵）",
-          "qty1_raw": "70ｇ",
-          "qty3_raw": "210ｇ",
-          "qty1_parsed": {
-           "value": 70.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "70ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "もやしのコーンあえ",
-        "method": "①もやしは食べやすく切ってゆで（途中、コーンを加える）、水気を絞る。\n②味付けポン酢で①をあえる。",
-        "ingredients": [
-         {
-          "name": "もやし（冷蔵）",
+          "name": "キャベツの煮浸し（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -50514,381 +48172,6 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
-         },
-         {
-          "name": "カーネルコーン（冷凍）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 448.00kcal　蛋白質 22.90g　脂質 27.60g　炭水化物 33.70g　食塩相当量 3.50g",
-      "photo": "photos/5455339b31fd.jpg"
-     }
-    },
-    "day_total": "エネルギー 651kcal\n蛋白質 38.5g\n脂質 38.5g\n炭水化物 46.7g\n食塩相当量 6.2g"
-   },
-   "2026-11-11": {
-    "short_label": "11/11（水）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "鶏肉とブロッコリーのバジル炒め",
-        "method": "①玉葱はくし形切りにする。\n②鶏肉は食べやすく切り、酒、塩、こしょうをもみ込む。\n③フライパンに油を熱し、①、②を炒め、凍ったままのブロッコリーを加えて更に炒め、ソース（お好みで加減）で調味する。",
-        "ingredients": [
-         {
-          "name": "若鶏モモ肉",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
-          "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "ブロッコリー（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "バジルオイルソース",
-          "qty1_raw": "1/3袋",
-          "qty3_raw": "1袋",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/3袋"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "ハムとかぶのマリネ",
-        "method": "①かぶは薄切り、茎は食べやすく切り、人参は薄い半月又いちょう切りにし、共に塩もみして水気を絞る。\n②ハムは短冊切りにしてゆで、水気をきる。\n③調味料を合わせ、①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "ポークハム",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "かぶ（冷蔵）",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "乳成分 卵"
-        ]
-       },
-       {
-        "name": "スープ（シェルマカロニ・枝豆）",
-        "method": "①鍋に水、コンソメ、酒を入れて煮立て、シェルマカロニ、枝豆を加えて約10分煮、塩、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "シェルマカロニ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "むき枝豆（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 390.00kcal　蛋白質 21.50g　脂質 28.10g　炭水化物 13.80g　食塩相当量 2.90g",
-      "photo": "photos/85fac0be0653.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉の山賊焼き",
-        "method": "①レタスは食べやすく切る。\n②豚肉は食べやすく切る。\n③フライパンに油を熱し、②を焼き、火が通ったらたれ（お好みで加減）を加えてからめ、器に盛り、①を添える。",
-        "ingredients": [
-         {
-          "name": "豚切り落とし肉",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
-          "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "80ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "山賊焼のたれ",
-          "qty1_raw": "2/3袋",
-          "qty3_raw": "2袋",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "袋",
-           "approx": false,
-           "raw": "2/3袋"
-          }
-         },
-         {
-          "name": "レタス又葉野菜（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
          }
         ],
         "allergens": [
@@ -50896,276 +48179,11 @@ const COURSES = {
         ]
        },
        {
-        "name": "いんげんの信田煮",
-        "method": "①玉葱は薄切り、油揚げは短冊切りにする。\n②鍋にだし汁、調味料、玉葱を入れて煮立て、油揚げ、凍ったままのいんげんを加えて蓋をして煮る。",
+        "name": "ちくわのごま風味",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8分）。",
         "ingredients": [
          {
-          "name": "油揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "いんげん（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 1.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "鶏がらスープ（生椎茸・太葱）",
-        "method": "①太葱は小口切りにする。生椎茸は石づきを取り、薄切りにする。\n②鍋に水、鶏がらスープの素を入れて煮立て、生椎茸を加えて煮、こしょうで味を調え、太葱を散らす。",
-        "ingredients": [
-         {
-          "name": "生椎茸（冷蔵）",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "太葱（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 282.00kcal　蛋白質 18.50g　脂質 18.20g　炭水化物 13.20g　食塩相当量 2.20g",
-      "photo": "photos/53b386b1696f.jpg"
-     }
-    },
-    "day_total": "エネルギー 672kcal\n蛋白質 40.0g\n脂質 46.3g\n炭水化物 27.0g\n食塩相当量 5.1g"
-   },
-   "2026-11-12": {
-    "short_label": "11/12（木）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "ごまドレ温野菜豚しゃぶ",
-        "method": "①キャベツは食べやすく切り、アスパラは斜め切りにして共にゆで、水気を絞る。\n②豚肉は食べやすく切り、酒を加えた熱湯でゆでて冷ます。\n③器に①、②を盛り、ドレッシング（お好みで加減）をかける。",
-        "ingredients": [
-         {
-          "name": "豚モモ薄切り肉しゃぶしゃぶ用",
-          "qty1_raw": "80ｇ",
-          "qty3_raw": "240ｇ",
-          "qty1_parsed": {
-           "value": 80.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "80ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "70ｇ",
-          "qty3_raw": "210ｇ",
-          "qty1_parsed": {
-           "value": 70.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "70ｇ"
-          }
-         },
-         {
-          "name": "グリーンアスパラ（冷蔵）",
-          "qty1_raw": "2/3本",
-          "qty3_raw": "2本",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "本",
-           "approx": false,
-           "raw": "2/3本"
-          }
-         },
-         {
-          "name": "食べるごまドレッシング",
-          "qty1_raw": "1袋",
-          "qty3_raw": "3袋",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1袋"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "小松菜の卵炒め",
-        "method": "①玉葱は薄切りにする。\n②溶き卵にみりんを加えて混ぜ、油を熱したフライパンでふんわりと炒めて取り出す。\n③続いて①、凍ったままの小松菜を加えて炒め、調味料で調味し、②を戻し入れて炒め合わせる。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "小松菜（冷凍）",
+          "name": "竹輪のごま風味(冷凍)",
           "qty1_raw": "40ｇ",
           "qty3_raw": "120ｇ",
           "qty1_parsed": {
@@ -51174,190 +48192,32 @@ const COURSES = {
            "approx": false,
            "raw": "40ｇ"
           }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
          }
         ],
         "allergens": [
-         "卵"
-        ]
-       },
-       {
-        "name": "みそ汁（焼麩・人参）",
-        "method": "①人参はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、焼麩を加えて煮、みそを溶かし入れる。",
-        "ingredients": [
-         {
-          "name": "焼麩",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦"
+         "小麦 卵"
         ]
        }
       ],
-      "nutrition": "エネルギー 339.00kcal　蛋白質 24.80g　脂質 21.00g　炭水化物 14.20g　食塩相当量 1.90g",
-      "photo": "photos/54c050ecef53.jpg"
+      "nutrition": "エネルギー 106.00kcal　蛋白質 4.80g　脂質 2.80g　炭水化物 16.20g　食塩相当量 2.00g",
+      "photo": "photos/ac99dfd6a65a.jpg"
      },
-     "夕食": {
+     "昼食": {
       "dishes": [
        {
-        "name": "チキンカレー",
-        "method": "①じゃが芋、人参（コールスローにも使用）は乱切りにし、じゃが芋は水にさらす。玉葱は薄切りにする。\n②鍋に油を熱して鶏肉、①を炒め、水を加えて蓋をして煮、野菜に火が通ったら火を止めてカレールウを加えて混ぜ、再び弱火にかけてとろみがつくまで煮込み、温かいご飯にかける。",
+        "name": "七種具材の中華丼",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、温かいご飯にのせる。",
         "ingredients": [
          {
-          "name": "若鶏コマ",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
+          "name": "中華丼(冷凍)",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
           "qty1_parsed": {
-           "value": 60.0,
+           "value": 90.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "60ｇ"
+           "raw": "90ｇ"
           }
-         },
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "カレールウ<甘口>",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "200ｍｌ",
-          "qty3_raw": "600ｍｌ",
-          "qty1_parsed": {
-           "value": 200.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "200ｍｌ"
-          },
-          "own": true
          }
         ],
         "allergens": [
@@ -51365,46 +48225,11 @@ const COURSES = {
         ]
        },
        {
-        "name": "焼きはんぺん",
-        "method": "①白はんぺんは解凍して食べやすく切る。\n②フライパンに油を熱して①を焦げ目がつくまで焼き、器に盛ってミニトマトを添え、しょうゆをかける。",
+        "name": "ハムカツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～15分）。",
         "ingredients": [
          {
-          "name": "白はんぺん（冷凍）",
-          "qty1_raw": "2/3枚",
-          "qty3_raw": "2枚",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "枚",
-           "approx": false,
-           "raw": "2/3枚"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "ミニトマト（冷蔵）",
+          "name": "ハムカツ(油調済)(冷凍)",
           "qty1_raw": "1コ",
           "qty3_raw": "3コ",
           "qty1_parsed": {
@@ -51420,11 +48245,57 @@ const COURSES = {
         ]
        },
        {
-        "name": "白菜コールスロー",
-        "method": "①白菜、人参（カレーにも使用）は細切りにし、共にゆでて水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "name": "味付け里芋",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
         "ingredients": [
          {
-          "name": "白菜（冷蔵）",
+          "name": "味付け里芋乱切り（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 182.00kcal　蛋白質 3.30g　脂質 10.60g　炭水化物 23.80g　食塩相当量 1.70g",
+      "photo": "photos/14a3049239ae.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉となすのトマト煮込み",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "鶏肉となすのトマト煮込み（冷凍）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "豆腐のそぼろ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "豆腐のそぼろ煮（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -51433,87 +48304,320 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酢",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
          }
         ],
-        "allergens": []
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "オクラのごまあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "オクラのごま和え（冷凍）",
+          "qty1_raw": "25ｇ",
+          "qty3_raw": "75ｇ",
+          "qty1_parsed": {
+           "value": 25.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "25ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
        }
       ],
-      "nutrition": "エネルギー 433.00kcal　蛋白質 20.30g　脂質 22.60g　炭水化物 43.80g　食塩相当量 3.90g",
-      "photo": "photos/2c7099d569e5.jpg"
+      "nutrition": "エネルギー 178.00kcal　蛋白質 9.80g　脂質 11.60g　炭水化物 9.90g　食塩相当量 1.30g",
+      "photo": "photos/7c213a2ad75b.jpg"
      }
     },
-    "day_total": "エネルギー 772kcal\n蛋白質 45.1g\n脂質 43.6g\n炭水化物 58.0g\n食塩相当量 5.8g"
+    "day_total": "エネルギー 466kcal\n蛋白質 17.9g\n脂質 25.0g\n炭水化物 49.9g\n食塩相当量 5.0g"
    },
-   "2026-11-13": {
-    "short_label": "11/13（金）",
+   "2026-12-15": {
+    "short_label": "12/15（火）",
     "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "ウインナー",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
+        "ingredients": [
+         {
+          "name": "皮なしウインナー(冷凍)",
+          "qty1_raw": "2本",
+          "qty3_raw": "6本",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "本",
+           "approx": false,
+           "raw": "2本"
+          }
+         }
+        ],
+        "allergens": [
+         "乳成分"
+        ]
+       },
+       {
+        "name": "わかめと青梗菜のさっぱりあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "わかめと青梗菜のさっぱり和え（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "マカロニサラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
+        "ingredients": [
+         {
+          "name": "マカロニサラダ（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 208.00kcal　蛋白質 6.30g　脂質 15.90g　炭水化物 11.80g　食塩相当量 2.30g",
+      "photo": "photos/7f9e8fe150ed.jpg"
+     },
      "昼食": {
       "dishes": [
        {
-        "name": "あじのみそ煮",
-        "method": "①凍ったままのチンゲン菜はゆでて水に取り、水気を絞る。\n②生姜は薄切りにする。\n③鍋に水、調味料、②を入れて火にかけ、煮立ったら凍ったままの魚を重ならないように並べ、落とし蓋をして煮、①を添える。",
+        "name": "キーマカレー",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（約5分）、温かいご飯にかける。",
         "ingredients": [
          {
-          "name": "あじ(80g）（冷凍）",
+          "name": "キーマカレー（冷凍）",
+          "qty1_raw": "1ﾊﾟｯｸ",
+          "qty3_raw": "3ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1ﾊﾟｯｸ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "なすのみぞれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "なすのみぞれ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "いんげんの信田煮",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "いんげんの信田煮（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 160.00kcal　蛋白質 7.80g　脂質 8.10g　炭水化物 14.80g　食塩相当量 1.70g",
+      "photo": "photos/290fdf1bc038.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "煮込み海鮮メンチカツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
+        "ingredients": [
+         {
+          "name": "煮込み海鮮メンチカツ(冷凍)",
+          "qty1_raw": "76ｇ",
+          "qty3_raw": "228ｇ",
+          "qty1_parsed": {
+           "value": 76.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "76ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "かに風味サラダ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "かに風味サラダ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "穂先メンマと人参のあえもの",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "穂先メンマと人参の和え物(冷凍)",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 191.00kcal　蛋白質 4.20g　脂質 9.30g　炭水化物 22.80g　食塩相当量 2.20g",
+      "photo": "photos/66d6982b879f.jpg"
+     }
+    },
+    "day_total": "エネルギー 559kcal\n蛋白質 18.3g\n脂質 33.3g\n炭水化物 49.4g\n食塩相当量 6.2g"
+   },
+   "2026-12-16": {
+    "short_label": "12/16（水）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "ひとくちがんも",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
+        "ingredients": [
+         {
+          "name": "ひとくちがんも（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "高野豆腐とえんどう豆の卵あえ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約7～8分）。",
+        "ingredients": [
+         {
+          "name": "高野豆腐とえんどう豆の卵和え（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "あさりと小松菜の煮びたし",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～7分）。",
+        "ingredients": [
+         {
+          "name": "あさりと小松菜の煮びたし（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 137.00kcal　蛋白質 9.70g　脂質 6.80g　炭水化物 10.00g　食塩相当量 2.00g",
+      "photo": "photos/077fdddf574c.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "ホッケの醤油焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約8分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "ホッケ醤油焼き（調理済）（冷凍）",
           "qty1_raw": "1切",
           "qty3_raw": "3切",
           "qty1_parsed": {
@@ -51524,75 +48628,219 @@ const COURSES = {
           }
          },
          {
-          "name": "生姜",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "10ｇ",
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "五目豆",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
+        "ingredients": [
+         {
+          "name": "五目豆（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "ブロッコリーのコンソメ風味",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "ブロッコリーのコンソメ風味（冷凍）",
+          "qty1_raw": "35ｇ",
+          "qty3_raw": "105ｇ",
+          "qty1_parsed": {
+           "value": 35.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "35ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 139.00kcal　蛋白質 13.10g　脂質 4.90g　炭水化物 12.00g　食塩相当量 1.10g",
+      "photo": "photos/214a8e120bf2.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "チャプチェ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
+        "ingredients": [
+         {
+          "name": "チャプチェ（冷凍）",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
+          "qty1_parsed": {
+           "value": 90.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "90ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "切干大根煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "切干大根煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "かぼちゃの煮もの",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "かぼちゃの煮物(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 156.00kcal　蛋白質 5.40g　脂質 5.10g　炭水化物 21.60g　食塩相当量 1.40g",
+      "photo": "photos/e0491b3020e2.jpg"
+     }
+    },
+    "day_total": "エネルギー 432kcal\n蛋白質 28.2g\n脂質 16.8g\n炭水化物 43.6g\n食塩相当量 4.5g"
+   },
+   "2026-12-17": {
+    "short_label": "12/17（木）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "枝豆と蓮根のすり身寄せ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
+        "ingredients": [
+         {
+          "name": "枝豆と蓮根のすり身寄せ（冷凍）",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
           "qty1_parsed": {
            "value": 2.0,
-           "unit": "ｇ",
+           "unit": "コ",
            "approx": false,
-           "raw": "2ｇ"
+           "raw": "2コ"
           }
-         },
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "ほうれん草のお浸し",
+        "method": "①流水解凍する。",
+        "ingredients": [
          {
-          "name": "　水",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
+          "name": "ほうれん草のお浸し（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
           "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "4.5ｇ",
-          "qty3_raw": "大1 1/2",
-          "qty1_parsed": {
-           "value": 4.5,
+           "value": 40.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "4.5ｇ"
-          },
-          "own": true
-         },
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "味付もずく",
+        "method": "①解凍する。",
+        "ingredients": [
          {
-          "name": "　酒",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "大2",
+          "name": "味付もずく（30ｇ）（冷凍）",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
           "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
+           "value": 1.0,
+           "unit": "コ",
            "approx": false,
-           "raw": "10ｇ"
-          },
-          "own": true
-         },
+           "raw": "1コ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 97.00kcal　蛋白質 4.30g　脂質 4.90g　炭水化物 10.80g　食塩相当量 1.20g",
+      "photo": "photos/3f9da5af0cc8.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "大阪王将　肉焼売",
+        "method": "①凍ったままのチンゲン菜はゆでて水に取り、水気を絞る。\n②肉焼売は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約25～28分）、①を添える。",
+        "ingredients": [
          {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
+          "name": "大阪王将　肉焼売（冷凍）",
+          "qty1_raw": "4コ",
+          "qty3_raw": "12コ",
           "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
+           "value": 4.0,
+           "unit": "コ",
            "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "12ｇ",
-          "qty3_raw": "大2",
-          "qty1_parsed": {
-           "value": 12.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "12ｇ"
-          },
-          "own": true
+           "raw": "4コ"
+          }
          },
          {
           "name": "チンゲン菜（冷凍）",
@@ -51606,36 +48854,36 @@ const COURSES = {
           }
          }
         ],
-        "allergens": []
+        "allergens": [
+         "小麦"
+        ]
        },
        {
-        "name": "ウインナーと白菜の炒めもの",
-        "method": "①白菜は食べやすく切り、玉葱は薄切り、ウインナーは斜め切りにする。\n②フライパンに油を熱して玉葱を炒め、白菜、ウインナーを加えて更に炒め、調味料で調味する。",
+        "name": "冬瓜の生姜あんかけ",
+        "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "ウインナー",
-          "qty1_raw": "2/3本",
-          "qty3_raw": "2本",
+          "name": "冬瓜の生姜あんかけ(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
           "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "本",
-           "approx": false,
-           "raw": "2/3本"
-          }
-         },
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "70ｇ",
-          "qty3_raw": "210ｇ",
-          "qty1_parsed": {
-           "value": 70.0,
+           "value": 40.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "70ｇ"
+           "raw": "40ｇ"
           }
-         },
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "胡瓜の浅漬け",
+        "method": "①流水解凍する。",
+        "ingredients": [
          {
-          "name": "玉葱",
+          "name": "胡瓜の浅漬け（冷凍）",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
           "qty1_parsed": {
@@ -51644,147 +48892,228 @@ const COURSES = {
            "approx": false,
            "raw": "20ｇ"
           }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.6ｇ",
-          "qty3_raw": "小 1/3",
-          "qty1_parsed": {
-           "value": 0.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
          }
         ],
-        "allergens": []
-       },
-       {
-        "name": "すまし汁（大根・細葱）",
-        "method": "①細葱は小口切りにし、大根はいちょう切りにする。\n②鍋にだし汁、調味料、大根を入れて煮、細葱を散らす。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "細葱（冷蔵）",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
+        "allergens": [
+         "小麦 卵 かに"
+        ]
        }
       ],
-      "nutrition": "エネルギー 248.00kcal　蛋白質 20.30g　脂質 10.60g　炭水化物 15.10g　食塩相当量 3.80g",
-      "photo": "photos/6c850b1b3dfa.jpg"
+      "nutrition": "エネルギー 315.00kcal　蛋白質 8.70g　脂質 17.80g　炭水化物 29.50g　食塩相当量 2.60g",
+      "photo": "photos/64dcb113cc1b.jpg"
      },
      "夕食": {
       "dishes": [
        {
-        "name": "豚肉ともやしのにんにく炒め",
-        "method": "①もやし、ぶなしめじは共に食べやすく切り、人参は半月又いちょう切りにする。\n②にんにく（お好みで加減）はみじん切りにする。\n③豚肉に酒、しょうゆをもみ込む。\n④フライパンに油、にんにくを入れて弱火にかけ、香りが出たら豚肉、ぶなしめじ、人参を炒め、火が通ったらもやしを加えて更に炒め、塩、こしょうで調味する。",
+        "name": "さわら柚子あんかけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用10～15分）。",
         "ingredients": [
          {
-          "name": "豚コマ",
+          "name": "さわら柚子あんかけ（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "いんげんのピーナッツあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "いんげんのピーナッツあえ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 落花生"
+        ]
+       },
+       {
+        "name": "カリフラワーのからしあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "カリフラワーのからしあえ(冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 131.00kcal　蛋白質 8.00g　脂質 5.40g　炭水化物 13.80g　食塩相当量 1.60g",
+      "photo": "photos/0eac29755db0.jpg"
+     }
+    },
+    "day_total": "エネルギー 543kcal\n蛋白質 21.0g\n脂質 28.1g\n炭水化物 54.1g\n食塩相当量 5.4g"
+   },
+   "2026-12-18": {
+    "short_label": "12/18（金）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "八幡巻き",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12～15分）。",
+        "ingredients": [
+         {
+          "name": "八幡巻き（冷凍）",
+          "qty1_raw": "3コ",
+          "qty3_raw": "9コ",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "3コ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "白菜のおかかあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "白菜のおかかあえ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "大根葉と油揚げのあえもの",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "大根葉と油揚げの和え物(冷凍)",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 94.00kcal　蛋白質 5.30g　脂質 3.30g　炭水化物 11.20g　食塩相当量 1.30g",
+      "photo": "photos/c83db4a88cfe.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "かつおの漬け丼",
+        "method": "①かつお漬け丼は袋のまま流水解凍する。\n②丼にご飯を盛り、かつおをのせる。",
+        "ingredients": [
+         {
+          "name": "かつお漬け丼（生食用）（冷凍）",
+          "qty1_raw": "53.33ｇ",
+          "qty3_raw": "160ｇ",
+          "qty1_parsed": {
+           "value": 53.33,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "53.33ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "高野豆腐の餡かけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "高野豆腐の餡かけ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 えび"
+        ]
+       },
+       {
+        "name": "なすの含め煮",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "なすの含め煮(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 94.00kcal　蛋白質 13.60g　脂質 1.10g　炭水化物 6.70g　食塩相当量 1.50g",
+      "photo": "photos/572e5098aac7.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "炭火焼き風チキン",
+        "method": "①凍ったままの小松菜はゆでて水に取り、水気を絞る。\n②チキンは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "グリルチキン（炭火焼き風）（冷凍）",
           "qty1_raw": "80ｇ",
           "qty3_raw": "240ｇ",
           "qty1_parsed": {
@@ -51795,31 +49124,27 @@ const COURSES = {
           }
          },
          {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
           "qty1_parsed": {
-           "value": 2.5,
+           "value": 20.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "キャベツのツナあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
          {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "もやし（冷蔵）",
+          "name": "キャベツのツナあえ（冷凍）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -51828,694 +49153,123 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
-         },
-         {
-          "name": "ぶなしめじ（冷蔵）",
-          "qty1_raw": "1/6ﾊﾟｯｸ",
-          "qty3_raw": "1/2ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.16666666666666666,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/6ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "にんにく",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "10ｇ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.5ｇ",
-          "qty3_raw": "小 1/4",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "レタスのかに風味サラダ",
-        "method": "①レタス、貝割大根は共に食べやすく切り、かに風味かまぼこは半分に切ってほぐす。\n②貝割大根、かに風味かまぼこは共にゆでて水気をきる。\n③レタス、②を器に盛り、合わせた調味料をかける。",
-        "ingredients": [
-         {
-          "name": "かに風味かまぼこ",
-          "qty1_raw": "1/3本",
-          "qty3_raw": "1本",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "本",
-           "approx": false,
-           "raw": "1/3本"
-          }
-         },
-         {
-          "name": "レタス又葉野菜（冷蔵）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "貝割大根（冷蔵）",
-          "qty1_raw": "1/12ﾊﾟｯｸ",
-          "qty3_raw": "1/4ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/12ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
          }
         ],
         "allergens": [
-         "小麦 卵 かに"
+         "小麦"
         ]
        },
        {
-        "name": "みそ汁（さつま芋･玉葱）",
-        "method": "①さつま芋はいちょう切りにして水にさらし、玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮、みそを溶かし入れる。",
+        "name": "サラダ風ポテト卯の花",
+        "method": "①流水解凍する。",
         "ingredients": [
          {
-          "name": "さつま芋",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
+          "name": "サラダ風ポテト卯の花(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
           "qty1_parsed": {
-           "value": 20.0,
+           "value": 40.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "20ｇ"
+           "raw": "40ｇ"
           }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
          }
         ],
-        "allergens": []
+        "allergens": [
+         "小麦 卵"
+        ]
        }
       ],
-      "nutrition": "エネルギー 289.00kcal　蛋白質 19.20g　脂質 18.30g　炭水化物 15.20g　食塩相当量 2.60g",
-      "photo": "photos/9e0034d5a7c8.jpg"
+      "nutrition": "エネルギー 247.00kcal　蛋白質 18.40g　脂質 11.80g　炭水化物 15.50g　食塩相当量 1.90g",
+      "photo": "photos/9dd2bb8c7749.jpg"
      }
     },
-    "day_total": "エネルギー 537kcal\n蛋白質 39.5g\n脂質 28.9g\n炭水化物 30.3g\n食塩相当量 6.4g"
+    "day_total": "エネルギー 435kcal\n蛋白質 37.3g\n脂質 16.2g\n炭水化物 33.4g\n食塩相当量 4.7g"
    },
-   "2026-11-14": {
-    "short_label": "11/14（土）",
+   "2026-12-19": {
+    "short_label": "12/19（土）",
     "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "チャンプルー",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "ingredients": [
+         {
+          "name": "チャンプルー（冷凍）",
+          "qty1_raw": "56ｇ",
+          "qty3_raw": "168ｇ",
+          "qty1_parsed": {
+           "value": 56.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "56ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "彩りナムル",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "彩りナムル（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "ブロッコリーの辛し醤油",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "ブロッコリーの辛し醤油（冷凍）",
+          "qty1_raw": "35ｇ",
+          "qty3_raw": "105ｇ",
+          "qty1_parsed": {
+           "value": 35.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "35ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 81.00kcal　蛋白質 4.10g　脂質 2.70g　炭水化物 12.00g　食塩相当量 1.40g",
+      "photo": "photos/c945a82f13df.jpg"
+     },
      "昼食": {
       "dishes": [
        {
-        "name": "肉そば",
-        "method": "①人参は半月又いちょう切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、豚肉、凍ったままの小松菜を加えて煮、つゆを作る。\n③そばはたっぷりの熱湯で約5分ゆで、流水でもみ洗いして水気をきる。\n④③を器に盛り、②のつゆをかける。",
+        "name": "ハンバーグ照り焼きソース",
+        "method": "①コーンはゆでて水気をきる。\n②ハンバーグは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10～12分）、①を添える。",
         "ingredients": [
          {
-          "name": "とろろそば（乾麺）",
-          "qty1_raw": "100ｇ",
-          "qty3_raw": "300ｇ",
+          "name": "やわらかハンバーグ照り焼きソース(冷凍)",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
           "qty1_parsed": {
-           "value": 100.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "100ｇ"
-          }
-         },
-         {
-          "name": "豚コマ",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         },
-         {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "300ｍｌ",
-          "qty3_raw": "900ｍｌ",
-          "qty1_parsed": {
-           "value": 300.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "300ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.6ｇ",
-          "qty3_raw": "小 1/3",
-          "qty1_parsed": {
-           "value": 0.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "18ｇ",
-          "qty3_raw": "大3",
-          "qty1_parsed": {
-           "value": 18.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "18ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "18ｇ",
-          "qty3_raw": "大3",
-          "qty1_parsed": {
-           "value": 18.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "18ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 そば"
-        ]
-       },
-       {
-        "name": "たぬき温やっこ",
-        "method": "①豆腐は食べやすく切って湯通しして器に盛り、揚げ玉、削り節を散らし、合わせただし汁、しょうゆをかける。",
-        "ingredients": [
-         {
-          "name": "豆腐",
-          "qty1_raw": "1/3ﾊﾟｯｸ",
-          "qty3_raw": "1ﾊﾟｯｸ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "ﾊﾟｯｸ",
-           "approx": false,
-           "raw": "1/3ﾊﾟｯｸ"
-          }
-         },
-         {
-          "name": "揚げ玉",
-          "qty1_raw": "1/3袋",
-          "qty3_raw": "1袋",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/3袋"
-          }
-         },
-         {
-          "name": "　削り節",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "3.3ｍｌ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 3.3,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "3.3ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "小麦 えび"
-        ]
-       },
-       {
-        "name": "里芋のあえもの",
-        "method": "①玉葱は薄切りにしてゆで（途中、凍ったままの里芋を加える）、水気をきる。\n②味付けポン酢で①をあえる。",
-        "ingredients": [
-         {
-          "name": "里芋（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　味付けポン酢",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 611.00kcal　蛋白質 34.40g　脂質 16.10g　炭水化物 83.50g　食塩相当量 4.80g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/f8b0b7cd67c9.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "バター醤油のチキンソテー",
-        "method": "①かぼちゃは薄切りにする。\n②鶏肉は食べやすく切り、塩、こしょうする。\n③フライパンにオリーブ油を熱して①を焼き、取り出す。\n④フライパンにオリーブ油を足して小麦粉をまぶした鶏肉を焼き、器に盛る。\n⑤フライパンの汚れを拭き取り、バターを入れて火にかけ、しょうゆ、みりんを加えて煮立ったら④にかけ、③を添える。",
-        "ingredients": [
-         {
-          "name": "若鶏ムネ肉",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "　小麦粉",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　バター又マーガリン",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "9ｇ",
-          "qty3_raw": "大1 1/2",
-          "qty1_parsed": {
-           "value": 9.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "9ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "かぼちゃ（冷蔵）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "大根のミモザサラダ",
-        "method": "①卵は固ゆでにし（沸騰後約10分）、粗みじん切りにする。\n②大根、人参は共に薄い半月又いちょう切りにしてゆで、水気を絞る。\n③①、②を盛り、お好みのドレッシングをかける。",
-        "ingredients": [
-         {
-          "name": "卵",
-          "qty1_raw": "1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
+           "value": 1.0,
            "unit": "コ",
            "approx": false,
-           "raw": "1/3コ"
-          }
-         },
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　お好みのドレッシング",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         }
-        ],
-        "allergens": [
-         "卵"
-        ]
-       },
-       {
-        "name": "カリフラワーの煮もの",
-        "method": "①にらは食べやすく切る。\n②鍋にだし汁、調味料を入れて煮立て、凍ったままのカリフラワー、①を加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         },
-         {
-          "name": "にら（冷蔵）",
-          "qty1_raw": "1/12ワ",
-          "qty3_raw": "1/4ワ",
-          "qty1_parsed": {
-           "value": 0.08333333333333333,
-           "unit": "ワ",
-           "approx": false,
-           "raw": "1/12ワ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みりん",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "スープ（えのき茸・コーン）",
-        "method": "①えのき茸は食べやすく切る。\n②鍋に水、コンソメ、酒を入れて煮立て、①、コーンを加えて煮、塩、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "えのき茸（冷蔵）",
-          "qty1_raw": "16.66ｇ",
-          "qty3_raw": "50ｇ",
-          "qty1_parsed": {
-           "value": 16.66,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "16.66ｇ"
+           "raw": "1コ"
           }
          },
          {
@@ -52528,99 +49282,38 @@ const COURSES = {
            "approx": false,
            "raw": "10ｇ"
           }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "1.1ｇ",
-          "qty3_raw": "2/3コ",
-          "qty1_parsed": {
-           "value": 1.1,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.1ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "5ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 5.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
          }
         ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 367.00kcal　蛋白質 31.80g　脂質 17.70g　炭水化物 21.70g　食塩相当量 3.20g",
-      "photo": "photos/bbf928576579.jpg"
-     }
-    },
-    "day_total": "エネルギー 978kcal\n蛋白質 66.2g\n脂質 33.8g\n炭水化物 105.2g\n食塩相当量 8.0g"
-   },
-   "2026-11-15": {
-    "short_label": "11/15（日）",
-    "meals": {
-     "昼食": {
-      "dishes": [
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
        {
-        "name": "肉団子のチリ炒め",
-        "method": "①玉葱は薄切りにする。\n②水、ソース（お好みで加減）を合わせておく。\n③フライパンに油を熱して①、凍ったままの肉団子、れんこん、ピーマンスライスを炒め、②を加えて炒め合わせる。",
+        "name": "大根煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
         "ingredients": [
          {
-          "name": "国産鶏肉使用の肉団子(冷凍)",
-          "qty1_raw": "5コ",
-          "qty3_raw": "15コ",
+          "name": "大根煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
           "qty1_parsed": {
-           "value": 5.0,
-           "unit": "コ",
+           "value": 50.0,
+           "unit": "ｇ",
            "approx": false,
-           "raw": "5コ"
+           "raw": "50ｇ"
           }
-         },
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "菜の花のごまあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
          {
-          "name": "れんこん（冷凍）",
+          "name": "菜の花のごまあえ(冷凍)",
           "qty1_raw": "30ｇ",
           "qty3_raw": "90ｇ",
           "qty1_parsed": {
@@ -52629,324 +49322,24 @@ const COURSES = {
            "approx": false,
            "raw": "30ｇ"
           }
-         },
-         {
-          "name": "２色ピーマンスライス（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "4ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 4.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "4ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "20ｍｌ",
-          "qty3_raw": "60ｍｌ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "20ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "チリ炒めソース",
-          "qty1_raw": "1/2袋",
-          "qty3_raw": "1 1/2袋",
-          "qty1_parsed": {
-           "value": 0.5,
-           "unit": "袋",
-           "approx": false,
-           "raw": "1/2袋"
-          }
          }
         ],
         "allergens": [
-         "小麦 乳成分 卵 小麦"
+         "小麦"
         ]
-       },
-       {
-        "name": "トマトの華風あえ",
-        "method": "①トマトは乱切りにする。\n②油揚げは短冊切りにしてゆで（途中、枝豆を加える）、水気をきる。\n③調味料を合わせ、①、②をあえる。",
-        "ingredients": [
-         {
-          "name": "油揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "トマト（冷蔵)",
-          "qty1_raw": "小 1/3コ",
-          "qty3_raw": "1コ",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "コ",
-           "approx": false,
-           "raw": "小 1/3コ",
-           "size": "小"
-          }
-         },
-         {
-          "name": "むき枝豆（冷凍）",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "20ｇ",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          }
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　ごま油",
-          "qty1_raw": "2.6ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 2.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.6ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "じゃが芋の塩バター煮",
-        "method": "①じゃが芋、人参は共に半月又いちょう切りにし、じゃが芋は水にさらす。\n②鍋に水、コンソメ、さとう、酒、①を入れて蓋をして煮、塩、黒こしょうで味を調え、バターを加えて絡める。",
-        "ingredients": [
-         {
-          "name": "じゃが芋",
-          "qty1_raw": "2/3コ",
-          "qty3_raw": "2コ",
-          "qty1_parsed": {
-           "value": 0.6666666666666666,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2/3コ"
-          }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "50ｍｌ",
-          "qty3_raw": "150ｍｌ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "50ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　コンソメ",
-          "qty1_raw": "0.8ｇ",
-          "qty3_raw": "1/2コ",
-          "qty1_parsed": {
-           "value": 0.8,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.8ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　さとう",
-          "qty1_raw": "0.2ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.2,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.2ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　粗びき黒こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         },
-         {
-          "name": "　バター又マーガリン",
-          "qty1_raw": "1.3ｇ",
-          "qty3_raw": "小1",
-          "qty1_parsed": {
-           "value": 1.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.3ｇ"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "鶏がらスープ（大根・白菜）",
-        "method": "①大根はいちょう切り、白菜は食べやすく切る。\n②鍋に水、鶏がらスープの素、大根を入れて煮立て、白菜を加えて煮、こしょうで味を調える。",
-        "ingredients": [
-         {
-          "name": "大根（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "白菜（冷蔵）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         },
-         {
-          "name": "　水",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　鶏がらスープの素",
-          "qty1_raw": "1.6ｇ",
-          "qty3_raw": "大 2/3",
-          "qty1_parsed": {
-           "value": 1.6,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "1.6ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　こしょう",
-          "qty1_raw": "少々",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "少々",
-           "approx": false,
-           "raw": "少々"
-          },
-          "own": true
-         }
-        ],
-        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 327.00kcal　蛋白質 11.90g　脂質 16.50g　炭水化物 36.30g　食塩相当量 3.30g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/1f407789d153.jpg"
+      "nutrition": "エネルギー 277.00kcal　蛋白質 13.00g　脂質 13.50g　炭水化物 25.60g　食塩相当量 2.90g",
+      "photo": "photos/caae1492e08e.jpg"
      },
      "夕食": {
       "dishes": [
        {
-        "name": "さわらの竜田揚げ",
-        "method": "①キャベツはせん切りにする。\n②生姜（お好みで加減）はすりおろし、酒、しょうゆと合わせる。\n③魚は解凍して食べやすく切り、②に漬け、冷蔵庫に約10分おいておく。\n④フライパンに多めの油（1㎝くらい）を熱して水気を軽く押さえて片栗粉をまぶした魚を揚げ焼き、①と共に盛る。\n\n◎魚は解凍後、速やかに調理をお願いします。",
+        "name": "白身魚の葱塩焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、①を添える。",
         "ingredients": [
          {
-          "name": "さわら（80g）（冷凍）",
+          "name": "白身魚(バサ)葱塩焼き(冷凍)",
           "qty1_raw": "1切",
           "qty3_raw": "3切",
           "qty1_parsed": {
@@ -52957,106 +49350,7 @@ const COURSES = {
           }
          },
          {
-          "name": "生姜",
-          "qty1_raw": "2ｇ",
-          "qty3_raw": "10ｇ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2ｇ"
-          }
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　片栗粉",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "　油",
-          "qty1_raw": "適量",
-          "qty3_raw": "適量",
-          "qty1_parsed": {
-           "value": null,
-           "unit": "適量",
-           "approx": false,
-           "raw": "適量"
-          },
-          "own": true
-         },
-         {
-          "name": "キャベツ（冷蔵）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "五目揚げとオクラの煮もの",
-        "method": "①玉葱は薄切り、五目揚げは短冊切りにする。\n②鍋にだし汁、調味料、玉葱を入れて煮立て、五目揚げ、凍ったままのオクラを加えて蓋をして煮る。",
-        "ingredients": [
-         {
-          "name": "五目揚げ",
-          "qty1_raw": "1/3枚",
-          "qty3_raw": "1枚",
-          "qty1_parsed": {
-           "value": 0.3333333333333333,
-           "unit": "枚",
-           "approx": false,
-           "raw": "1/3枚"
-          }
-         },
-         {
-          "name": "オクラ刻み（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         },
-         {
-          "name": "玉葱",
+          "name": "ほうれん草（冷凍）",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
           "qty1_parsed": {
@@ -53065,120 +49359,272 @@ const COURSES = {
            "approx": false,
            "raw": "20ｇ"
           }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "60ｍｌ",
-          "qty3_raw": "180ｍｌ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "60ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　酒",
-          "qty1_raw": "2.5ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 2.5,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "2.5ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　塩",
-          "qty1_raw": "0.3ｇ",
-          "qty3_raw": "少々",
-          "qty1_parsed": {
-           "value": 0.3,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "0.3ｇ"
-          },
-          "own": true
-         },
-         {
-          "name": "　しょうゆ",
-          "qty1_raw": "3ｇ",
-          "qty3_raw": "大 1/2",
-          "qty1_parsed": {
-           "value": 3.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "3ｇ"
-          },
-          "own": true
          }
         ],
         "allergens": [
-         "小麦 卵"
+         "小麦 乳成分"
         ]
        },
        {
-        "name": "みそ汁（わかめ・人参）",
-        "method": "①人参はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、わかめを加えて煮、みそを溶かし入れる。",
+        "name": "春雨サラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9～11分）。",
         "ingredients": [
          {
-          "name": "乾燥カットわかめ",
-          "qty1_raw": "1ｇ",
-          "qty3_raw": "5ｇ",
+          "name": "春雨サラダ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
           "qty1_parsed": {
-           "value": 1.0,
+           "value": 50.0,
            "unit": "ｇ",
            "approx": false,
-           "raw": "1ｇ"
+           "raw": "50ｇ"
           }
-         },
-         {
-          "name": "人参（冷蔵）",
-          "qty1_raw": "10ｇ",
-          "qty3_raw": "30ｇ",
-          "qty1_parsed": {
-           "value": 10.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "10ｇ"
-          }
-         },
-         {
-          "name": "　だし汁",
-          "qty1_raw": "150ｍｌ",
-          "qty3_raw": "450ｍｌ",
-          "qty1_parsed": {
-           "value": 150.0,
-           "unit": "ｍｌ",
-           "approx": false,
-           "raw": "150ｍｌ"
-          },
-          "own": true
-         },
-         {
-          "name": "　みそ",
-          "qty1_raw": "6ｇ",
-          "qty3_raw": "大1",
-          "qty1_parsed": {
-           "value": 6.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "6ｇ"
-          },
-          "own": true
          }
         ],
-        "allergens": []
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "味付けオクラめかぶ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "味付けオクラめかぶ（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
        }
       ],
-      "nutrition": "エネルギー 251.00kcal　蛋白質 20.70g　脂質 12.70g　炭水化物 13.10g　食塩相当量 2.70g",
-      "photo": "photos/27c679d1bd93.jpg"
+      "nutrition": "エネルギー 131.00kcal　蛋白質 10.70g　脂質 5.20g　炭水化物 11.40g　食塩相当量 1.90g",
+      "photo": "photos/09a428d7b417.jpg"
      }
     },
-    "day_total": "エネルギー 578kcal\n蛋白質 32.6g\n脂質 29.2g\n炭水化物 49.4g\n食塩相当量 6.0g"
+    "day_total": "エネルギー 489kcal\n蛋白質 27.8g\n脂質 21.4g\n炭水化物 49.0g\n食塩相当量 6.2g"
    },
+   "2026-12-20": {
+    "short_label": "12/20（日）",
+    "meals": {
+     "朝食": {
+      "dishes": [
+       {
+        "name": "ミートオムレツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～7分）。",
+        "ingredients": [
+         {
+          "name": "ミートオムレツ(冷凍)",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "わかめと干し海老の甘辛煮",
+        "method": "①流水解凍する。※温める場合は凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "ingredients": [
+         {
+          "name": "わかめと干し海老の甘辛煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 えび"
+        ]
+       },
+       {
+        "name": "カラフルピクルス",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "カラフルピクルス（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 110.00kcal　蛋白質 4.50g　脂質 2.70g　炭水化物 10.00g　食塩相当量 1.70g",
+      "photo": "photos/1b5a35483de9.jpg"
+     },
+     "昼食": {
+      "dishes": [
+       {
+        "name": "牛肉とごぼうのしぐれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
+        "ingredients": [
+         {
+          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "油揚げとザーサイ煮",
+        "method": "①流水解凍する。※温める場合は、凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
+        "ingredients": [
+         {
+          "name": "油揚げとザーサイ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "お豆のくるみあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "お豆のくるみあえ（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 くるみ"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 283.00kcal　蛋白質 8.40g　脂質 13.40g　炭水化物 32.40g　食塩相当量 2.60g",
+      "photo": "photos/da09588d452d.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "つくねと茄子の旨煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～7分）。",
+        "ingredients": [
+         {
+          "name": "つくねと茄子の旨煮（冷凍）",
+          "qty1_raw": "110ｇ",
+          "qty3_raw": "330ｇ",
+          "qty1_parsed": {
+           "value": 110.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "110ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "冬瓜のかに風味餡かけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "冬瓜のかに風味あんかけ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "パスタサラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～6分）。",
+        "ingredients": [
+         {
+          "name": "パスタサラダ(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 221.00kcal　蛋白質 8.50g　脂質 10.70g　炭水化物 22.90g　食塩相当量 2.40g",
+      "photo": "photos/2505c1499f68.jpg"
+     }
+    },
+    "day_total": "エネルギー 614kcal\n蛋白質 21.4g\n脂質 26.8g\n炭水化物 65.3g\n食塩相当量 6.7g"
+   }
+  }
+ },
+ "volume": {
+  "label": "ボリューム",
+  "color": "FF99CC",
+  "has_recipe": true,
+  "global_note": "※ご飯の栄養量は含まれません ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
+  "seasonal_note": null,
+  "days": {
    "2026-11-16": {
     "short_label": "11/16（月）",
     "meals": {
@@ -67726,27 +64172,534 @@ const COURSES = {
      }
     },
     "day_total": "エネルギー 618kcal\n蛋白質 39.6g\n脂質 35.1g\n炭水化物 38.3g\n食塩相当量 6.1g"
-   }
-  }
- },
- "chokantanplus": {
-  "label": "超簡単プラス",
-  "color": "B8CCE4",
-  "has_recipe": true,
-  "global_note": "※ご飯の栄養量は含まれません ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
-  "seasonal_note": null,
-  "days": {
-   "2026-11-09": {
-    "short_label": "11/9（月）",
+   },
+   "2026-12-14": {
+    "short_label": "12/14（月）",
     "meals": {
      "昼食": {
       "dishes": [
        {
-        "name": "鶏の竜田揚げ",
-        "method": "①コーンはゆで、水気をきる。\n②竜田揚げは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約18～20分）、①を添える。",
+        "name": "豚肉と小松菜の生姜炒め",
+        "method": "①人参は半月又いちょう切りにする。豚肉に塩、こしょうする。\n②生姜（お好みで加減）はみじん切りにし、酒、さとう、しょうゆと合わせておく。\n③フライパンに油を熱して①を炒め、凍ったままの小松菜を加えて更に炒め、②を加えて調味する。",
         "ingredients": [
          {
-          "name": "やわらか若鶏竜田揚げ（冷凍）",
+          "name": "豚コマ",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "生姜",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "10ｇ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "白はんぺんと里芋のあえもの",
+        "method": "①白はんぺんは解凍して短冊切りにする。\n②凍ったままの里芋、枝豆を共にゆで、水気をきる。\n③調味料で①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "白はんぺん（冷凍）",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "里芋（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "むき枝豆（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "みそ汁（焼麩・玉葱）",
+        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮立て、焼麩を加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 319.00kcal　蛋白質 20.00g　脂質 20.90g　炭水化物 14.90g　食塩相当量 2.80g",
+      "photo": "photos/92c1d09a9fa0.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉とじゃが芋のケチャップ煮",
+        "method": "①じゃが芋、人参（サラダにも使用）は共に乱切りにし、じゃが芋は水にさらす。玉葱はくし形切りにする。\n②鶏肉は食べやすく切る。\n③鍋に水、ケチャップ、コンソメ、①を入れて煮立て、②を加えて蓋をして煮、塩、こしょうで調味する。",
+        "ingredients": [
+         {
+          "name": "若鶏ムネ肉",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         },
+         {
+          "name": "じゃが芋",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　トマトケチャップ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "豆腐とブロッコリーのサラダ",
+        "method": "①豆腐は食べやすく切り、水気をきる。\n②人参（ケチャップ煮にも使用）は半月又いちょう切りにしてゆで（途中、凍ったままのブロッコリーを加える）、水気をきる。\n③①、②を器に盛り、お好みのドレッシングをかける。",
+        "ingredients": [
+         {
+          "name": "豆腐",
+          "qty1_raw": "1/3ﾊﾟｯｸ",
+          "qty3_raw": "1ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/3ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "ブロッコリー（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "スープ（シェルマカロニ・グリンピース）",
+        "method": "①鍋に水、コンソメ、酒を入れて煮立て、シェルマカロニを加えて約10分煮、グリンピースを加えて更に煮、塩、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "シェルマカロニ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "グリンピース（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 309.00kcal　蛋白質 31.10g　脂質 9.90g　炭水化物 31.10g　食塩相当量 1.90g",
+      "photo": "photos/93884b2db754.jpg"
+     }
+    },
+    "day_total": "エネルギー 628kcal\n蛋白質 51.1g\n脂質 30.8g\n炭水化物 46.0g\n食塩相当量 4.7g"
+   },
+   "2026-12-15": {
+    "short_label": "12/15（火）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "鶏肉の黒こしょう焼き",
+        "method": "①レタスは食べやすく切る。\n②鶏肉は食べやすく切り、酒、塩、黒こしょうをもみ込む。\n③フライパンにごま油を熱して②を焼いて器に盛り、①を添える。",
+        "ingredients": [
+         {
+          "name": "若鶏モモ肉",
           "qty1_raw": "120ｇ",
           "qty3_raw": "360ｇ",
           "qty1_parsed": {
@@ -67754,6 +64707,2890 @@ const COURSES = {
            "unit": "ｇ",
            "approx": false,
            "raw": "120ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.6ｇ",
+          "qty3_raw": "小 1/3",
+          "qty1_parsed": {
+           "value": 0.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　粗びき黒こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "オクラのかきたま煮",
+        "method": "①玉葱は薄切りにする。\n②鍋に水、鶏がらスープの素、しょうゆ、①を入れて煮立て、凍ったままのオクラを加えて煮、火が通ったら溶き卵を流し入れて加熱する。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "オクラ刻み（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "さつま芋のサラダ",
+        "method": "①さつま芋、人参は共に半月又いちょう切りにし、さつま芋は水にさらす。\n②①をゆでて水気をきる。\n③調味料で②をあえる。",
+        "ingredients": [
+         {
+          "name": "さつま芋",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 5.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（大根・細葱）",
+        "method": "①細葱は小口切りにし、大根はいちょう切りにする。\n②鍋にだし汁、大根を入れて煮、みそを溶かし入れ、細葱を散らす。",
+        "ingredients": [
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "細葱（冷蔵）",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 429.00kcal　蛋白質 25.20g　脂質 27.40g　炭水化物 24.30g　食塩相当量 3.00g",
+      "photo": "photos/041b6454a7cd.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "あじのコク旨丼",
+        "method": "①玉葱（ポン酢あえにも使用）は薄切り、にらは食べやすく切る。\n②魚は解凍して食べやすく切り、塩、こしょうを振る。\n③フライパンに油を熱し、水気を押さえて小麦粉をまぶした魚を焼き、火が通って焼き色がついたら取り出す。\n④油を足して、玉葱を炒め、にらを加えてさっと炒め、火が通ったら③を戻し入れて炒め合わせ、たれ（お好みで加減）を加えてからめる。\n⑤丼に温かいご飯を盛り、④をのせる。\n\n◎魚は解凍後、速やかに調理をお願いします。",
+        "ingredients": [
+         {
+          "name": "あじ(80g）（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "　小麦粉",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "にら（冷蔵）",
+          "qty1_raw": "1/12ワ",
+          "qty3_raw": "1/4ワ",
+          "qty1_parsed": {
+           "value": 0.08333333333333333,
+           "unit": "ワ",
+           "approx": false,
+           "raw": "1/12ワ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "焼き肉のたれ",
+          "qty1_raw": "1/2袋",
+          "qty3_raw": "1 1/2袋",
+          "qty1_parsed": {
+           "value": 0.5,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/2袋"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "トマトのポン酢あえ",
+        "method": "①トマトは食べやすく切る。\n②玉葱（丼にも使用）は薄切り、ちくわは小口切りにして共にゆで、水気をきる。\n③味付けポン酢で①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "トマト（冷蔵)",
+          "qty1_raw": "小 1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "小 1/3コ",
+           "size": "小"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　味付けポン酢",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "鶏がらスープ（えのき茸・太葱）",
+        "method": "①太葱は小口切り、えのき茸は食べやすく切る。\n②鍋に水、鶏がらスープの素を入れて煮立て、えのき茸を加えて煮、こしょうで味を調えて太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "えのき茸（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 225.00kcal　蛋白質 18.80g　脂質 9.10g　炭水化物 17.00g　食塩相当量 2.80g",
+      "photo": "photos/90fa2b5a385b.jpg"
+     }
+    },
+    "day_total": "エネルギー 654kcal\n蛋白質 44.0g\n脂質 36.5g\n炭水化物 41.3g\n食塩相当量 5.8g"
+   },
+   "2026-12-16": {
+    "short_label": "12/16（水）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "牛肉といんげんのバターじょうゆ炒め",
+        "method": "①玉葱は薄切りにする。\n②牛肉に酒、しょうゆをもみ込む。\n③フライパンにバターを熱し、牛肉、①を炒め、凍ったままのいんげんを加えて更に炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "牛コマ",
+          "qty1_raw": "60ｇ",
+          "qty3_raw": "180ｇ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "60ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "いんげん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　バター又マーガリン",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "油揚げとキャベツのあえもの",
+        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切り、油揚げは短冊切りにして共にゆでて水気を絞る。\n②だし汁、しょうゆを合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "油揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "5ｍｌ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "5ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（卵・わかめ）",
+        "method": "①鍋にだし汁を入れて煮立て、わかめを加えて煮、みそを溶かし入れ、溶き卵を流し入れて加熱する。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 233.00kcal　蛋白質 19.00g　脂質 14.10g　炭水化物 10.70g　食塩相当量 3.10g",
+      "photo": "photos/037d77f49fb5.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "豚肉と大根のみそ煮",
+        "method": "①大根は半月又いちょう切り、ぶなしめじは食べやすく切る。\n②鍋に油を熱して①、豚肉を炒め、だし汁、さとう、しょうゆ、みりんを加えて蓋をして中火で煮る。\n③火が通ったらみそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
+          "qty1_parsed": {
+           "value": 90.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "90ｇ"
+          }
+         },
+         {
+          "name": "ぶなしめじ（冷蔵）",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/6ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "70ｍｌ",
+          "qty3_raw": "210ｍｌ",
+          "qty1_parsed": {
+           "value": 70.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "70ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "ウインナーとじゃが芋の炒めもの",
+        "method": "①じゃが芋は半月又いちょう切りにし、水にさらして固めにゆでる。貝割大根は食べやすく切り、ウインナーは斜め切りにする。\n②フライパンに油を熱してウインナー、じゃが芋を炒め、貝割大根を加えてさっと炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "ウインナー",
+          "qty1_raw": "2/3本",
+          "qty3_raw": "2本",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "本",
+           "approx": false,
+           "raw": "2/3本"
+          }
+         },
+         {
+          "name": "じゃが芋",
+          "qty1_raw": "2/3コ",
+          "qty3_raw": "2コ",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2/3コ"
+          }
+         },
+         {
+          "name": "貝割大根（冷蔵）",
+          "qty1_raw": "1/12ﾊﾟｯｸ",
+          "qty3_raw": "1/4ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.08333333333333333,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/12ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "すまし汁（焼麩・玉葱）",
+        "method": "①玉葱は薄切りにする。\n②鍋にだし汁、調味料、①を入れて煮立て、焼麩を加えて煮る。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 365.00kcal　蛋白質 20.10g　脂質 22.60g　炭水化物 24.90g　食塩相当量 2.80g",
+      "photo": "photos/7f841f7e77f2.jpg"
+     }
+    },
+    "day_total": "エネルギー 598kcal\n蛋白質 39.1g\n脂質 36.7g\n炭水化物 35.6g\n食塩相当量 5.9g"
+   },
+   "2026-12-17": {
+    "short_label": "12/17（木）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "焼餃子",
+        "method": "①フライパンに油を熱して凍ったままの餃子を並べて中火で薄く焼き色をつける。\n②水少々を加え、蓋をして蒸し焼きにし、水気がなくなったら蓋を取り、餃子の底がカリッとするまで焼き上げ、合わせた調味料を添える。",
+        "ingredients": [
+         {
+          "name": "餃子（冷凍）",
+          "qty1_raw": "5コ",
+          "qty3_raw": "15コ",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "5コ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "3.3ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 3.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "豚肉ともやしのチンジャオ風",
+        "method": "①豚肉は酒、しょうゆ、片栗粉をもみ込む。\n②もやしは食べやすく切り、玉葱は薄切り、ピーマンは細切りにする。\n③フライパンに油を熱して玉葱を炒め、①、もやし、ピーマンを加えて更に炒め、たれ（お好みで加減）を加えてからめる。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　片栗粉",
+          "qty1_raw": "1.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 1.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "もやし（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "ピーマン（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "チンジャオロースーのたれ",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "鶏がらスープ（豆腐・小松菜）",
+        "method": "①豆腐はさいの目切りにする。\n②鍋に水、鶏がらスープの素を入れて煮立て、凍ったままの小松菜を加えて煮、①を加えて沸騰直前に火を止め、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "豆腐",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/6ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 405.00kcal　蛋白質 18.50g　脂質 22.20g　炭水化物 33.10g　食塩相当量 3.30g",
+      "photo": "photos/9e4e6eb32703.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉とかぼちゃのアンチョビガーリック炒め",
+        "method": "①かぼちゃ、玉葱は共に薄切りにする。\n②鶏肉に塩、こしょうをもみ込む。\n③ソース（お好みで加減）、酒を合わせておく。\n④フライパンに油を熱して①、②を炒め、③で調味し、黒こしょうを振る。",
+        "ingredients": [
+         {
+          "name": "若鶏コマ",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "かぼちゃ（冷蔵）",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "アンチョビ＆ガーリックソース",
+          "qty1_raw": "2/3袋",
+          "qty3_raw": "2袋",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "袋",
+           "approx": false,
+           "raw": "2/3袋"
+          }
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　粗びき黒こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分"
+        ]
+       },
+       {
+        "name": "カリカリベーコンとレタスのサラダ",
+        "method": "①レタスは食べやすく切り、ミニトマトはくし形切りにする。\n②ベーコンは短冊切りにし、フライパンで炒める。\n③①、②を盛り、お好みのドレッシングをかける。",
+        "ingredients": [
+         {
+          "name": "ベーコン",
+          "qty1_raw": "2/3枚",
+          "qty3_raw": "2枚",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "枚",
+           "approx": false,
+           "raw": "2/3枚"
+          }
+         },
+         {
+          "name": "レタス又葉野菜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "ミニトマト（冷蔵）",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分 卵"
+        ]
+       },
+       {
+        "name": "スープ（キャベツ・パセリ）",
+        "method": "①キャベツは食べやすく切る。\n②鍋に水、コンソメ、酒を入れて煮立て、①を加えて煮、塩、こしょうで味を調え、パセリを散らす。",
+        "ingredients": [
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "乾燥パセリ",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 336.00kcal　蛋白質 25.10g　脂質 18.70g　炭水化物 20.60g　食塩相当量 2.20g",
+      "photo": "photos/bcc04ce3409a.jpg"
+     }
+    },
+    "day_total": "エネルギー 741kcal\n蛋白質 43.6g\n脂質 40.9g\n炭水化物 53.7g\n食塩相当量 5.5g"
+   },
+   "2026-12-18": {
+    "short_label": "12/18（金）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "メルルーサの煮付け",
+        "method": "①凍ったままのチンゲン菜はゆでて水に取り、水気を絞る。\n②生姜は薄切りにする。\n③鍋に水、調味料、②を入れて火にかけ、煮立ったら凍ったままの魚を加えて落とし蓋をして煮、器に盛って①を添える。",
+        "ingredients": [
+         {
+          "name": "メルルーサ（80g）（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "生姜",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "10ｇ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "7.5ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 7.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "7.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "9ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 9.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "9ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "チンゲン菜（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "五目揚げとキャベツの炒めもの",
+        "method": "①キャベツは食べやすく切り、人参は半月又いちょう切り、五目揚げは短冊切りにする。\n②フライパンに油を熱して人参を炒め、キャベツ、五目揚げを加えて更に炒め、調味料で調味する。",
+        "ingredients": [
+         {
+          "name": "五目揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "70ｇ",
+          "qty3_raw": "210ｇ",
+          "qty1_parsed": {
+           "value": 70.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "70ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "じゃが芋のあえもの",
+        "method": "①胡瓜は小口切りにし、塩もみして水気を絞る。\n②じゃが芋は半月又いちょう切りにして水にさらし、ゆでて水気をきる。\n③①、②を調味料であえる。",
+        "ingredients": [
+         {
+          "name": "じゃが芋",
+          "qty1_raw": "2/3コ",
+          "qty3_raw": "2コ",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2/3コ"
+          }
+         },
+         {
+          "name": "胡瓜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "5.3ｇ",
+          "qty3_raw": "大1 1/3",
+          "qty1_parsed": {
+           "value": 5.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（白菜・太葱）",
+        "method": "①太葱は小口切りにし、白菜は食べやすく切る。\n②鍋にだし汁を入れて煮立て、白菜を加えて煮、みそを溶かし入れ、太葱を散らす。",
+        "ingredients": [
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 249.00kcal　蛋白質 20.00g　脂質 9.60g　炭水化物 23.80g　食塩相当量 3.80g",
+      "photo": "photos/ad754f5db993.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "豚肉の炭火風焼き",
+        "method": "①グリーンリーフは食べやすく切る。\n②豚肉は食べやすく切る。\n③フライパンに油を熱して②を炒め、火が通ったら、たれ（お好みで加減）、塩、こしょうで調味して器に盛り、①を添える。",
+        "ingredients": [
+         {
+          "name": "豚切り落とし肉",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "炭火風しょうゆだれ",
+          "qty1_raw": "2/3袋",
+          "qty3_raw": "2袋",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "袋",
+           "approx": false,
+           "raw": "2/3袋"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         },
+         {
+          "name": "ｸﾞﾘｰﾝﾘｰﾌ又葉野菜（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "れんこんの信田煮",
+        "method": "①舞茸は食べやすく切り、油揚げは短冊切りにする。\n②鍋にだし汁、調味料を入れて煮立て、①、凍ったままのれんこんを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "油揚げ",
+          "qty1_raw": "1/3枚",
+          "qty3_raw": "1枚",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "枚",
+           "approx": false,
+           "raw": "1/3枚"
+          }
+         },
+         {
+          "name": "れんこん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "舞茸（冷蔵）",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
+          "qty1_parsed": {
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
+           "approx": false,
+           "raw": "1/6ﾊﾟｯｸ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "50ｍｌ",
+          "qty3_raw": "150ｍｌ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "50ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 1.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "みそ汁（大根・わかめ）",
+        "method": "①大根はいちょう切りにする。\n②鍋にだし汁、①を入れて煮立て、わかめを加えて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "乾燥カットわかめ",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "5ｇ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 304.00kcal　蛋白質 19.80g　脂質 19.00g　炭水化物 16.80g　食塩相当量 2.70g",
+      "photo": "photos/a46132f2f8e1.jpg"
+     }
+    },
+    "day_total": "エネルギー 553kcal\n蛋白質 39.8g\n脂質 28.6g\n炭水化物 40.6g\n食塩相当量 6.5g"
+   },
+   "2026-12-19": {
+    "short_label": "12/19（土）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "チキンのパン粉焼き",
+        "method": "①凍ったままのブロッコリーはゆでて水気をきる。\n②鶏肉は食べやすく切る。\n③パン粉焼ミックス1袋に対して2gほどの油を混ぜ、なじませておく。\n④フライパンに多めの油（1cm位）を熱し、③のパン粉焼ミックスをまぶした鶏肉を揚げ焼いて器に盛り、①を添える。\n\n◎パン粉焼ミックスに油を混ぜることにより、鶏肉がふっくら焼きあがります。",
+        "ingredients": [
+         {
+          "name": "若鶏ムネ肉",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         },
+         {
+          "name": "パン粉焼ミックス＜チーズ＆ハーブ＞",
+          "qty1_raw": "2/3袋",
+          "qty3_raw": "2袋",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "袋",
+           "approx": false,
+           "raw": "2/3袋"
+          }
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "1.3ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　油",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         },
+         {
+          "name": "ブロッコリー（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "ハムと大根の彩りマリネ",
+        "method": "①大根は薄い半月又いちょう切り、ハムは短冊切りにして共にゆで（途中、凍ったままのピーマンスライスを加える）、水気を絞る。\n②調味料を合わせ、①をあえる。",
+        "ingredients": [
+         {
+          "name": "ポークハム",
+          "qty1_raw": "2/3枚",
+          "qty3_raw": "2枚",
+          "qty1_parsed": {
+           "value": 0.6666666666666666,
+           "unit": "枚",
+           "approx": false,
+           "raw": "2/3枚"
+          }
+         },
+         {
+          "name": "大根（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "２色ピーマンスライス（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "1ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酢",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　ｵﾘｰﾌﾞ油又ｻﾗﾀﾞ油",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分 卵"
+        ]
+       },
+       {
+        "name": "スープ（焼麩・えのき茸）",
+        "method": "①えのき茸は食べやすく切る。\n②鍋に水、コンソメ、酒を入れて煮立て、焼麩、①を加えて煮、塩、こしょうで味を調える。",
+        "ingredients": [
+         {
+          "name": "焼麩",
+          "qty1_raw": "2コ",
+          "qty3_raw": "6コ",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "2コ"
+          }
+         },
+         {
+          "name": "えのき茸（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　コンソメ",
+          "qty1_raw": "1.1ｇ",
+          "qty3_raw": "2/3コ",
+          "qty1_parsed": {
+           "value": 1.1,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.1ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "5ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 315.00kcal　蛋白質 29.60g　脂質 17.30g　炭水化物 12.20g　食塩相当量 2.30g",
+      "photo": "photos/c92fa58c81dd.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "シーフードのそぼろ中華炒め",
+        "method": "①シーフードミックスは解凍し、水気をきる。\n②白菜は食べやすく切り、人参は半月又いちょう切りにする。\n③鶏がらスープの素、調味料を合わせておく。\n④フライパンにごま油を熱して①、人参、ひき肉を炒め、白菜を加えて更に炒め、③を加えてからめる。",
+        "ingredients": [
+         {
+          "name": "シーフードミックス（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "豚ひき肉",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　ごま油",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "0.8ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 0.8,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "えび"
+        ]
+       },
+       {
+        "name": "焼ちくわと里芋の煮もの",
+        "method": "①玉葱は薄切り、焼ちくわは縦半分に切って斜め切りにする。\n②鍋にだし汁、調味料、玉葱を入れて煮立て、焼ちくわ、凍ったままの里芋を加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "焼ちくわ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "里芋（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　酒",
+          "qty1_raw": "2.5ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2.5ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　塩",
+          "qty1_raw": "0.3ｇ",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": 0.3,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "0.3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "鶏がらスープ（小松菜・細葱）",
+        "method": "①細葱は小口切りにする。\n②鍋に水、鶏がらスープの素を入れて煮立て、凍ったままの小松菜を加えて煮、こしょうで味を調え、細葱を散らす。",
+        "ingredients": [
+         {
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "細葱（冷蔵）",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　鶏がらスープの素",
+          "qty1_raw": "1.6ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 1.6,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "1.6ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 267.00kcal　蛋白質 21.50g　脂質 14.30g　炭水化物 15.80g　食塩相当量 3.60g",
+      "photo": "photos/fc1a1b33f895.jpg"
+     }
+    },
+    "day_total": "エネルギー 582kcal\n蛋白質 51.1g\n脂質 31.6g\n炭水化物 28.0g\n食塩相当量 5.9g"
+   },
+   "2026-12-20": {
+    "short_label": "12/20（日）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "豚肉とれんこんのマヨしょうゆ炒め",
+        "method": "①太葱は斜め切り、人参は半月又いちょう切りにする。\n②さとう、しょうゆ、みりん、こしょうを合わせておく。\n③フライパンにマヨネーズを入れて豚肉、人参を炒め、太葱、凍ったままのれんこんを加えて更に炒め、火が通ったら、②を加えてからめる。",
+        "ingredients": [
+         {
+          "name": "豚コマ",
+          "qty1_raw": "80ｇ",
+          "qty3_raw": "240ｇ",
+          "qty1_parsed": {
+           "value": 80.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "80ｇ"
+          }
+         },
+         {
+          "name": "れんこん（冷凍）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "太葱（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "人参（冷蔵）",
+          "qty1_raw": "10ｇ",
+          "qty3_raw": "30ｇ",
+          "qty1_parsed": {
+           "value": 10.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "10ｇ"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "4ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 4.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "4ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　さとう",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "大 2/3",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "9ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 9.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "9ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "9ｇ",
+          "qty3_raw": "大1 1/2",
+          "qty1_parsed": {
+           "value": 9.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "9ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　こしょう",
+          "qty1_raw": "少々",
+          "qty3_raw": "少々",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "少々",
+           "approx": false,
+           "raw": "少々"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "白菜の菜種あえ",
+        "method": "①白菜は食べやすく切ってゆで（途中、枝豆を加える）、水気を絞る。\n②溶き卵にみりんを加えて混ぜ、炒り卵を作る。\n③お好みのドレッシングで①、②をあえる。",
+        "ingredients": [
+         {
+          "name": "卵",
+          "qty1_raw": "1/3コ",
+          "qty3_raw": "1コ",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1/3コ"
+          }
+         },
+         {
+          "name": "　みりん",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "白菜（冷蔵）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         },
+         {
+          "name": "むき枝豆（冷凍）",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "20ｇ",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          }
+         },
+         {
+          "name": "　お好みのドレッシング",
+          "qty1_raw": "適量",
+          "qty3_raw": "適量",
+          "qty1_parsed": {
+           "value": null,
+           "unit": "適量",
+           "approx": false,
+           "raw": "適量"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "卵"
+        ]
+       },
+       {
+        "name": "みそ汁（ごぼう・玉葱）",
+        "method": "①ごぼうは泥を洗って皮をたわしでこそげ取り、縦半分に切って斜め切りにし、水にさらす。玉葱は薄切りにする。\n②鍋にだし汁、①を入れて煮、みそを溶かし入れる。",
+        "ingredients": [
+         {
+          "name": "ごぼう（冷蔵）",
+          "qty1_raw": "16.66ｇ",
+          "qty3_raw": "50ｇ",
+          "qty1_parsed": {
+           "value": 16.66,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "16.66ｇ"
+          }
+         },
+         {
+          "name": "玉葱",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
+          "qty1_parsed": {
+           "value": 150.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "150ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　みそ",
+          "qty1_raw": "6ｇ",
+          "qty3_raw": "大1",
+          "qty1_parsed": {
+           "value": 6.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "6ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": []
+       }
+      ],
+      "nutrition": "エネルギー 326.00kcal　蛋白質 21.30g　脂質 17.30g　炭水化物 22.30g　食塩相当量 2.50g",
+      "photo": "photos/ddd89e74a555.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉とキャベツの旨塩煮",
+        "method": "①キャベツ、鶏肉は共に食べやすく切る。\n②鍋に水、たれ（お好みで加減）を入れて煮立て、①、コーンを加えて蓋をして煮る。",
+        "ingredients": [
+         {
+          "name": "若鶏モモ肉",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         },
+         {
+          "name": "キャベツ（冷蔵）",
+          "qty1_raw": "90ｇ",
+          "qty3_raw": "270ｇ",
+          "qty1_parsed": {
+           "value": 90.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "90ｇ"
           }
          },
          {
@@ -67766,18 +67603,52 @@ const COURSES = {
            "approx": false,
            "raw": "10ｇ"
           }
+         },
+         {
+          "name": "旨塩鍋のたれ",
+          "qty1_raw": "1/3袋",
+          "qty3_raw": "1袋",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "袋",
+           "approx": false,
+           "raw": "1/3袋"
+          }
+         },
+         {
+          "name": "　水",
+          "qty1_raw": "60ｍｌ",
+          "qty3_raw": "180ｍｌ",
+          "qty1_parsed": {
+           "value": 60.0,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "60ｍｌ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦 乳成分 卵"
+         "小麦"
         ]
        },
        {
-        "name": "春雨の含め煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
+        "name": "かぼちゃのかに風味あえ",
+        "method": "①胡瓜は小口切りにして塩もみし、水気を絞る。\n②かぼちゃはところどころ皮をむいて一口大に切り、かに風味かまぼこは半分に切ってほぐし、共にゆでて水気をきる。\n③だし汁、しょうゆを合わせ、①、②をあえる。",
         "ingredients": [
          {
-          "name": "春雨の含め煮（冷凍）",
+          "name": "かに風味かまぼこ",
+          "qty1_raw": "1/3本",
+          "qty3_raw": "1本",
+          "qty1_parsed": {
+           "value": 0.3333333333333333,
+           "unit": "本",
+           "approx": false,
+           "raw": "1/3本"
+          }
+         },
+         {
+          "name": "かぼちゃ（冷蔵）",
           "qty1_raw": "50ｇ",
           "qty3_raw": "150ｇ",
           "qty1_parsed": {
@@ -67786,82 +67657,53 @@ const COURSES = {
            "approx": false,
            "raw": "50ｇ"
           }
+         },
+         {
+          "name": "胡瓜（冷蔵）",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         },
+         {
+          "name": "　だし汁",
+          "qty1_raw": "2.5ｍｌ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 2.5,
+           "unit": "ｍｌ",
+           "approx": false,
+           "raw": "2.5ｍｌ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "3ｇ",
+          "qty3_raw": "大 1/2",
+          "qty1_parsed": {
+           "value": 3.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "3ｇ"
+          },
+          "own": true
          }
         ],
         "allergens": [
-         "小麦 乳成分"
+         "小麦 卵 かに"
         ]
        },
        {
-        "name": "小松菜のお浸し",
-        "method": "①流水解凍する。",
+        "name": "みそ汁（ほうれん草・ぶなしめじ）",
+        "method": "①ぶなしめじは食べやすく切る。\n②鍋にだし汁を入れて煮立て、①、凍ったままのほうれん草を加えて煮、みそを溶かし入れる。",
         "ingredients": [
          {
-          "name": "小松菜のおひたし(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 326.00kcal　蛋白質 17.20g　脂質 18.20g　炭水化物 24.60g　食塩相当量 2.80g",
-      "photo": "photos/141a8a86b6fa.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉と野菜のレモン風炒め",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "豚肉と野菜のレモン風炒め煮（冷凍）",
-          "qty1_raw": "110ｇ",
-          "qty3_raw": "330ｇ",
-          "qty1_parsed": {
-           "value": 110.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "110ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "切干大根とツナのサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "切干大根とツナのサラダ（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "金時豆",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "金時豆煮（冷凍）",
+          "name": "ほうれん草（冷凍）",
           "qty1_raw": "20ｇ",
           "qty3_raw": "60ｇ",
           "qty1_parsed": {
@@ -67870,609 +67712,32 @@ const COURSES = {
            "approx": false,
            "raw": "20ｇ"
           }
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 241.00kcal　蛋白質 7.60g　脂質 13.00g　炭水化物 21.20g　食塩相当量 1.50g",
-      "photo": "photos/6387d3ca3f6c.jpg"
-     }
-    },
-    "day_total": "エネルギー 567kcal\n蛋白質 24.8g\n脂質 31.2g\n炭水化物 45.8g\n食塩相当量 4.3g"
-   },
-   "2026-11-10": {
-    "short_label": "11/10（火）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "さばと豆腐のごま味噌煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
+         },
          {
-          "name": "さばと豆腐のごま味噌煮（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
+          "name": "ぶなしめじ（冷蔵）",
+          "qty1_raw": "1/6ﾊﾟｯｸ",
+          "qty3_raw": "1/2ﾊﾟｯｸ",
           "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
+           "value": 0.16666666666666666,
+           "unit": "ﾊﾟｯｸ",
            "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "冬瓜の生姜あんかけ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "冬瓜の生姜あんかけ(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "山形のだし",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "山形のだし（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 307.00kcal　蛋白質 15.00g　脂質 12.70g　炭水化物 32.90g　食塩相当量 2.00g",
-      "photo": "photos/3b730b2f8a84.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "チャプチェ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
-        "ingredients": [
-         {
-          "name": "チャプチェ（冷凍）",
-          "qty1_raw": "108ｇ",
-          "qty3_raw": "325ｇ",
-          "qty1_parsed": {
-           "value": 108.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "108ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "ハムカツ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～15分）。",
-        "ingredients": [
-         {
-          "name": "ハムカツ(油調済)(冷凍)",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "ブロッコリーのくるみあえ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "ブロッコリーのくるみあえ（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 くるみ"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 241.00kcal　蛋白質 5.50g　脂質 13.50g　炭水化物 30.10g　食塩相当量 2.10g",
-      "photo": "photos/83324636d0d3.jpg"
-     }
-    },
-    "day_total": "エネルギー 548kcal\n蛋白質 20.5g\n脂質 26.2g\n炭水化物 63.0g\n食塩相当量 4.1g"
-   },
-   "2026-11-11": {
-    "short_label": "11/11（水）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "七種具材の中華丼",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、温かいご飯にのせる。",
-        "ingredients": [
-         {
-          "name": "中華丼（冷凍）",
-          "qty1_raw": "108ｇ",
-          "qty3_raw": "324ｇ",
-          "qty1_parsed": {
-           "value": 108.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "108ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "切干大根とわかめの酢のもの",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "切干大根とわかめの酢のもの（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "かぼちゃの煮もの",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "かぼちゃの煮物(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 140.00kcal　蛋白質 4.00g　脂質 4.10g　炭水化物 23.10g　食塩相当量 2.20g",
-      "photo": "photos/e59147411704.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "赤魚の柚子塩漬焼き",
-        "method": "①凍ったままのカリフラワーはゆで、水気をきる。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（約8分）、①を添える。",
-        "ingredients": [
-         {
-          "name": "赤魚柚子塩漬焼き（調理済）（冷凍）",
-          "qty1_raw": "1切",
-          "qty3_raw": "3切",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "切",
-           "approx": false,
-           "raw": "1切"
+           "raw": "1/6ﾊﾟｯｸ"
           }
          },
          {
-          "name": "カリフラワー（冷凍）",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
+          "name": "　だし汁",
+          "qty1_raw": "150ｍｌ",
+          "qty3_raw": "450ｍｌ",
           "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
+           "value": 150.0,
+           "unit": "ｍｌ",
            "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       },
-       {
-        "name": "ナポリタン",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5分）。",
-        "ingredients": [
-         {
-          "name": "ナポリタン（冷凍）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "いんげんのごまあえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "いんげんのごまあえ(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 196.00kcal　蛋白質 15.20g　脂質 6.70g　炭水化物 20.30g　食塩相当量 1.70g",
-      "photo": "photos/8064035d6008.jpg"
-     }
-    },
-    "day_total": "エネルギー 336kcal\n蛋白質 19.2g\n脂質 10.8g\n炭水化物 43.4g\n食塩相当量 3.9g"
-   },
-   "2026-11-12": {
-    "short_label": "11/12（木）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "牛肉とごぼうのしぐれ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "なすのそぼろ煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "なすのそぼろ煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "春菊とピーナッツのあえもの",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "春菊とピーナッツの和え物(冷凍)",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 落花生"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 337.00kcal　蛋白質 8.10g　脂質 18.60g　炭水化物 33.10g　食塩相当量 2.20g",
-      "photo": "photos/6dd444026b8a.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "豚肉と大根のこっくり煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "豚肉と大根のこっくり煮（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "肉団子の白味噌煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
-        "ingredients": [
-         {
-          "name": "肉団子の白味噌煮（冷凍）",
-          "qty1_raw": "60ｇ",
-          "qty3_raw": "180ｇ",
-          "qty1_parsed": {
-           "value": 60.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "60ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "ほうれん草と人参の白あえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "ほうれん草と人参の白和え(冷凍)",
-          "qty1_raw": "40ｇ",
-          "qty3_raw": "120ｇ",
-          "qty1_parsed": {
-           "value": 40.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "40ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 264.00kcal　蛋白質 11.40g　脂質 12.60g　炭水化物 23.40g　食塩相当量 2.00g",
-      "photo": "photos/b24e5a3146e7.jpg"
-     }
-    },
-    "day_total": "エネルギー 601kcal\n蛋白質 19.5g\n脂質 31.2g\n炭水化物 56.5g\n食塩相当量 4.2g"
-   },
-   "2026-11-13": {
-    "short_label": "11/13（金）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "豚肉とたけのこの中華風",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "豚肉と竹の子の中華風（冷凍）",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "油揚げとザーサイ煮",
-        "method": "①流水解凍する。※温める場合は、凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
-        "ingredients": [
-         {
-          "name": "油揚げとザーサイ煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "みかんなます",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "みかんなます（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": []
-       }
-      ],
-      "nutrition": "エネルギー 246.00kcal　蛋白質 9.20g　脂質 16.30g　炭水化物 15.30g　食塩相当量 2.00g",
-      "photo": "photos/84052ce898ae.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "たらの野菜あんかけ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "たらの野菜あんかけ（冷凍）",
-          "qty1_raw": "110ｇ",
-          "qty3_raw": "330ｇ",
-          "qty1_parsed": {
-           "value": 110.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "110ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "厚揚げのおかか煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "厚揚げのおかか煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "れんこんサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "れんこんサラダ（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 151.00kcal　蛋白質 13.10g　脂質 4.30g　炭水化物 15.40g　食塩相当量 1.30g",
-      "photo": "photos/68d26e7f0f08.jpg"
-     }
-    },
-    "day_total": "エネルギー 397kcal\n蛋白質 22.3g\n脂質 20.6g\n炭水化物 30.7g\n食塩相当量 3.3g"
-   },
-   "2026-11-14": {
-    "short_label": "11/14（土）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "エビカツ＆イカカツ",
-        "method": "①凍ったままの小松菜はゆでて水に取り、水気を絞る。\n②エビカツとイカカツは凍ったまま袋ごと沸騰したお湯に入れ、加熱し（エビカツ5人用約5分、イカカツ5人用約10～15分）、器に盛り、ソースをかけ、①を添える。",
-        "ingredients": [
-         {
-          "name": "エビカツ(油調済)（冷凍）",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
+           "raw": "150ｍｌ"
+          },
+          "own": true
          },
          {
-          "name": "イカカツ(油調済)(冷凍)",
-          "qty1_raw": "1コ",
-          "qty3_raw": "3コ",
-          "qty1_parsed": {
-           "value": 1.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "1コ"
-          }
-         },
-         {
-          "name": "　ソース",
+          "name": "　みそ",
           "qty1_raw": "6ｇ",
           "qty3_raw": "大1",
           "qty1_parsed": {
@@ -68482,274 +67747,26 @@ const COURSES = {
            "raw": "6ｇ"
           },
           "own": true
-         },
-         {
-          "name": "小松菜（冷凍）",
-          "qty1_raw": "20ｇ",
-          "qty3_raw": "60ｇ",
-          "qty1_parsed": {
-           "value": 20.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "20ｇ"
-          }
          }
         ],
-        "allergens": [
-         "小麦 乳成分 卵 えび 小麦"
-        ]
-       },
-       {
-        "name": "ブロッコリーのくず煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
-        "ingredients": [
-         {
-          "name": "ブロッコリーのくず煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       },
-       {
-        "name": "黒豆",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "黒豆煮（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
+        "allergens": []
        }
       ],
-      "nutrition": "エネルギー 363.00kcal　蛋白質 15.50g　脂質 14.00g　炭水化物 43.30g　食塩相当量 3.10g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/4f1c8eaf56c9.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "塩麻婆茄子",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "塩麻婆茄子(冷凍)",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 かに"
-        ]
-       },
-       {
-        "name": "すき昆布とえのきの酢の物",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "すき昆布とえのきの酢の物（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "モロヘイヤの辛しあえ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "モロヘイヤの辛し和え（冷凍）",
-          "qty1_raw": "30ｇ",
-          "qty3_raw": "90ｇ",
-          "qty1_parsed": {
-           "value": 30.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "30ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 199.00kcal　蛋白質 4.00g　脂質 14.20g　炭水化物 16.00g　食塩相当量 2.20g",
-      "photo": "photos/8b061bb58da5.jpg"
+      "nutrition": "エネルギー 289.00kcal　蛋白質 22.60g　脂質 15.40g　炭水化物 20.70g　食塩相当量 3.00g",
+      "photo": "photos/ab4d8413639e.jpg"
      }
     },
-    "day_total": "エネルギー 562kcal\n蛋白質 19.5g\n脂質 28.2g\n炭水化物 59.3g\n食塩相当量 5.3g"
-   },
-   "2026-11-15": {
-    "short_label": "11/15（日）",
-    "meals": {
-     "昼食": {
-      "dishes": [
-       {
-        "name": "豚丼",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約9分）、温かいご飯にのせる。",
-        "ingredients": [
-         {
-          "name": "豚丼（冷凍）",
-          "qty1_raw": "92ｇ",
-          "qty3_raw": "276ｇ",
-          "qty1_parsed": {
-           "value": 92.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "92ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "切干大根煮",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
-        "ingredients": [
-         {
-          "name": "切干大根煮（冷凍）",
-          "qty1_raw": "50ｇ",
-          "qty3_raw": "150ｇ",
-          "qty1_parsed": {
-           "value": 50.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "50ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦"
-        ]
-       },
-       {
-        "name": "カリフラワーのサラダ",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "カリフラワーのサラダ（冷凍）",
-          "qty1_raw": "46ｇ",
-          "qty3_raw": "138ｇ",
-          "qty1_parsed": {
-           "value": 46.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "46ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分 卵"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 322.00kcal　蛋白質 11.40g　脂質 24.00g　炭水化物 14.20g　食塩相当量 2.60g ※麺の栄養量を含む・汁の塩分は1/2で算出",
-      "photo": "photos/c63685858028.jpg"
-     },
-     "夕食": {
-      "dishes": [
-       {
-        "name": "肉団子の甘酢あん",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
-        "ingredients": [
-         {
-          "name": "肉団子の甘酢あん(冷凍)",
-          "qty1_raw": "120ｇ",
-          "qty3_raw": "360ｇ",
-          "qty1_parsed": {
-           "value": 120.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "120ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 乳成分"
-        ]
-       },
-       {
-        "name": "海鮮キャベツ",
-        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約15分）。",
-        "ingredients": [
-         {
-          "name": "海鮮キャベツ（冷凍）",
-          "qty1_raw": "2コ",
-          "qty3_raw": "6コ",
-          "qty1_parsed": {
-           "value": 2.0,
-           "unit": "コ",
-           "approx": false,
-           "raw": "2コ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵"
-        ]
-       },
-       {
-        "name": "ブロッコリーのナムル",
-        "method": "①流水解凍する。",
-        "ingredients": [
-         {
-          "name": "ブロッコリーのナムル（冷凍）",
-          "qty1_raw": "35ｇ",
-          "qty3_raw": "105ｇ",
-          "qty1_parsed": {
-           "value": 35.0,
-           "unit": "ｇ",
-           "approx": false,
-           "raw": "35ｇ"
-          }
-         }
-        ],
-        "allergens": [
-         "小麦 卵 かに"
-        ]
-       }
-      ],
-      "nutrition": "エネルギー 262.00kcal　蛋白質 11.50g　脂質 12.70g　炭水化物 24.50g　食塩相当量 2.60g",
-      "photo": "photos/cdda54b3a49d.jpg"
-     }
-    },
-    "day_total": "エネルギー 584kcal\n蛋白質 22.9g\n脂質 36.7g\n炭水化物 38.7g\n食塩相当量 5.2g"
-   },
+    "day_total": "エネルギー 615kcal\n蛋白質 43.9g\n脂質 32.7g\n炭水化物 43.0g\n食塩相当量 5.5g"
+   }
+  }
+ },
+ "chokantanplus": {
+  "label": "超簡単プラス",
+  "color": "B8CCE4",
+  "has_recipe": true,
+  "global_note": "※ご飯の栄養量は含まれません ※使用の魚はすべて「骨取り魚」となりますが、小骨が取りきれていない場合がございますので、ご注意ください。 ",
+  "seasonal_note": null,
+  "days": {
    "2026-11-16": {
     "short_label": "11/16（月）",
     "meals": {
@@ -72851,6 +71868,1016 @@ const COURSES = {
      }
     },
     "day_total": "エネルギー 575kcal\n蛋白質 18.0g\n脂質 35.1g\n炭水化物 45.3g\n食塩相当量 4.9g"
+   },
+   "2026-12-14": {
+    "short_label": "12/14（月）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "七種具材の中華丼",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約10分）、温かいご飯にのせる。",
+        "ingredients": [
+         {
+          "name": "中華丼（冷凍）",
+          "qty1_raw": "108ｇ",
+          "qty3_raw": "324ｇ",
+          "qty1_parsed": {
+           "value": 108.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "108ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "ハムカツ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10～15分）。",
+        "ingredients": [
+         {
+          "name": "ハムカツ(油調済)(冷凍)",
+          "qty1_raw": "1コ",
+          "qty3_raw": "3コ",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "1コ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "味付け里芋",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "味付け里芋乱切り（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 195.00kcal　蛋白質 3.70g　脂質 11.30g　炭水化物 25.00g　食塩相当量 1.90g",
+      "photo": "photos/310ad7724eb9.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "鶏肉となすのトマト煮込み",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "鶏肉となすのトマト煮込み（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "豆腐のそぼろ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "豆腐のそぼろ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "オクラのごまあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "オクラのごま和え（冷凍）",
+          "qty1_raw": "25ｇ",
+          "qty3_raw": "75ｇ",
+          "qty1_parsed": {
+           "value": 25.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "25ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 201.00kcal　蛋白質 11.00g　脂質 13.30g　炭水化物 10.70g　食塩相当量 1.40g",
+      "photo": "photos/dc86617bd16a.jpg"
+     }
+    },
+    "day_total": "エネルギー 396kcal\n蛋白質 14.7g\n脂質 24.6g\n炭水化物 35.7g\n食塩相当量 3.3g"
+   },
+   "2026-12-15": {
+    "short_label": "12/15（火）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "チャプチェ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9分）。",
+        "ingredients": [
+         {
+          "name": "チャプチェ（冷凍）",
+          "qty1_raw": "108ｇ",
+          "qty3_raw": "325ｇ",
+          "qty1_parsed": {
+           "value": 108.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "108ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "なすのみぞれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "なすのみぞれ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "いんげんの信田煮",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "いんげんの信田煮（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 152.00kcal　蛋白質 5.50g　脂質 6.30g　炭水化物 18.70g　食塩相当量 1.70g",
+      "photo": "photos/6d847715a887.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "白身魚の甘酢あんかけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "白身魚フリッター甘酢あんかけ（冷凍）",
+          "qty1_raw": "100ｇ",
+          "qty3_raw": "300ｇ",
+          "qty1_parsed": {
+           "value": 100.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "100ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "かに風味サラダ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "かに風味サラダ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "穂先メンマと人参のあえもの",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "穂先メンマと人参の和え物(冷凍)",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 237.00kcal　蛋白質 8.90g　脂質 8.60g　炭水化物 31.20g　食塩相当量 2.00g",
+      "photo": "photos/4ae0bfb48fbd.jpg"
+     }
+    },
+    "day_total": "エネルギー 389kcal\n蛋白質 14.4g\n脂質 14.9g\n炭水化物 49.9g\n食塩相当量 3.7g"
+   },
+   "2026-12-16": {
+    "short_label": "12/16（水）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "イカ団子のオイスターソース",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "いか団子のオイスターソース和え(冷凍)",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "五目豆",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約8～10分）。",
+        "ingredients": [
+         {
+          "name": "五目豆（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "ブロッコリーのコンソメ風味",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "ブロッコリーのコンソメ風味（冷凍）",
+          "qty1_raw": "35ｇ",
+          "qty3_raw": "105ｇ",
+          "qty1_parsed": {
+           "value": 35.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "35ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 190.00kcal　蛋白質 12.10g　脂質 6.90g　炭水化物 20.40g　食塩相当量 2.40g",
+      "photo": "photos/9398d4fa0519.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "牛肉とごぼうのしぐれ煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "牛肉とごぼうのしぐれ煮（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "切干大根煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "切干大根煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "かぼちゃの煮もの",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "かぼちゃの煮物(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 286.00kcal　蛋白質 6.90g　脂質 11.80g　炭水化物 37.20g　食塩相当量 2.20g",
+      "photo": "photos/95094b1af1cb.jpg"
+     }
+    },
+    "day_total": "エネルギー 476kcal\n蛋白質 19.0g\n脂質 18.7g\n炭水化物 57.6g\n食塩相当量 4.6g"
+   },
+   "2026-12-17": {
+    "short_label": "12/17（木）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "豚から揚げ黒酢炒め",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "豚唐の黒酢炒め（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "冬瓜の生姜あんかけ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "冬瓜の生姜あんかけ(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "胡瓜の浅漬け",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "胡瓜の浅漬け（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 140.00kcal　蛋白質 5.30g　脂質 5.30g　炭水化物 16.80g　食塩相当量 1.80g",
+      "photo": "photos/38a01670310b.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "白身魚のピカタ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。\n②マヨネーズ、しょうゆを合わせておく。\n③①を器に盛り、②をかける。",
+        "ingredients": [
+         {
+          "name": "白身魚のピカタ(調理済)(冷凍)",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "　マヨネーズ",
+          "qty1_raw": "8ｇ",
+          "qty3_raw": "大2",
+          "qty1_parsed": {
+           "value": 8.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "8ｇ"
+          },
+          "own": true
+         },
+         {
+          "name": "　しょうゆ",
+          "qty1_raw": "2ｇ",
+          "qty3_raw": "小1",
+          "qty1_parsed": {
+           "value": 2.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "2ｇ"
+          },
+          "own": true
+         }
+        ],
+        "allergens": [
+         "乳成分 卵"
+        ]
+       },
+       {
+        "name": "いんげんのピーナッツあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "いんげんのピーナッツあえ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 落花生"
+        ]
+       },
+       {
+        "name": "カリフラワーのからしあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "カリフラワーのからしあえ(冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 127.00kcal　蛋白質 13.70g　脂質 3.50g　炭水化物 10.90g　食塩相当量 1.60g",
+      "photo": "photos/53ac3edfe0a6.jpg"
+     }
+    },
+    "day_total": "エネルギー 267kcal\n蛋白質 19.0g\n脂質 8.8g\n炭水化物 27.7g\n食塩相当量 3.4g"
+   },
+   "2026-12-18": {
+    "short_label": "12/18（金）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "さばの塩焼き",
+        "method": "①凍ったままのほうれん草はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（約8分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "さば塩焼き（調理済）（冷凍）",
+          "qty1_raw": "1切",
+          "qty3_raw": "3切",
+          "qty1_parsed": {
+           "value": 1.0,
+           "unit": "切",
+           "approx": false,
+           "raw": "1切"
+          }
+         },
+         {
+          "name": "ほうれん草（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": []
+       },
+       {
+        "name": "高野豆腐の餡かけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "高野豆腐の餡かけ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 えび"
+        ]
+       },
+       {
+        "name": "なすの含め煮",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "なすの含め煮(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 244.00kcal　蛋白質 15.50g　脂質 19.60g　炭水化物 5.10g　食塩相当量 2.00g",
+      "photo": "photos/8eb5b06f270d.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "肉団子の甘酢あん",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約12分）。",
+        "ingredients": [
+         {
+          "name": "肉団子の甘酢あん(冷凍)",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分"
+        ]
+       },
+       {
+        "name": "キャベツのツナあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "キャベツのツナあえ（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "サラダ風ポテト卯の花",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "サラダ風ポテト卯の花(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 283.00kcal　蛋白質 10.30g　脂質 14.40g　炭水化物 27.00g　食塩相当量 2.50g",
+      "photo": "photos/7f8a9dde1f9a.jpg"
+     }
+    },
+    "day_total": "エネルギー 527kcal\n蛋白質 25.8g\n脂質 34.0g\n炭水化物 32.1g\n食塩相当量 4.5g"
+   },
+   "2026-12-19": {
+    "short_label": "12/19（土）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "塩豚肉じゃが",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "塩豚肉じゃが（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "大根煮",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "大根煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "菜の花のごまあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "菜の花のごまあえ(冷凍)",
+          "qty1_raw": "30ｇ",
+          "qty3_raw": "90ｇ",
+          "qty1_parsed": {
+           "value": 30.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "30ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 203.00kcal　蛋白質 6.90g　脂質 10.60g　炭水化物 21.30g　食塩相当量 1.60g",
+      "photo": "photos/e73e01f176e4.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "あじのしそ巻天ぷら",
+        "method": "①凍ったままの小松菜はゆでて水に取り、水気を絞る。\n②魚は凍ったまま袋ごと沸騰したお湯に入れ、加熱し（5人用約12～15分）、①を添える。",
+        "ingredients": [
+         {
+          "name": "真アジのしそ巻天ぷら(油調済)(冷凍)",
+          "qty1_raw": "5コ",
+          "qty3_raw": "15コ",
+          "qty1_parsed": {
+           "value": 5.0,
+           "unit": "コ",
+           "approx": false,
+           "raw": "5コ"
+          }
+         },
+         {
+          "name": "小松菜（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵"
+        ]
+       },
+       {
+        "name": "春雨サラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約9～11分）。",
+        "ingredients": [
+         {
+          "name": "春雨サラダ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       },
+       {
+        "name": "味付けオクラめかぶ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "味付けオクラめかぶ（冷凍）",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 232.00kcal　蛋白質 11.90g　脂質 7.80g　炭水化物 28.20g　食塩相当量 2.30g",
+      "photo": "photos/4958cdd272a4.jpg"
+     }
+    },
+    "day_total": "エネルギー 435kcal\n蛋白質 18.8g\n脂質 18.4g\n炭水化物 49.5g\n食塩相当量 3.9g"
+   },
+   "2026-12-20": {
+    "short_label": "12/20（日）",
+    "meals": {
+     "昼食": {
+      "dishes": [
+       {
+        "name": "ビビンバ",
+        "method": "①流水解凍し、温かいご飯にのせる。\n\n◎お好みでよく混ぜてお召し上がりください。",
+        "ingredients": [
+         {
+          "name": "簡単！ビビンバ丼の素（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "油揚げとザーサイ煮",
+        "method": "①流水解凍する。※温める場合は、凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約6～7分）。",
+        "ingredients": [
+         {
+          "name": "油揚げとザーサイ煮（冷凍）",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "お豆のくるみあえ",
+        "method": "①流水解凍する。",
+        "ingredients": [
+         {
+          "name": "お豆のくるみあえ（冷凍）",
+          "qty1_raw": "20ｇ",
+          "qty3_raw": "60ｇ",
+          "qty1_parsed": {
+           "value": 20.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "20ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 くるみ"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 255.00kcal　蛋白質 11.90g　脂質 10.60g　炭水化物 29.80g　食塩相当量 3.40g",
+      "photo": "photos/5780e9a03cd0.jpg"
+     },
+     "夕食": {
+      "dishes": [
+       {
+        "name": "チキンの豆乳クリーム",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "チキンの豆乳クリーム（冷凍）",
+          "qty1_raw": "120ｇ",
+          "qty3_raw": "360ｇ",
+          "qty1_parsed": {
+           "value": 120.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "120ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦"
+        ]
+       },
+       {
+        "name": "冬瓜のかに風味餡かけ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約10分）。",
+        "ingredients": [
+         {
+          "name": "冬瓜のかに風味あんかけ(冷凍)",
+          "qty1_raw": "50ｇ",
+          "qty3_raw": "150ｇ",
+          "qty1_parsed": {
+           "value": 50.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "50ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 卵 かに"
+        ]
+       },
+       {
+        "name": "パスタサラダ",
+        "method": "①凍ったまま袋ごと沸騰したお湯に入れ、加熱する（5人用約5～6分）。",
+        "ingredients": [
+         {
+          "name": "パスタサラダ(冷凍)",
+          "qty1_raw": "40ｇ",
+          "qty3_raw": "120ｇ",
+          "qty1_parsed": {
+           "value": 40.0,
+           "unit": "ｇ",
+           "approx": false,
+           "raw": "40ｇ"
+          }
+         }
+        ],
+        "allergens": [
+         "小麦 乳成分 卵"
+        ]
+       }
+      ],
+      "nutrition": "エネルギー 203.00kcal　蛋白質 11.70g　脂質 8.50g　炭水化物 18.90g　食塩相当量 2.30g",
+      "photo": "photos/c72d9db3ba9e.jpg"
+     }
+    },
+    "day_total": "エネルギー 458kcal\n蛋白質 23.6g\n脂質 19.1g\n炭水化物 48.7g\n食塩相当量 5.7g"
    }
   }
  }

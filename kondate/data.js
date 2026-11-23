@@ -17,12 +17,6 @@ window.KONDATE = {
     { key: 'chokantanplus', name: '超簡単プラス',           color: '#B8CCE4' }
   ],
   weeks: [
-    { start: '2026-11-16', files: {
-      tezukuri: 'pdf/2026-11-16_tezukuri.pdf',
-      kantan: 'pdf/2026-11-16_kantan.pdf',
-      chokantan: 'pdf/2026-11-16_chokantan.pdf',
-      volume: 'pdf/2026-11-16_volume.pdf',
-      chokantanplus: 'pdf/2026-11-16_chokantanplus.pdf' } },
     { start: '2026-11-23', files: {
       tezukuri: 'pdf/2026-11-23_tezukuri.pdf',
       kantan: 'pdf/2026-11-23_kantan.pdf',
@@ -46,6 +40,12 @@ window.KONDATE = {
       kantan: 'pdf/2026-12-14_kantan.pdf',
       chokantan: 'pdf/2026-12-14_chokantan.pdf',
       volume: 'pdf/2026-12-14_volume.pdf',
-      chokantanplus: 'pdf/2026-12-14_chokantanplus.pdf' } }
+      chokantanplus: 'pdf/2026-12-14_chokantanplus.pdf' } },
+    { start: '2026-12-21', files: {
+      tezukuri: 'pdf/2026-12-21_tezukuri.pdf',
+      kantan: 'pdf/2026-12-21_kantan.pdf',
+      chokantan: 'pdf/2026-12-21_chokantan.pdf',
+      volume: 'pdf/2026-12-21_volume.pdf',
+      chokantanplus: 'pdf/2026-12-21_chokantanplus.pdf' } }
   ]
 };

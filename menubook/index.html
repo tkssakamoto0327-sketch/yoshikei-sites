@@ -131,11 +131,6 @@ const range=(p,a,b)=>Array.from({length:b-a+1},(_,i)=>`${p}${String(a+i).padStar
 const stToc=[['表紙',1],['一覧',2],['冷凍弁当',5],['Smiley',6],['Standard',10],['Balance',14],['CUT',18],['FUN',22],['Timely',26],['オリジナル',28],['特集',29],['コレdo!',30]];
 const lvToc=d=>[['表紙',1],['献立一覧',2],...d.map((x,i)=>[x,i+3])];
 const ALL_WEEKS=[
-  {id:'w1116',mon:'2026-11-16',label:'11/16号',deadline:'11/11(水) 17:00',menus:{
-    smile:{pages:range('st',1,32),toc:stToc},
-    more:{pages:range('mo',1,16),toc:[]},
-    lovyu:{pages:range('lv',1,8),toc:lvToc(['16日 月','17日 火','18日 水','19日 木','20日 金','21日 土'])},
-    toku:{flyers:[{name:'京都&関西特集',pages:range('tk',1,4)},{name:'九州フェア',pages:range('tk',5,8)}]}}},
   {id:'w1123',mon:'2026-11-23',label:'11/23号',deadline:'11/18(水) 17:00',menus:{
     smile:{pages:range('st',1,32),toc:stToc},
     more:{pages:range('mo',1,14),toc:[]},
@@ -158,7 +153,6 @@ const PREVIEW=false;   // 確認用プレビューでは受付開始前（from�
 // プレビューはファイル数の上限（512）があるため、受付終了した号は載せない（Cloudflare版には影響なし）
 if(PREVIEW){for(let i=WEEKS.length-1;i>=0;i--){if(WEEKS.length>1&&Date.now()>=new Date(WEEKS[i].mon+'T17:00:00+09:00').getTime()-5*864e5)WEEKS.splice(i,1)}}
 const PERIOD_TOKU=[
-  {name:'2026冬ギフト',until:'2026-11-18',pages:range('sp/gift2026/wg',1,28)},
   {name:'クリスマス2026',until:'2026-12-02',pages:range('sp/xmas2026/xm',1,8)},
   {name:'お正月料理2027',until:'2026-12-08',pages:range('sp/osechi2027/os',1,24)},
   {name:'2027年お餅',until:'2026-12-08',pages:range('sp/mochi2027/mc',1,3)},

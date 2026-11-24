@@ -33,6 +33,9 @@ jobs:
               for (const [key, v] of Object.entries(w.files)) {
                 if (v.endsWith(".pdf") && !fs.existsSync("kondate/" + v)) { console.log("PDFが見つからない:", v); ng++; }
               }
+              for (const [key, v] of Object.entries(w.xlsx || {})) {
+                if (!fs.existsSync("kondate/" + v)) { console.log("Excelが見つからない:", v); ng++; }
+              }
             }
             console.log(k.weeks.map(w => w.start + " " + Object.keys(w.files).join(",")).join("\n"));
             process.exit(ng ? 1 : 0);

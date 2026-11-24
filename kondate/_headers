@@ -6,3 +6,5 @@
   Cache-Control: no-cache
 /pdf/*
   Cache-Control: public, max-age=3600
+/xlsx/*
+  Cache-Control: public, max-age=3600

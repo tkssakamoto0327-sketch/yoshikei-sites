@@ -5,6 +5,8 @@
    ・値は Googleドライブ PDF のファイルID（URLの /d/ と /view の間）
      または サイト内PDF 'pdf/YYYY-MM-DD_コース.pdf'
    ・まだ無いコースは書かない／空文字にすると「準備中」と表示
+   ・Excel を出す週は xlsx:{コース:'xlsx/YYYY-MM-DD_xxx.xlsx'} を足す（無いコースはボタンが出ない）
+     簡単・超簡単・超簡単プラスは1つのExcel（3シート）なので3コースとも同じファイルを指す
    ・過去の週は自動で非表示になるので、消さなくても大丈夫です
    ========================================================= */
 window.KONDATE = {
@@ -34,7 +36,13 @@ window.KONDATE = {
       kantan: 'pdf/2026-12-07_kantan.pdf',
       chokantan: 'pdf/2026-12-07_chokantan.pdf',
       volume: 'pdf/2026-12-07_volume.pdf',
-      chokantanplus: 'pdf/2026-12-07_chokantanplus.pdf' } },
+      chokantanplus: 'pdf/2026-12-07_chokantanplus.pdf' },
+      xlsx: {
+      tezukuri: 'xlsx/2026-12-07_tezukuri.xlsx',
+      kantan: 'xlsx/2026-12-07_kantan.xlsx',
+      chokantan: 'xlsx/2026-12-07_kantan.xlsx',
+      chokantanplus: 'xlsx/2026-12-07_kantan.xlsx',
+      volume: 'xlsx/2026-12-07_volume.xlsx' } },
     { start: '2026-12-14', files: {
       tezukuri: 'pdf/2026-12-14_tezukuri.pdf',
       kantan: 'pdf/2026-12-14_kantan.pdf',

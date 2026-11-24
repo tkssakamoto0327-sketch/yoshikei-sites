@@ -30,7 +30,13 @@ window.KONDATE = {
       kantan: 'pdf/2026-11-30_kantan.pdf',
       chokantan: 'pdf/2026-11-30_chokantan.pdf',
       volume: 'pdf/2026-11-30_volume.pdf',
-      chokantanplus: 'pdf/2026-11-30_chokantanplus.pdf' } },
+      chokantanplus: 'pdf/2026-11-30_chokantanplus.pdf' },
+      xlsx: {
+      tezukuri: 'xlsx/2026-11-30_tezukuri.xlsx',
+      kantan: 'xlsx/2026-11-30_kantan.xlsx',
+      chokantan: 'xlsx/2026-11-30_kantan.xlsx',
+      chokantanplus: 'xlsx/2026-11-30_kantan.xlsx',
+      volume: 'xlsx/2026-11-30_volume.xlsx' } },
     { start: '2026-12-07', files: {
       tezukuri: 'pdf/2026-12-07_tezukuri.pdf',
       kantan: 'pdf/2026-12-07_kantan.pdf',
@@ -48,12 +54,24 @@ window.KONDATE = {
       kantan: 'pdf/2026-12-14_kantan.pdf',
       chokantan: 'pdf/2026-12-14_chokantan.pdf',
       volume: 'pdf/2026-12-14_volume.pdf',
-      chokantanplus: 'pdf/2026-12-14_chokantanplus.pdf' } },
+      chokantanplus: 'pdf/2026-12-14_chokantanplus.pdf' },
+      xlsx: {
+      tezukuri: 'xlsx/2026-12-14_tezukuri.xlsx',
+      kantan: 'xlsx/2026-12-14_kantan.xlsx',
+      chokantan: 'xlsx/2026-12-14_kantan.xlsx',
+      chokantanplus: 'xlsx/2026-12-14_kantan.xlsx',
+      volume: 'xlsx/2026-12-14_volume.xlsx' } },
     { start: '2026-12-21', files: {
       tezukuri: 'pdf/2026-12-21_tezukuri.pdf',
       kantan: 'pdf/2026-12-21_kantan.pdf',
       chokantan: 'pdf/2026-12-21_chokantan.pdf',
       volume: 'pdf/2026-12-21_volume.pdf',
-      chokantanplus: 'pdf/2026-12-21_chokantanplus.pdf' } }
+      chokantanplus: 'pdf/2026-12-21_chokantanplus.pdf' },
+      xlsx: {
+      tezukuri: 'xlsx/2026-12-21_tezukuri.xlsx',
+      kantan: 'xlsx/2026-12-21_kantan.xlsx',
+      chokantan: 'xlsx/2026-12-21_kantan.xlsx',
+      chokantanplus: 'xlsx/2026-12-21_kantan.xlsx',
+      volume: 'xlsx/2026-12-21_volume.xlsx' } }
   ]
 };

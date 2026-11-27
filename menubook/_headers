@@ -12,3 +12,9 @@
 
 /index.html
   Cache-Control: no-cache
+
+/xmas/
+  Cache-Control: no-cache
+
+/xmas/index.html
+  Cache-Control: no-cache
